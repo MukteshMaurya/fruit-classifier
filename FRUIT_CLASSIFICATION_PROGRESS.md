@@ -372,14 +372,26 @@ IN PROGRESS — GitHub + Vercel live; Render backend pending
   default → disabled via API (`PATCH /v9/projects/{id}` with
   `ssoProtection: null`); verified public HTTP 200
 - Project is **linked to the GitHub repo** (production branch
-  `master`) → future `git push` triggers automatic redeploys
+  `master`) → `git push` triggers automatic redeploys
+- **Fixed:** the first git-triggered build failed with
+  `Cannot find module '/vercel/path0/build.js'` because the
+  build ran from the repo root. Set the project's
+  `rootDirectory` to `frontend` via the API
+  (`PATCH /v9/projects/{id}` with `{"rootDirectory":"frontend"}`).
+  Next git deployment: READY.
+- Latest git deployment:
+  https://fruit-classifier-ke4cbrnix-jojati1281-1776s-projects.vercel.app (READY)
+- **CI/CD verified:** `git push origin master` → Vercel
+  build (node build.js in frontend/) → production deploy
 - `VITE_API_URL` was not set at build time (backend not yet
   deployed) → `dist/config.js` defaults to `http://localhost:8000`
-- **Runtime API URL override added:** "API settings" link in the
-  footer lets anyone point the deployed app at any backend URL
-  (stored in localStorage, validated http/https) — no redeploy
-  needed once the Render URL is known
+- **Runtime API URL override added:** "API settings" link in
+  the footer lets anyone point the deployed app at any
+  backend URL (stored in localStorage, validated http/https)
+  — no redeploy needed once the Render URL is known
 - Status: LIVE (frontend only; classification pending backend)
+- Note: team default deployment expiration is 30 days;
+  redeploy or push a commit to refresh if needed
 
 ## End-to-End Test (local, simulated production topology)
 
@@ -437,7 +449,7 @@ confused with "Pear" once)
 
 # Final Project Status
 
-Frontend: PASS (live on Vercel, public, API-settings override)
+Frontend: PASS (live on Vercel, public, auto-deploy on git push)
 Backend: PASS (13/13 pytest + live server + E2E locally)
 Model: PASS (99.91% accuracy on 1,130-image self-check)
 GitHub: PASS (https://github.com/MukteshMaurya/fruit-classifier)
