@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fruit Classifier</title>
+  <meta name="description" content="Upload a fruit image and get an AI prediction with confidence score.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Fruit Classifier</h1>
+    <p class="subtitle">Upload a fruit photo to identify it with AI</p>
+  </header>
+
+  <main class="container">
+    <section class="card" aria-labelledby="upload-heading">
+      <h2 id="upload-heading" class="visually-hidden">Upload image</h2>
+
+      <div id="dropZone" class="drop-zone" role="button" tabindex="0"
+           aria-label="Upload a fruit image by clicking or dropping a file">
+        <div id="dropZoneContent" class="drop-zone-content">
+          <svg class="upload-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+               stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+            <polyline points="17 8 12 3 7 8"/>
+            <line x1="12" y1="3" x2="12" y2="15"/>
+          </svg>
+          <p class="drop-title">Drag &amp; drop a fruit image here</p>
+          <p class="muted">or</p>
+          <button id="browseBtn" type="button" class="btn btn-secondary">Choose Image</button>
+        </div>
+        <img id="preview" class="preview hidden" alt="Preview of the selected fruit image">
+      </div>
+
+      <input type="file" id="fileInput" accept="image/*" hidden>
+
+      <p id="fileInfo" class="file-info"></p>
+
+      <div class="actions">
+        <button id="cameraBtn" type="button" class="btn btn-secondary hidden">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+               stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
+            <circle cx="12" cy="13" r="4"/>
+          </svg>
+          Use Camera
+        </button>
+        <button id="classifyBtn" type="button" class="btn btn-primary" disabled>
+          Classify Fruit
+        </button>
+      </div>
+    </section>
+
+    <div id="loading" class="loading hidden" role="status" aria-live="polite">
+      <div class="spinner" aria-hidden="true"></div>
+      <p>Classifying your fruit...</p>
+    </div>
+
+    <section id="resultCard" class="card result-card hidden" aria-labelledby="result-heading" aria-live="polite">
+      <h2 id="result-heading">Prediction</h2>
+      <div class="prediction-main">
+        <span id="fruitName" class="fruit-name"></span>
+        <span id="confidence" class="confidence"></span>
+      </div>
+      <div class="confidence-bar" aria-hidden="true">
+        <div id="confidenceBar" class="confidence-bar-fill"></div>
+      </div>
+      <h3 class="top-predictions-heading">Top predictions</h3>
+      <ol id="topPredictions" class="top-predictions"></ol>
+    </section>
+
+    <div id="errorBox" class="error-box hidden" role="alert"></div>
+  </main>
+
+  <div id="cameraModal" class="modal hidden" role="dialog" aria-modal="true" aria-label="Camera capture">
+    <div class="modal-content">
+      <video id="cameraVideo" autoplay playsinline></video>
+      <div class="modal-actions">
+        <button id="captureBtn" type="button" class="btn btn-primary">Capture</button>
+        <button id="closeCameraBtn" type="button" class="btn btn-secondary">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <p>Powered by an open-source Swin model (113 fruit classes)</p>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

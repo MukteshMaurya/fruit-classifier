@@ -1,0 +1,15 @@
+services:
+  - type: web-service
+    name: fruit-classifier-api
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    plan: free
+    envVars:
+      - key: MAX_UPLOAD_MB
+        value: "10"
+      - key: TOP_K
+        value: "5"
+      - key: CORS_ORIGINS
+        value: "*"

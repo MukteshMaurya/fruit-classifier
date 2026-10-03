@@ -1,0 +1,10 @@
+fastapi==0.142.2
+uvicorn[standard]==0.54.0
+onnxruntime==1.30.0
+pillow==12.3.0
+numpy==2.5.2
+python-multipart==0.0.32
+
+# test dependencies
+pytest==9.1.1
+httpx==0.28.1
