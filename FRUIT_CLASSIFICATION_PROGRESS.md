@@ -316,37 +316,72 @@ COMPLETE
 
 ## Status
 
-NOT STARTED
+READY (local verification complete; cloud deploy requires user accounts)
 
 ## GitHub
 
-Repository: (to be created by user)
-Git LFS: not required (int8 ONNX model is 93 MB < 100 MB GitHub file limit)
+- Repository: local git repo initialized at
+  `C:\Python files\fruit classifier` (commit `04c0c85`)
+- Remote: not yet added — push to a new GitHub repo with:
+  `git remote add origin <url> && git push -u origin main`
+- Git LFS: **not required** — the only large file is
+  `backend/app/model_assets/model_int8.onnx` at 93 MB
+  (< GitHub's 100 MB per-file limit)
+- Repo size (excl. .venv): 88.9 MB
+- Secret scan: clean (no .env / keys / tokens committed)
+- `.gitignore` excludes: .venv/, __pycache__/, .env*, *.pyc,
+  node_modules/, frontend/dist/, onnx_model/ (local fp32
+  artifacts), ipynb_checkpoints
 
 ## Render
 
-Backend URL: (to be deployed)
-Health URL: (to be deployed)
-Status: pending
+- `backend/render.yaml` created (Python, FastAPI, Uvicorn)
+  - Build: `pip install -r requirements.txt`
+  - Start: `uvicorn app.main:app --host 0.0.0.0 --port $PORT`
+  - Health check: `/health`
+- Local verification passed (uvicorn, /health, /api/predict)
+- Backend URL: pending user deployment
+- Health URL: pending user deployment
+- Status: READY — create Render web service from the repo
+  (or import render.yaml), then set `VITE_API_URL` in Vercel
 
 ## Vercel
 
-Frontend URL: (to be deployed)
-Status: pending
+- `frontend/vercel.json` created (build: `node build.js`,
+  output: `dist/`)
+- `VITE_API_URL` baked into `dist/config.js` at build time —
+  never hard-coded in app logic
+- Local verification passed (build + static serve + CORS +
+  cross-origin prediction)
+- Frontend URL: pending user deployment
+- Status: READY — create Vercel project from `frontend/`,
+  set env var `VITE_API_URL` = Render URL, deploy
 
-## End-to-End Test
+## End-to-End Test (local, simulated production topology)
 
-Pending
+```text
+Frontend (static, :8080)  →  Backend (FastAPI, :8017)  →  ONNX model
+```
+
+- Frontend serves index.html/styles.css/app.js/config.js: 200
+- `config.js` injected with backend URL: PASS
+- CORS preflight from frontend origin: 200, `access-control-allow-origin: *`
+- Prediction through the frontend's exact API path:
+  - apple_red.png → Apple Red @ 100.0%
+  - banana.png → Banana @ 100.0%
+  - strawberry.png → Strawberry @ 99.99%
+  - orange.png → Orange @ 100.0%
+- Full pytest suite: 13/13 PASSED
 
 ---
 
 # Final Model Performance
 
-Accuracy: 100% (30/30 sample verification); model card reports 99.92% on the
-Fruits-360 evaluation set
-Precision: (per-class, see Phase 2 verification — all 30 sampled classes correct)
-Recall: (same)
-F1 Score: (same)
+Accuracy: 100% (30/30 sample verification); model card reports
+99.92% on the Fruits-360 evaluation set
+Precision: 100% on the 30-class sample (all predictions correct)
+Recall: 100% on the 30-class sample
+F1 Score: 100% on the 30-class sample
 Number of classes: 113
 Model size: 93 MB (ONNX int8)
 Inference time: ~680 ms per image (CPU, ONNX Runtime int8)
@@ -355,12 +390,22 @@ Inference time: ~680 ms per image (CPU, ONNX Runtime int8)
 
 # Final Project Status
 
-Frontend: PENDING
-Backend: PENDING
-Model: PASS
-Render: PENDING
-Vercel: PENDING
-End-to-End: PENDING
+Frontend: PASS (local: build, serve, CORS, E2E)
+Backend: PASS (13/13 pytest + live server tests)
+Model: PASS (100% on 30-image Fruits-360 test sample)
+Render: READY (render.yaml verified locally; deploy needs account)
+Vercel: READY (vercel.json verified locally; deploy needs account)
+End-to-End: PASS (frontend → backend → model → JSON → UI data)
+
+## Deployment steps remaining (require user accounts)
+
+1. `git remote add origin <github-url> && git push -u origin main`
+2. Render: create web service from repo (or import
+   `backend/render.yaml`) → note the `*.onrender.com` URL
+3. Vercel: create project from `frontend/`, set
+   `VITE_API_URL` = Render URL, deploy
+4. Open the Vercel URL, upload a fruit image, verify the
+   prediction renders
 
 ---
 
