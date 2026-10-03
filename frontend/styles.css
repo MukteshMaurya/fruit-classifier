@@ -354,6 +354,62 @@ body {
   padding: 0 1rem 2rem;
 }
 
+.link-button {
+  background: none;
+  border: none;
+  color: var(--color-primary);
+  font: inherit;
+  font-size: 0.85rem;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  margin-top: 0.25rem;
+}
+
+.link-button:hover {
+  color: var(--color-primary-dark);
+}
+
+.link-button:focus-visible {
+  outline: 3px solid #93c5fd;
+  outline-offset: 2px;
+}
+
+.modal-title {
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
+}
+
+.field-label {
+  display: block;
+  margin: 0.9rem 0 0.3rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.text-input {
+  width: 100%;
+  font: inherit;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--color-text);
+}
+
+.text-input:focus-visible {
+  outline: 3px solid #93c5fd;
+  outline-offset: 1px;
+  border-color: var(--color-primary);
+}
+
+code {
+  background: #f3f4f6;
+  border-radius: 4px;
+  padding: 0.1rem 0.35rem;
+  font-size: 0.85em;
+}
+
 @media (max-width: 480px) {
   .site-header h1 {
     font-size: 1.6rem;

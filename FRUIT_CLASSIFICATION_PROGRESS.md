@@ -273,6 +273,9 @@ COMPLETE
   server detail, network/backend-unreachable errors
 - Responsive mobile-first CSS (breakpoint 480px), focus-visible
   outlines, ARIA roles/labels, no unnecessary animations
+- Runtime API URL override ("API settings" in footer,
+  localStorage-backed) so the deployed app can point at any
+  backend without a redeploy
 
 ## API Configuration
 
@@ -316,17 +319,18 @@ COMPLETE
 
 ## Status
 
-READY (local verification complete; cloud deploy requires user accounts)
+IN PROGRESS — GitHub + Vercel live; Render backend pending
+(user deploys manually)
 
 ## GitHub
 
-- Repository: local git repo initialized at
-  `C:\Python files\fruit classifier` (commit `04c0c85`)
-- Remote: not yet added — push to a new GitHub repo with:
-  `git remote add origin <url> && git push -u origin main`
-- Git LFS: **not required** — the only large file is
-  `backend/app/model_assets/model_int8.onnx` at 93 MB
-  (< GitHub's 100 MB per-file limit)
+- Repository: **https://github.com/MukteshMaurya/fruit-classifier**
+  (public, created via GitHub API with stored PAT, pushed via git)
+- Commits: `04c0c85` initial, `6043c28` progress update
+- Git LFS: **not used** — the ONNX int8 model (88.7 MB) is under
+  GitHub's 100 MB hard limit; kept as a regular git object because
+  Render does not fetch LFS objects by default (avoids a broken
+  model file at deploy time)
 - Repo size (excl. .venv): 88.9 MB
 - Secret scan: clean (no .env / keys / tokens committed)
 - `.gitignore` excludes: .venv/, __pycache__/, .env*, *.pyc,
@@ -339,23 +343,43 @@ READY (local verification complete; cloud deploy requires user accounts)
   - Build: `pip install -r requirements.txt`
   - Start: `uvicorn app.main:app --host 0.0.0.0 --port $PORT`
   - Health check: `/health`
-- Local verification passed (uvicorn, /health, /api/predict)
+- No Render credentials exist on this machine (no CLI, no API
+  token) → backend deployment is done manually by the user
+- **User steps:**
+  1. In Render Dashboard, click "New +" → "Web Service"
+  2. Connect the GitHub repo `MukteshMaurya/fruit-classifier`
+     (or import `backend/render.yaml`)
+  3. Environment: Python 3; build `pip install -r requirements.txt`;
+     start `uvicorn app.main:app --host 0.0.0.0 --port $PORT`;
+     health check path `/health`; root directory `backend`
+  4. Deploy → note the `https://<service>.onrender.com` URL
+  5. Tell me the URL → I set `VITE_API_URL` on Vercel and
+     redeploy (or set it in Vercel Dashboard > Project >
+     Settings > Environment Variables > `VITE_API_URL`, then
+     redeploy)
 - Backend URL: pending user deployment
 - Health URL: pending user deployment
-- Status: READY — create Render web service from the repo
-  (or import render.yaml), then set `VITE_API_URL` in Vercel
+- Status: READY — everything verified locally; only the cloud
+  service creation remains
 
 ## Vercel
 
-- `frontend/vercel.json` created (build: `node build.js`,
-  output: `dist/`)
-- `VITE_API_URL` baked into `dist/config.js` at build time —
-  never hard-coded in app logic
-- Local verification passed (build + static serve + CORS +
-  cross-origin prediction)
-- Frontend URL: pending user deployment
-- Status: READY — create Vercel project from `frontend/`,
-  set env var `VITE_API_URL` = Render URL, deploy
+- `frontend/vercel.json` (build: `node build.js`, output: `dist/`)
+- **Deployed and public:**
+  - https://fruit-classifier-6r8286upb-jojati1281-1776s-projects.vercel.app
+  - Alias: https://fruit-classifier-topaz.vercel.app
+- Deployment protection (Vercel Authentication) was enabled by
+  default → disabled via API (`PATCH /v9/projects/{id}` with
+  `ssoProtection: null`); verified public HTTP 200
+- Project is **linked to the GitHub repo** (production branch
+  `master`) → future `git push` triggers automatic redeploys
+- `VITE_API_URL` was not set at build time (backend not yet
+  deployed) → `dist/config.js` defaults to `http://localhost:8000`
+- **Runtime API URL override added:** "API settings" link in the
+  footer lets anyone point the deployed app at any backend URL
+  (stored in localStorage, validated http/https) — no redeploy
+  needed once the Render URL is known
+- Status: LIVE (frontend only; classification pending backend)
 
 ## End-to-End Test (local, simulated production topology)
 
@@ -373,37 +397,72 @@ Frontend (static, :8080)  →  Backend (FastAPI, :8017)  →  ONNX model
   - orange.png → Orange @ 100.0%
 - Full pytest suite: 13/13 PASSED
 
+## Model Self-Check (full, stratified)
+
+`scripts/evaluate_model.py` — 1,130 images (10 per class,
+all 113 classes) from the Fruits-360 test split, batched
+ONNX Runtime inference:
+
+```text
+Accuracy:            1129/1130 = 99.91%
+Precision (macro):   99.92%
+Recall (macro):      99.91%
+F1 (macro):          99.91%
+Precision (weighted): 99.92%
+Recall (weighted):    99.91%
+F1 (weighted):        99.91%
+Inference: 760 ms/image (batched, CPU)
+Misclassifications: 1 (Pear Forelle -> Pear, very similar
+  pear varieties)
+```
+
+Detailed results: `scripts/evaluation_results.json`
+
 ---
 
 # Final Model Performance
 
-Accuracy: 100% (30/30 sample verification); model card reports
-99.92% on the Fruits-360 evaluation set
-Precision: 100% on the 30-class sample (all predictions correct)
-Recall: 100% on the 30-class sample
-F1 Score: 100% on the 30-class sample
+Accuracy: 99.91% (1,129/1,130 stratified test-split sample);
+model card reports 99.92% on the full Fruits-360 evaluation set
+Precision: 99.92% (macro), 99.92% (weighted)
+Recall: 99.91% (macro), 99.91% (weighted)
+F1 Score: 99.91% (macro), 99.91% (weighted)
 Number of classes: 113
 Model size: 93 MB (ONNX int8)
-Inference time: ~680 ms per image (CPU, ONNX Runtime int8)
+Inference time: ~760 ms per image (CPU, batched ONNX Runtime)
+Weak classes: none below F1 0.94 (worst: Pear Forelle 0.947,
+confused with "Pear" once)
 
 ---
 
 # Final Project Status
 
-Frontend: PASS (local: build, serve, CORS, E2E)
-Backend: PASS (13/13 pytest + live server tests)
-Model: PASS (100% on 30-image Fruits-360 test sample)
-Render: READY (render.yaml verified locally; deploy needs account)
-Vercel: READY (vercel.json verified locally; deploy needs account)
-End-to-End: PASS (frontend → backend → model → JSON → UI data)
+Frontend: PASS (live on Vercel, public, API-settings override)
+Backend: PASS (13/13 pytest + live server + E2E locally)
+Model: PASS (99.91% accuracy on 1,130-image self-check)
+GitHub: PASS (https://github.com/MukteshMaurya/fruit-classifier)
+Render: PENDING — user deploys manually (render.yaml ready)
+Vercel: PASS (live at fruit-classifier-topaz.vercel.app)
+End-to-End: PASS locally; cloud E2E pending Render backend
 
-## Deployment steps remaining (require user accounts)
+## Deployment steps remaining (user)
 
-1. `git remote add origin <github-url> && git push -u origin main`
-2. Render: create web service from repo (or import
-   `backend/render.yaml`) → note the `*.onrender.com` URL
-3. Vercel: create project from `frontend/`, set
-   `VITE_API_URL` = Render URL, deploy
+1. Deploy the backend on Render from the GitHub repo
+   (import `backend/render.yaml` or create a Web Service
+   with root directory `backend`):
+   - Build: `pip install -r requirements.txt`
+   - Start: `uvicorn app.main:app --host 0.0.0.0 --port $PORT`
+   - Health check: `/health`
+2. Verify `https://<service>.onrender.com/health` returns
+   `{"status":"ok","model_loaded":true,"classes":113}`
+3. Either:
+   - Tell me the Render URL → I set `VITE_API_URL` on
+     Vercel and redeploy, or
+   - Vercel Dashboard → fruit-classifier → Settings →
+     Environment Variables → add `VITE_API_URL` =
+     `https://<service>.onrender.com` → redeploy, or
+   - Use the in-app "API settings" link (footer) to point
+     the live frontend at the Render URL instantly
 4. Open the Vercel URL, upload a fruit image, verify the
    prediction renders
 

@@ -1,7 +1,20 @@
 (function () {
   "use strict";
 
-  var API_URL = (window.FRUIT_API_URL || "").replace(/\/+$/, "");
+  var BUILD_TIME_API_URL = (window.FRUIT_API_URL || "").replace(/\/+$/, "");
+  var API_URL = resolveApiUrl();
+
+  function resolveApiUrl() {
+    try {
+      var saved = localStorage.getItem("fruitClassifierApiUrl");
+      if (saved && saved.trim()) {
+        return saved.trim().replace(/\/+$/, "");
+      }
+    } catch (err) {
+      /* localStorage unavailable (private mode) */
+    }
+    return BUILD_TIME_API_URL;
+  }
 
   var dropZone = document.getElementById("dropZone");
   var dropZoneContent = document.getElementById("dropZoneContent");
@@ -22,6 +35,12 @@
   var cameraVideo = document.getElementById("cameraVideo");
   var captureBtn = document.getElementById("captureBtn");
   var closeCameraBtn = document.getElementById("closeCameraBtn");
+  var apiSettingsBtn = document.getElementById("apiSettingsBtn");
+  var apiSettingsModal = document.getElementById("apiSettingsModal");
+  var apiUrlInput = document.getElementById("apiUrlInput");
+  var apiUrlError = document.getElementById("apiUrlError");
+  var saveApiUrlBtn = document.getElementById("saveApiUrlBtn");
+  var cancelApiUrlBtn = document.getElementById("cancelApiUrlBtn");
 
   var selectedFile = null;
   var cameraStream = null;
@@ -269,5 +288,50 @@
     if (event.target === cameraModal) {
       closeCamera();
     }
+  });
+
+  // --- API settings ---
+
+  apiSettingsBtn.addEventListener("click", function () {
+    apiUrlError.classList.add("hidden");
+    apiUrlInput.value = API_URL;
+    apiSettingsModal.classList.remove("hidden");
+    apiUrlInput.focus();
+  });
+
+  function closeApiSettings() {
+    apiSettingsModal.classList.add("hidden");
+  }
+
+  cancelApiUrlBtn.addEventListener("click", closeApiSettings);
+
+  apiSettingsModal.addEventListener("click", function (event) {
+    if (event.target === apiSettingsModal) {
+      closeApiSettings();
+    }
+  });
+
+  saveApiUrlBtn.addEventListener("click", function () {
+    var value = apiUrlInput.value.trim().replace(/\/+$/, "");
+    apiUrlError.classList.add("hidden");
+    if (!value) {
+      API_URL = BUILD_TIME_API_URL;
+      try {
+        localStorage.removeItem("fruitClassifierApiUrl");
+      } catch (err) { /* ignore */ }
+      closeApiSettings();
+      return;
+    }
+    if (!/^https?:\/\/.+\..+/.test(value)) {
+      apiUrlError.textContent =
+        "Please enter a valid URL starting with http:// or https://";
+      apiUrlError.classList.remove("hidden");
+      return;
+    }
+    API_URL = value;
+    try {
+      localStorage.setItem("fruitClassifierApiUrl", value);
+    } catch (err) { /* ignore */ }
+    closeApiSettings();
   });
 })();

@@ -83,8 +83,26 @@
     </div>
   </div>
 
+  <div id="apiSettingsModal" class="modal hidden" role="dialog" aria-modal="true" aria-label="API settings">
+    <div class="modal-content">
+      <h2 class="modal-title">API settings</h2>
+      <p class="muted">Backend API base URL. Defaults to the value baked in at build time (<code>VITE_API_URL</code>).</p>
+      <label class="field-label" for="apiUrlInput">API URL</label>
+      <input id="apiUrlInput" class="text-input" type="url" inputmode="url"
+             placeholder="https://your-service.onrender.com" spellcheck="false">
+      <p id="apiUrlError" class="error-box hidden" role="alert"></p>
+      <div class="modal-actions">
+        <button id="saveApiUrlBtn" type="button" class="btn btn-primary">Save</button>
+        <button id="cancelApiUrlBtn" type="button" class="btn btn-secondary">Cancel</button>
+      </div>
+    </div>
+  </div>
+
   <footer class="site-footer">
     <p>Powered by an open-source Swin model (113 fruit classes)</p>
+    <button id="apiSettingsBtn" type="button" class="link-button">
+      API settings
+    </button>
   </footer>
 
   <script src="config.js"></script>
