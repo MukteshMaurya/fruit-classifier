@@ -427,3 +427,61 @@ validation set:
 - Set `VITE_API_URL` on Vercel to the Render URL and redeploy.
 - No model training, dataset download, or credential rotation
   is required.
+
+---
+
+# Post-deploy fix round (user report: "every image shows
+# non-fruit message")
+
+## Root cause (reproduced locally)
+
+The rejection thresholds are fractions (0.45 / 0.30), but if
+they are entered on Render as **percentages** (`45` / `30`),
+the parsed thresholds become 45.0 / 30.0. Since a softmax
+confidence can never exceed 1.0, **every image** — including
+clear fruit photos — fails the check and shows the non-fruit
+message. This exactly matches the reported symptom.
+
+## Fix applied
+
+- `backend/app/config.py` — new `_parse_threshold()` helper:
+  values above 1.0 are treated as percentages and divided by
+  100 (`45` → `0.45`); invalid values fall back to the
+  default with a warning; values are clamped to [0, 1].
+  Effective thresholds are logged at startup so
+  misconfigurations are visible in Render logs.
+- Verified: `0.45` → 0.45, `45` → 0.45, `abc` → 0.45
+  (warn), `100` → 1.0. Full suite: **32/32 passed**.
+
+## What I still need from the user to finish the diagnosis
+
+1. **The Render backend URL** (e.g.
+   `https://fruit-classifier-api.onrender.com`) — I cannot
+   access the deployed service from here (no Render
+   credentials on this machine, Vercel CLI token expired).
+   With the URL I can POST a known fruit image and a known
+   non-fruit image to `/api/predict` and confirm whether the
+   deployed thresholds are the issue.
+2. **Where the "API key" is visible** — a screenshot or the
+   exact string/location. The repo contains **no API key**
+   (scanned all revisions, source, and build output). The
+   only browser-visible value is `window.FRUIT_API_URL`
+   (the public backend URL — required for the browser to
+   call the API and not a secret). If a secret was added to
+   a **`VITE_`-prefixed** variable on Vercel, it would be
+   baked into the public bundle — check Vercel Dashboard →
+   Settings → Environment Variables and remove/rename any
+   secret there (the app needs no API key at all).
+
+## Known remaining limitation (separate from the above)
+
+Even with correct thresholds (0.45/0.30), real-world fruit
+photos (phone camera, complex background) are sometimes
+rejected (~45% in a 24-photo probe) because the Swin model
+was trained on studio shots — its confidence on such photos
+overlaps with the non-fruit range. If the deployed backend
+rejects clear real-world fruit photos *after* the
+threshold fix, the next step (per the task's option 3) is
+a lightweight fruit-vs-non-fruit detector model trained on
+real-world fruit + non-fruit photos, with the existing
+Swin classifier preserved for the category prediction.
