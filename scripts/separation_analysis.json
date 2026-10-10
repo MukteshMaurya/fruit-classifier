@@ -1,0 +1,5991 @@
+{
+ "fruit": [
+  {
+   "path": "validation_data\\fruit\\0\\0.png",
+   "category": "0",
+   "class": "Apple Braeburn",
+   "confidence": 0.6799359321594238,
+   "margin": 0.36189061403274536,
+   "second": "Apple Red",
+   "second_conf": 0.31804531812667847
+  },
+  {
+   "path": "validation_data\\fruit\\0\\1.png",
+   "category": "0",
+   "class": "Apple Braeburn",
+   "confidence": 0.9947056174278259,
+   "margin": 0.9908368580508977,
+   "second": "Apple Red",
+   "second_conf": 0.0038687593769282103
+  },
+  {
+   "path": "validation_data\\fruit\\0\\2.png",
+   "category": "0",
+   "class": "Apple Braeburn",
+   "confidence": 0.9934879541397095,
+   "margin": 0.9872216442599893,
+   "second": "Apple Red",
+   "second_conf": 0.006266309879720211
+  },
+  {
+   "path": "validation_data\\fruit\\0\\3.png",
+   "category": "0",
+   "class": "Apple Braeburn",
+   "confidence": 0.998246431350708,
+   "margin": 0.996600610204041,
+   "second": "Apple Red",
+   "second_conf": 0.0016458211466670036
+  },
+  {
+   "path": "validation_data\\fruit\\0\\4.png",
+   "category": "0",
+   "class": "Apple Braeburn",
+   "confidence": 0.9802097678184509,
+   "margin": 0.9633077122271061,
+   "second": "Apple Red",
+   "second_conf": 0.016902055591344833
+  },
+  {
+   "path": "validation_data\\fruit\\1\\0.png",
+   "category": "1",
+   "class": "Apple Crimson Snow",
+   "confidence": 0.9474734663963318,
+   "margin": 0.9195558186620474,
+   "second": "Apple Pink Lady",
+   "second_conf": 0.0279176477342844
+  },
+  {
+   "path": "validation_data\\fruit\\1\\1.png",
+   "category": "1",
+   "class": "Apple Crimson Snow",
+   "confidence": 0.9403858184814453,
+   "margin": 0.8848018757998943,
+   "second": "Apple Pink Lady",
+   "second_conf": 0.05558394268155098
+  },
+  {
+   "path": "validation_data\\fruit\\1\\2.png",
+   "category": "1",
+   "class": "Apple Crimson Snow",
+   "confidence": 0.8394015431404114,
+   "margin": 0.6989443451166153,
+   "second": "Apple Pink Lady",
+   "second_conf": 0.14045719802379608
+  },
+  {
+   "path": "validation_data\\fruit\\1\\3.png",
+   "category": "1",
+   "class": "Apple Pink Lady",
+   "confidence": 0.7128021717071533,
+   "margin": 0.4267093241214752,
+   "second": "Apple Crimson Snow",
+   "second_conf": 0.2860928475856781
+  },
+  {
+   "path": "validation_data\\fruit\\1\\4.png",
+   "category": "1",
+   "class": "Apple Crimson Snow",
+   "confidence": 0.9545771479606628,
+   "margin": 0.9301542825996876,
+   "second": "Apple Pink Lady",
+   "second_conf": 0.024422865360975266
+  },
+  {
+   "path": "validation_data\\fruit\\10\\0.png",
+   "category": "10",
+   "class": "Avocado ripe",
+   "confidence": 0.9998376369476318,
+   "margin": 0.9998002671964059,
+   "second": "Avocado",
+   "second_conf": 3.736975122592412e-05
+  },
+  {
+   "path": "validation_data\\fruit\\10\\1.png",
+   "category": "10",
+   "class": "Avocado ripe",
+   "confidence": 0.9994475245475769,
+   "margin": 0.999292438806151,
+   "second": "Cocos",
+   "second_conf": 0.0001550857414258644
+  },
+  {
+   "path": "validation_data\\fruit\\10\\2.png",
+   "category": "10",
+   "class": "Avocado ripe",
+   "confidence": 0.9997215867042542,
+   "margin": 0.9996495273226174,
+   "second": "Plum",
+   "second_conf": 7.205938163679093e-05
+  },
+  {
+   "path": "validation_data\\fruit\\10\\3.png",
+   "category": "10",
+   "class": "Avocado ripe",
+   "confidence": 0.9998123049736023,
+   "margin": 0.999744041080703,
+   "second": "Cocos",
+   "second_conf": 6.826389289926738e-05
+  },
+  {
+   "path": "validation_data\\fruit\\10\\4.png",
+   "category": "10",
+   "class": "Avocado ripe",
+   "confidence": 0.9998058676719666,
+   "margin": 0.9997508531014319,
+   "second": "Cocos",
+   "second_conf": 5.501457053469494e-05
+  },
+  {
+   "path": "validation_data\\fruit\\100\\0.png",
+   "category": "100",
+   "class": "Salak",
+   "confidence": 0.9999468326568604,
+   "margin": 0.9999356181551775,
+   "second": "Pear Abate",
+   "second_conf": 1.1214501682843547e-05
+  },
+  {
+   "path": "validation_data\\fruit\\100\\1.png",
+   "category": "100",
+   "class": "Salak",
+   "confidence": 0.9998639822006226,
+   "margin": 0.9998057589109521,
+   "second": "Dates",
+   "second_conf": 5.822328967042267e-05
+  },
+  {
+   "path": "validation_data\\fruit\\100\\2.png",
+   "category": "100",
+   "class": "Salak",
+   "confidence": 0.9999222755432129,
+   "margin": 0.9999031178085716,
+   "second": "Banana Red",
+   "second_conf": 1.915773464133963e-05
+  },
+  {
+   "path": "validation_data\\fruit\\100\\3.png",
+   "category": "100",
+   "class": "Salak",
+   "confidence": 0.9999032020568848,
+   "margin": 0.9998725803161506,
+   "second": "Banana Red",
+   "second_conf": 3.062174073420465e-05
+  },
+  {
+   "path": "validation_data\\fruit\\100\\4.png",
+   "category": "100",
+   "class": "Salak",
+   "confidence": 0.9998433589935303,
+   "margin": 0.9997960342516308,
+   "second": "Dates",
+   "second_conf": 4.732474189950153e-05
+  },
+  {
+   "path": "validation_data\\fruit\\101\\0.png",
+   "category": "101",
+   "class": "Strawberry",
+   "confidence": 0.9999616146087646,
+   "margin": 0.9999529670940319,
+   "second": "Strawberry Wedge",
+   "second_conf": 8.647514732729178e-06
+  },
+  {
+   "path": "validation_data\\fruit\\101\\1.png",
+   "category": "101",
+   "class": "Strawberry",
+   "confidence": 0.9999761581420898,
+   "margin": 0.9999708288842157,
+   "second": "Nectarine",
+   "second_conf": 5.329257874109317e-06
+  },
+  {
+   "path": "validation_data\\fruit\\101\\2.png",
+   "category": "101",
+   "class": "Strawberry",
+   "confidence": 0.9999783039093018,
+   "margin": 0.9999722638644926,
+   "second": "Nectarine",
+   "second_conf": 6.040044809196843e-06
+  },
+  {
+   "path": "validation_data\\fruit\\101\\3.png",
+   "category": "101",
+   "class": "Strawberry",
+   "confidence": 0.9999467134475708,
+   "margin": 0.9999303982040146,
+   "second": "Strawberry Wedge",
+   "second_conf": 1.6315243556164205e-05
+  },
+  {
+   "path": "validation_data\\fruit\\101\\4.png",
+   "category": "101",
+   "class": "Strawberry",
+   "confidence": 0.9999778270721436,
+   "margin": 0.9999739392224001,
+   "second": "Strawberry Wedge",
+   "second_conf": 3.887849743478e-06
+  },
+  {
+   "path": "validation_data\\fruit\\102\\0.png",
+   "category": "102",
+   "class": "Strawberry Wedge",
+   "confidence": 0.9999293088912964,
+   "margin": 0.999921175534837,
+   "second": "Salak",
+   "second_conf": 8.1333564594388e-06
+  },
+  {
+   "path": "validation_data\\fruit\\102\\1.png",
+   "category": "102",
+   "class": "Strawberry Wedge",
+   "confidence": 0.9999246597290039,
+   "margin": 0.999913050325631,
+   "second": "Pitahaya Red",
+   "second_conf": 1.1609403372858651e-05
+  },
+  {
+   "path": "validation_data\\fruit\\102\\2.png",
+   "category": "102",
+   "class": "Strawberry Wedge",
+   "confidence": 0.9999489784240723,
+   "margin": 0.9999421012967105,
+   "second": "Pitahaya Red",
+   "second_conf": 6.877127361804014e-06
+  },
+  {
+   "path": "validation_data\\fruit\\102\\3.png",
+   "category": "102",
+   "class": "Strawberry Wedge",
+   "confidence": 0.9998894929885864,
+   "margin": 0.9998575453282683,
+   "second": "Pitahaya Red",
+   "second_conf": 3.194766031811014e-05
+  },
+  {
+   "path": "validation_data\\fruit\\102\\4.png",
+   "category": "102",
+   "class": "Strawberry Wedge",
+   "confidence": 0.9897406101226807,
+   "margin": 0.9833652293309569,
+   "second": "Salak",
+   "second_conf": 0.006375380791723728
+  },
+  {
+   "path": "validation_data\\fruit\\103\\0.png",
+   "category": "103",
+   "class": "Tamarillo",
+   "confidence": 0.9999392032623291,
+   "margin": 0.9999275375203069,
+   "second": "Cherry Wax Red",
+   "second_conf": 1.1665742022159975e-05
+  },
+  {
+   "path": "validation_data\\fruit\\103\\1.png",
+   "category": "103",
+   "class": "Tamarillo",
+   "confidence": 0.9999244213104248,
+   "margin": 0.9999097317768246,
+   "second": "Pear",
+   "second_conf": 1.4689533600176219e-05
+  },
+  {
+   "path": "validation_data\\fruit\\103\\2.png",
+   "category": "103",
+   "class": "Tamarillo",
+   "confidence": 0.9999610185623169,
+   "margin": 0.9999552005506303,
+   "second": "Banana Red",
+   "second_conf": 5.818011686642421e-06
+  },
+  {
+   "path": "validation_data\\fruit\\103\\3.png",
+   "category": "103",
+   "class": "Tamarillo",
+   "confidence": 0.9999394416809082,
+   "margin": 0.9999284853629433,
+   "second": "Cherry Wax Red",
+   "second_conf": 1.0956317964883056e-05
+  },
+  {
+   "path": "validation_data\\fruit\\103\\4.png",
+   "category": "103",
+   "class": "Tamarillo",
+   "confidence": 0.9999661445617676,
+   "margin": 0.9999583906237604,
+   "second": "Pear",
+   "second_conf": 7.75393800722668e-06
+  },
+  {
+   "path": "validation_data\\fruit\\104\\0.png",
+   "category": "104",
+   "class": "Tangelo",
+   "confidence": 0.9974072575569153,
+   "margin": 0.995181176578626,
+   "second": "Mandarine",
+   "second_conf": 0.0022260809782892466
+  },
+  {
+   "path": "validation_data\\fruit\\104\\1.png",
+   "category": "104",
+   "class": "Tangelo",
+   "confidence": 0.9999459981918335,
+   "margin": 0.9999164743876463,
+   "second": "Mandarine",
+   "second_conf": 2.952380418719258e-05
+  },
+  {
+   "path": "validation_data\\fruit\\104\\2.png",
+   "category": "104",
+   "class": "Tangelo",
+   "confidence": 0.9994839429855347,
+   "margin": 0.9991321214765776,
+   "second": "Mandarine",
+   "second_conf": 0.0003518215089570731
+  },
+  {
+   "path": "validation_data\\fruit\\104\\3.png",
+   "category": "104",
+   "class": "Tangelo",
+   "confidence": 0.995707631111145,
+   "margin": 0.9917458388954401,
+   "second": "Mandarine",
+   "second_conf": 0.003961792215704918
+  },
+  {
+   "path": "validation_data\\fruit\\104\\4.png",
+   "category": "104",
+   "class": "Tangelo",
+   "confidence": 0.999957799911499,
+   "margin": 0.9999244807477226,
+   "second": "Mandarine",
+   "second_conf": 3.3319163776468486e-05
+  },
+  {
+   "path": "validation_data\\fruit\\105\\0.png",
+   "category": "105",
+   "class": "Tomato",
+   "confidence": 0.9996891021728516,
+   "margin": 0.9994437902059872,
+   "second": "Pepper Red",
+   "second_conf": 0.00024531196686439216
+  },
+  {
+   "path": "validation_data\\fruit\\105\\1.png",
+   "category": "105",
+   "class": "Tomato",
+   "confidence": 0.9999901056289673,
+   "margin": 0.9999888112224653,
+   "second": "Apple Red Yellow",
+   "second_conf": 1.294406501983758e-06
+  },
+  {
+   "path": "validation_data\\fruit\\105\\2.png",
+   "category": "105",
+   "class": "Tomato",
+   "confidence": 0.9999699592590332,
+   "margin": 0.9999562390858046,
+   "second": "Pepper Red",
+   "second_conf": 1.3720173228648491e-05
+  },
+  {
+   "path": "validation_data\\fruit\\105\\3.png",
+   "category": "105",
+   "class": "Tomato",
+   "confidence": 0.9999889135360718,
+   "margin": 0.9999869316466174,
+   "second": "Apple Red Yellow",
+   "second_conf": 1.9818894543277565e-06
+  },
+  {
+   "path": "validation_data\\fruit\\105\\4.png",
+   "category": "105",
+   "class": "Tomato",
+   "confidence": 0.9999964237213135,
+   "margin": 0.9999960109714152,
+   "second": "Tomato Cherry Red",
+   "second_conf": 4.127498982597899e-07
+  },
+  {
+   "path": "validation_data\\fruit\\106\\0.png",
+   "category": "106",
+   "class": "Tomato Cherry Red",
+   "confidence": 0.9999862909317017,
+   "margin": 0.9999843619848434,
+   "second": "Cherry Wax Yellow",
+   "second_conf": 1.9289468582428526e-06
+  },
+  {
+   "path": "validation_data\\fruit\\106\\1.png",
+   "category": "106",
+   "class": "Tomato Cherry Red",
+   "confidence": 0.9999657869338989,
+   "margin": 0.9999612164292557,
+   "second": "Carambula",
+   "second_conf": 4.570504643197637e-06
+  },
+  {
+   "path": "validation_data\\fruit\\106\\2.png",
+   "category": "106",
+   "class": "Tomato Cherry Red",
+   "confidence": 0.9999915361404419,
+   "margin": 0.9999906115016302,
+   "second": "Cherry Wax Yellow",
+   "second_conf": 9.24638811738987e-07
+  },
+  {
+   "path": "validation_data\\fruit\\106\\3.png",
+   "category": "106",
+   "class": "Tomato Cherry Red",
+   "confidence": 0.9999867677688599,
+   "margin": 0.9999847888504974,
+   "second": "Cherry Wax Yellow",
+   "second_conf": 1.97891836251074e-06
+  },
+  {
+   "path": "validation_data\\fruit\\106\\4.png",
+   "category": "106",
+   "class": "Tomato Cherry Red",
+   "confidence": 0.9999850988388062,
+   "margin": 0.9999832694219322,
+   "second": "Cherry Wax Yellow",
+   "second_conf": 1.8294168739885208e-06
+  },
+  {
+   "path": "validation_data\\fruit\\107\\0.png",
+   "category": "107",
+   "class": "Tomato Heart",
+   "confidence": 0.9999829530715942,
+   "margin": 0.9999724716872151,
+   "second": "Pepper Red",
+   "second_conf": 1.0481384379090741e-05
+  },
+  {
+   "path": "validation_data\\fruit\\107\\1.png",
+   "category": "107",
+   "class": "Tomato Heart",
+   "confidence": 0.999987006187439,
+   "margin": 0.9999808351540196,
+   "second": "Pepper Red",
+   "second_conf": 6.171033419377636e-06
+  },
+  {
+   "path": "validation_data\\fruit\\107\\2.png",
+   "category": "107",
+   "class": "Tomato Heart",
+   "confidence": 0.9999877214431763,
+   "margin": 0.9999854179429803,
+   "second": "Pepper Red",
+   "second_conf": 2.303500195921515e-06
+  },
+  {
+   "path": "validation_data\\fruit\\107\\3.png",
+   "category": "107",
+   "class": "Tomato Heart",
+   "confidence": 0.9957712292671204,
+   "margin": 0.9916719570755959,
+   "second": "Pepper Red",
+   "second_conf": 0.004099272191524506
+  },
+  {
+   "path": "validation_data\\fruit\\107\\4.png",
+   "category": "107",
+   "class": "Tomato Heart",
+   "confidence": 0.9931046366691589,
+   "margin": 0.9865690185688436,
+   "second": "Pepper Red",
+   "second_conf": 0.006535618100315332
+  },
+  {
+   "path": "validation_data\\fruit\\108\\0.png",
+   "category": "108",
+   "class": "Tomato Maroon",
+   "confidence": 0.9999841451644897,
+   "margin": 0.9999806084674674,
+   "second": "Tangelo",
+   "second_conf": 3.5366970223549288e-06
+  },
+  {
+   "path": "validation_data\\fruit\\108\\1.png",
+   "category": "108",
+   "class": "Tomato Maroon",
+   "confidence": 0.999976396560669,
+   "margin": 0.9999646003061571,
+   "second": "Tangelo",
+   "second_conf": 1.179625451186439e-05
+  },
+  {
+   "path": "validation_data\\fruit\\108\\2.png",
+   "category": "108",
+   "class": "Tomato Maroon",
+   "confidence": 0.9999771118164062,
+   "margin": 0.999971512355387,
+   "second": "Peach",
+   "second_conf": 5.5994610193010885e-06
+  },
+  {
+   "path": "validation_data\\fruit\\108\\3.png",
+   "category": "108",
+   "class": "Tomato Maroon",
+   "confidence": 0.9999730587005615,
+   "margin": 0.9999661338570149,
+   "second": "Tangelo",
+   "second_conf": 6.92484354658518e-06
+  },
+  {
+   "path": "validation_data\\fruit\\108\\4.png",
+   "category": "108",
+   "class": "Tomato Maroon",
+   "confidence": 0.9999806880950928,
+   "margin": 0.9999755697936052,
+   "second": "Tangelo",
+   "second_conf": 5.118301487527788e-06
+  },
+  {
+   "path": "validation_data\\fruit\\109\\0.png",
+   "category": "109",
+   "class": "Tomato Yellow",
+   "confidence": 0.9983318448066711,
+   "margin": 0.9974957438535057,
+   "second": "Lemon Meyer",
+   "second_conf": 0.0008361009531654418
+  },
+  {
+   "path": "validation_data\\fruit\\109\\1.png",
+   "category": "109",
+   "class": "Tomato Yellow",
+   "confidence": 0.9985778331756592,
+   "margin": 0.9974090924952179,
+   "second": "Lemon Meyer",
+   "second_conf": 0.0011687406804412603
+  },
+  {
+   "path": "validation_data\\fruit\\109\\2.png",
+   "category": "109",
+   "class": "Tomato Yellow",
+   "confidence": 0.9994381070137024,
+   "margin": 0.999061083100969,
+   "second": "Lemon Meyer",
+   "second_conf": 0.00037702391273342073
+  },
+  {
+   "path": "validation_data\\fruit\\109\\3.png",
+   "category": "109",
+   "class": "Tomato Yellow",
+   "confidence": 0.9983853101730347,
+   "margin": 0.9978948920033872,
+   "second": "Lemon Meyer",
+   "second_conf": 0.0004904181696474552
+  },
+  {
+   "path": "validation_data\\fruit\\109\\4.png",
+   "category": "109",
+   "class": "Tomato Yellow",
+   "confidence": 0.9959766268730164,
+   "margin": 0.9939289118628949,
+   "second": "Lemon Meyer",
+   "second_conf": 0.0020477150101214647
+  },
+  {
+   "path": "validation_data\\fruit\\11\\0.png",
+   "category": "11",
+   "class": "Banana",
+   "confidence": 0.999941349029541,
+   "margin": 0.9999195518685156,
+   "second": "Carambula",
+   "second_conf": 2.179716102546081e-05
+  },
+  {
+   "path": "validation_data\\fruit\\11\\1.png",
+   "category": "11",
+   "class": "Banana",
+   "confidence": 0.9999421834945679,
+   "margin": 0.9999133602432266,
+   "second": "Carambula",
+   "second_conf": 2.8823251341236755e-05
+  },
+  {
+   "path": "validation_data\\fruit\\11\\2.png",
+   "category": "11",
+   "class": "Banana",
+   "confidence": 0.9998588562011719,
+   "margin": 0.9998120219097473,
+   "second": "Carambula",
+   "second_conf": 4.683429142460227e-05
+  },
+  {
+   "path": "validation_data\\fruit\\11\\3.png",
+   "category": "11",
+   "class": "Banana",
+   "confidence": 0.9990919828414917,
+   "margin": 0.9982802507583983,
+   "second": "Carambula",
+   "second_conf": 0.000811732083093375
+  },
+  {
+   "path": "validation_data\\fruit\\11\\4.png",
+   "category": "11",
+   "class": "Banana",
+   "confidence": 0.9999465942382812,
+   "margin": 0.9999140588224691,
+   "second": "Carambula",
+   "second_conf": 3.253541581216268e-05
+  },
+  {
+   "path": "validation_data\\fruit\\110\\0.png",
+   "category": "110",
+   "class": "Tomato not Ripened",
+   "confidence": 0.9999665021896362,
+   "margin": 0.9999596325460516,
+   "second": "Watermelon",
+   "second_conf": 6.8696435846504755e-06
+  },
+  {
+   "path": "validation_data\\fruit\\110\\1.png",
+   "category": "110",
+   "class": "Tomato not Ripened",
+   "confidence": 0.9999055862426758,
+   "margin": 0.9998665550265287,
+   "second": "Watermelon",
+   "second_conf": 3.9031216147122905e-05
+  },
+  {
+   "path": "validation_data\\fruit\\110\\2.png",
+   "category": "110",
+   "class": "Tomato not Ripened",
+   "confidence": 0.9999876022338867,
+   "margin": 0.9999860144137074,
+   "second": "Mango",
+   "second_conf": 1.5878201793384505e-06
+  },
+  {
+   "path": "validation_data\\fruit\\110\\3.png",
+   "category": "110",
+   "class": "Tomato not Ripened",
+   "confidence": 0.9999432563781738,
+   "margin": 0.9999338430570788,
+   "second": "Watermelon",
+   "second_conf": 9.413321095053107e-06
+  },
+  {
+   "path": "validation_data\\fruit\\110\\4.png",
+   "category": "110",
+   "class": "Tomato not Ripened",
+   "confidence": 0.9999158382415771,
+   "margin": 0.9998991070187913,
+   "second": "Mango",
+   "second_conf": 1.6731222785892896e-05
+  },
+  {
+   "path": "validation_data\\fruit\\111\\0.png",
+   "category": "111",
+   "class": "Walnut",
+   "confidence": 0.99997878074646,
+   "margin": 0.9999756718632398,
+   "second": "Hazelnut",
+   "second_conf": 3.1088832201930927e-06
+  },
+  {
+   "path": "validation_data\\fruit\\111\\1.png",
+   "category": "111",
+   "class": "Walnut",
+   "confidence": 0.9999476671218872,
+   "margin": 0.9999385753071692,
+   "second": "Hazelnut",
+   "second_conf": 9.091814717976376e-06
+  },
+  {
+   "path": "validation_data\\fruit\\111\\2.png",
+   "category": "111",
+   "class": "Walnut",
+   "confidence": 0.9999833106994629,
+   "margin": 0.9999805793693213,
+   "second": "Ginger Root",
+   "second_conf": 2.7313301416143076e-06
+  },
+  {
+   "path": "validation_data\\fruit\\111\\3.png",
+   "category": "111",
+   "class": "Walnut",
+   "confidence": 0.9999904632568359,
+   "margin": 0.9999876551742091,
+   "second": "Ginger Root",
+   "second_conf": 2.8080826268706005e-06
+  },
+  {
+   "path": "validation_data\\fruit\\111\\4.png",
+   "category": "111",
+   "class": "Walnut",
+   "confidence": 0.9999834299087524,
+   "margin": 0.9999802253908001,
+   "second": "Ginger Root",
+   "second_conf": 3.2045179523265688e-06
+  },
+  {
+   "path": "validation_data\\fruit\\112\\0.png",
+   "category": "112",
+   "class": "Watermelon",
+   "confidence": 0.9999033212661743,
+   "margin": 0.9998365626306622,
+   "second": "Tomato not Ripened",
+   "second_conf": 6.67586355120875e-05
+  },
+  {
+   "path": "validation_data\\fruit\\112\\1.png",
+   "category": "112",
+   "class": "Watermelon",
+   "confidence": 0.9999282360076904,
+   "margin": 0.9998869620139885,
+   "second": "Tomato not Ripened",
+   "second_conf": 4.1273993701906875e-05
+  },
+  {
+   "path": "validation_data\\fruit\\112\\2.png",
+   "category": "112",
+   "class": "Watermelon",
+   "confidence": 0.9999402761459351,
+   "margin": 0.9999254906661008,
+   "second": "Tomato not Ripened",
+   "second_conf": 1.4785479834245052e-05
+  },
+  {
+   "path": "validation_data\\fruit\\112\\3.png",
+   "category": "112",
+   "class": "Watermelon",
+   "confidence": 0.999976396560669,
+   "margin": 0.999967072063555,
+   "second": "Tomato not Ripened",
+   "second_conf": 9.324497113993857e-06
+  },
+  {
+   "path": "validation_data\\fruit\\112\\4.png",
+   "category": "112",
+   "class": "Watermelon",
+   "confidence": 0.9999420642852783,
+   "margin": 0.9999194624615484,
+   "second": "Tomato not Ripened",
+   "second_conf": 2.2601823729928583e-05
+  },
+  {
+   "path": "validation_data\\fruit\\12\\0.png",
+   "category": "12",
+   "class": "Banana Lady Finger",
+   "confidence": 0.9968794584274292,
+   "margin": 0.9956420537782833,
+   "second": "Corn",
+   "second_conf": 0.0012374046491459012
+  },
+  {
+   "path": "validation_data\\fruit\\12\\1.png",
+   "category": "12",
+   "class": "Banana Lady Finger",
+   "confidence": 0.9997901320457458,
+   "margin": 0.9997092417615931,
+   "second": "Cucumber Ripe",
+   "second_conf": 8.08902841527015e-05
+  },
+  {
+   "path": "validation_data\\fruit\\12\\2.png",
+   "category": "12",
+   "class": "Banana Lady Finger",
+   "confidence": 0.9998012185096741,
+   "margin": 0.9997474215779221,
+   "second": "Corn",
+   "second_conf": 5.379693175200373e-05
+  },
+  {
+   "path": "validation_data\\fruit\\12\\3.png",
+   "category": "12",
+   "class": "Banana Lady Finger",
+   "confidence": 0.9979878664016724,
+   "margin": 0.9972599651664495,
+   "second": "Corn",
+   "second_conf": 0.0007279012352228165
+  },
+  {
+   "path": "validation_data\\fruit\\12\\4.png",
+   "category": "12",
+   "class": "Banana Lady Finger",
+   "confidence": 0.9997978806495667,
+   "margin": 0.9997369271004573,
+   "second": "Cucumber Ripe",
+   "second_conf": 6.095354910939932e-05
+  },
+  {
+   "path": "validation_data\\fruit\\13\\0.png",
+   "category": "13",
+   "class": "Banana Red",
+   "confidence": 0.9981841444969177,
+   "margin": 0.9972397139063105,
+   "second": "Pear Abate",
+   "second_conf": 0.0009444305906072259
+  },
+  {
+   "path": "validation_data\\fruit\\13\\1.png",
+   "category": "13",
+   "class": "Banana Red",
+   "confidence": 0.9997026324272156,
+   "margin": 0.9995198925025761,
+   "second": "Pear Abate",
+   "second_conf": 0.00018273992463946342
+  },
+  {
+   "path": "validation_data\\fruit\\13\\2.png",
+   "category": "13",
+   "class": "Banana Red",
+   "confidence": 0.9997816681861877,
+   "margin": 0.9997334064864845,
+   "second": "Pear Abate",
+   "second_conf": 4.8261699703289196e-05
+  },
+  {
+   "path": "validation_data\\fruit\\13\\3.png",
+   "category": "13",
+   "class": "Banana Red",
+   "confidence": 0.9998486042022705,
+   "margin": 0.9997876331981388,
+   "second": "Pear Abate",
+   "second_conf": 6.0971004131715745e-05
+  },
+  {
+   "path": "validation_data\\fruit\\13\\4.png",
+   "category": "13",
+   "class": "Banana Red",
+   "confidence": 0.999968409538269,
+   "margin": 0.9999588747195958,
+   "second": "Pear Abate",
+   "second_conf": 9.534818673273548e-06
+  },
+  {
+   "path": "validation_data\\fruit\\14\\0.png",
+   "category": "14",
+   "class": "Beetroot",
+   "confidence": 0.9971326589584351,
+   "margin": 0.9952988709555939,
+   "second": "Ginger Root",
+   "second_conf": 0.0018337880028411746
+  },
+  {
+   "path": "validation_data\\fruit\\14\\1.png",
+   "category": "14",
+   "class": "Beetroot",
+   "confidence": 0.999958872795105,
+   "margin": 0.9999460105755134,
+   "second": "Potato Red",
+   "second_conf": 1.2862219591625035e-05
+  },
+  {
+   "path": "validation_data\\fruit\\14\\2.png",
+   "category": "14",
+   "class": "Beetroot",
+   "confidence": 0.9967467784881592,
+   "margin": 0.9947877302765846,
+   "second": "Ginger Root",
+   "second_conf": 0.0019590482115745544
+  },
+  {
+   "path": "validation_data\\fruit\\14\\3.png",
+   "category": "14",
+   "class": "Beetroot",
+   "confidence": 0.9963899254798889,
+   "margin": 0.994896320393309,
+   "second": "Ginger Root",
+   "second_conf": 0.0014936050865799189
+  },
+  {
+   "path": "validation_data\\fruit\\14\\4.png",
+   "category": "14",
+   "class": "Beetroot",
+   "confidence": 0.9997673630714417,
+   "margin": 0.9997038144792896,
+   "second": "Ginger Root",
+   "second_conf": 6.354859215207398e-05
+  },
+  {
+   "path": "validation_data\\fruit\\15\\0.png",
+   "category": "15",
+   "class": "Blueberry",
+   "confidence": 0.9999587535858154,
+   "margin": 0.9999429351119034,
+   "second": "Plum",
+   "second_conf": 1.5818473912077025e-05
+  },
+  {
+   "path": "validation_data\\fruit\\15\\1.png",
+   "category": "15",
+   "class": "Blueberry",
+   "confidence": 0.9998939037322998,
+   "margin": 0.9998705046655232,
+   "second": "Huckleberry",
+   "second_conf": 2.3399066776619293e-05
+  },
+  {
+   "path": "validation_data\\fruit\\15\\2.png",
+   "category": "15",
+   "class": "Blueberry",
+   "confidence": 0.9997829794883728,
+   "margin": 0.9996954073649249,
+   "second": "Plum",
+   "second_conf": 8.757212344789878e-05
+  },
+  {
+   "path": "validation_data\\fruit\\15\\3.png",
+   "category": "15",
+   "class": "Blueberry",
+   "confidence": 0.9999109506607056,
+   "margin": 0.9998905482116243,
+   "second": "Mulberry",
+   "second_conf": 2.040244908130262e-05
+  },
+  {
+   "path": "validation_data\\fruit\\15\\4.png",
+   "category": "15",
+   "class": "Blueberry",
+   "confidence": 0.9999477863311768,
+   "margin": 0.9999371102912846,
+   "second": "Plum",
+   "second_conf": 1.0676039892132394e-05
+  },
+  {
+   "path": "validation_data\\fruit\\16\\0.png",
+   "category": "16",
+   "class": "Cactus fruit",
+   "confidence": 0.9999939203262329,
+   "margin": 0.9999930001407051,
+   "second": "Onion White",
+   "second_conf": 9.201855277751747e-07
+  },
+  {
+   "path": "validation_data\\fruit\\16\\1.png",
+   "category": "16",
+   "class": "Cactus fruit",
+   "confidence": 0.9999637603759766,
+   "margin": 0.9999521145009567,
+   "second": "Melon Piel de Sapo",
+   "second_conf": 1.1645875019894447e-05
+  },
+  {
+   "path": "validation_data\\fruit\\16\\2.png",
+   "category": "16",
+   "class": "Cactus fruit",
+   "confidence": 0.9999779462814331,
+   "margin": 0.9999673881820854,
+   "second": "Melon Piel de Sapo",
+   "second_conf": 1.0558099347690586e-05
+  },
+  {
+   "path": "validation_data\\fruit\\16\\3.png",
+   "category": "16",
+   "class": "Cactus fruit",
+   "confidence": 0.9999918937683105,
+   "margin": 0.9999909160560492,
+   "second": "Limes",
+   "second_conf": 9.777122613741085e-07
+  },
+  {
+   "path": "validation_data\\fruit\\16\\4.png",
+   "category": "16",
+   "class": "Cactus fruit",
+   "confidence": 0.9999629259109497,
+   "margin": 0.9999494313697141,
+   "second": "Melon Piel de Sapo",
+   "second_conf": 1.3494541235559154e-05
+  },
+  {
+   "path": "validation_data\\fruit\\17\\0.png",
+   "category": "17",
+   "class": "Cantaloupe",
+   "confidence": 0.999991774559021,
+   "margin": 0.9999909188807123,
+   "second": "Pear",
+   "second_conf": 8.55678308653296e-07
+  },
+  {
+   "path": "validation_data\\fruit\\17\\1.png",
+   "category": "17",
+   "class": "Cantaloupe",
+   "confidence": 0.9999783039093018,
+   "margin": 0.9999733684103376,
+   "second": "Pear",
+   "second_conf": 4.935498964186991e-06
+  },
+  {
+   "path": "validation_data\\fruit\\17\\2.png",
+   "category": "17",
+   "class": "Cantaloupe",
+   "confidence": 0.9999912977218628,
+   "margin": 0.999990422478561,
+   "second": "Kumquats",
+   "second_conf": 8.752433018344163e-07
+  },
+  {
+   "path": "validation_data\\fruit\\17\\3.png",
+   "category": "17",
+   "class": "Cantaloupe",
+   "confidence": 0.9999935626983643,
+   "margin": 0.9999926519691371,
+   "second": "Pear",
+   "second_conf": 9.107292271437473e-07
+  },
+  {
+   "path": "validation_data\\fruit\\17\\4.png",
+   "category": "17",
+   "class": "Cantaloupe",
+   "confidence": 0.9999812841415405,
+   "margin": 0.9999778375399728,
+   "second": "Pear",
+   "second_conf": 3.4466015677026007e-06
+  },
+  {
+   "path": "validation_data\\fruit\\18\\0.png",
+   "category": "18",
+   "class": "Carambula",
+   "confidence": 0.9999936819076538,
+   "margin": 0.9999927638698409,
+   "second": "Apple Red Yellow",
+   "second_conf": 9.180378128803568e-07
+  },
+  {
+   "path": "validation_data\\fruit\\18\\1.png",
+   "category": "18",
+   "class": "Carambula",
+   "confidence": 0.9999980926513672,
+   "margin": 0.9999978716296027,
+   "second": "Apple Red Yellow",
+   "second_conf": 2.2102176444604993e-07
+  },
+  {
+   "path": "validation_data\\fruit\\18\\2.png",
+   "category": "18",
+   "class": "Carambula",
+   "confidence": 0.999997615814209,
+   "margin": 0.9999973063616494,
+   "second": "Physalis with Husk",
+   "second_conf": 3.094525595770392e-07
+  },
+  {
+   "path": "validation_data\\fruit\\18\\3.png",
+   "category": "18",
+   "class": "Carambula",
+   "confidence": 0.9999911785125732,
+   "margin": 0.9999897364641583,
+   "second": "Kumquats",
+   "second_conf": 1.4420484149013646e-06
+  },
+  {
+   "path": "validation_data\\fruit\\18\\4.png",
+   "category": "18",
+   "class": "Carambula",
+   "confidence": 0.9999911785125732,
+   "margin": 0.9999900490781783,
+   "second": "Apple Red Delicious",
+   "second_conf": 1.1294343948975438e-06
+  },
+  {
+   "path": "validation_data\\fruit\\19\\0.png",
+   "category": "19",
+   "class": "Cauliflower",
+   "confidence": 0.9999678134918213,
+   "margin": 0.9999604206504955,
+   "second": "Ginger Root",
+   "second_conf": 7.392841325781774e-06
+  },
+  {
+   "path": "validation_data\\fruit\\19\\1.png",
+   "category": "19",
+   "class": "Cauliflower",
+   "confidence": 0.9999626874923706,
+   "margin": 0.9999572374413219,
+   "second": "Ginger Root",
+   "second_conf": 5.450051048683235e-06
+  },
+  {
+   "path": "validation_data\\fruit\\19\\2.png",
+   "category": "19",
+   "class": "Cauliflower",
+   "confidence": 0.9999531507492065,
+   "margin": 0.9999298802158592,
+   "second": "Ginger Root",
+   "second_conf": 2.3270533347385935e-05
+  },
+  {
+   "path": "validation_data\\fruit\\19\\3.png",
+   "category": "19",
+   "class": "Cauliflower",
+   "confidence": 0.9999567270278931,
+   "margin": 0.9999467020488737,
+   "second": "Ginger Root",
+   "second_conf": 1.0024979019362945e-05
+  },
+  {
+   "path": "validation_data\\fruit\\19\\4.png",
+   "category": "19",
+   "class": "Cauliflower",
+   "confidence": 0.9999533891677856,
+   "margin": 0.9999398705776912,
+   "second": "Ginger Root",
+   "second_conf": 1.3518590094463434e-05
+  },
+  {
+   "path": "validation_data\\fruit\\2\\0.png",
+   "category": "2",
+   "class": "Apple Golden",
+   "confidence": 0.9966219663619995,
+   "margin": 0.9952482386725023,
+   "second": "Apple Red Yellow",
+   "second_conf": 0.0013737276894971728
+  },
+  {
+   "path": "validation_data\\fruit\\2\\1.png",
+   "category": "2",
+   "class": "Apple Golden",
+   "confidence": 0.999616265296936,
+   "margin": 0.999552670356934,
+   "second": "Melon Piel de Sapo",
+   "second_conf": 6.359494000207633e-05
+  },
+  {
+   "path": "validation_data\\fruit\\2\\2.png",
+   "category": "2",
+   "class": "Apple Golden",
+   "confidence": 0.9996556043624878,
+   "margin": 0.9995907896736753,
+   "second": "Melon Piel de Sapo",
+   "second_conf": 6.481468881247565e-05
+  },
+  {
+   "path": "validation_data\\fruit\\2\\3.png",
+   "category": "2",
+   "class": "Apple Golden",
+   "confidence": 0.9996588230133057,
+   "margin": 0.9995875901659019,
+   "second": "Melon Piel de Sapo",
+   "second_conf": 7.123284740373492e-05
+  },
+  {
+   "path": "validation_data\\fruit\\2\\4.png",
+   "category": "2",
+   "class": "Apple Golden",
+   "confidence": 0.9997220635414124,
+   "margin": 0.9996548657072708,
+   "second": "Melon Piel de Sapo",
+   "second_conf": 6.719783414155245e-05
+  },
+  {
+   "path": "validation_data\\fruit\\20\\0.png",
+   "category": "20",
+   "class": "Cherry",
+   "confidence": 0.9998985528945923,
+   "margin": 0.9998729908820678,
+   "second": "Tomato Heart",
+   "second_conf": 2.5562012524460442e-05
+  },
+  {
+   "path": "validation_data\\fruit\\20\\1.png",
+   "category": "20",
+   "class": "Cherry",
+   "confidence": 0.9999516010284424,
+   "margin": 0.9999430333737109,
+   "second": "Plum",
+   "second_conf": 8.567654731450602e-06
+  },
+  {
+   "path": "validation_data\\fruit\\20\\2.png",
+   "category": "20",
+   "class": "Cherry",
+   "confidence": 0.9999014139175415,
+   "margin": 0.9998452484724112,
+   "second": "Cherry Rainier",
+   "second_conf": 5.61654451303184e-05
+  },
+  {
+   "path": "validation_data\\fruit\\20\\3.png",
+   "category": "20",
+   "class": "Cherry",
+   "confidence": 0.9993898868560791,
+   "margin": 0.999051675607916,
+   "second": "Pomegranate",
+   "second_conf": 0.00033821124816313386
+  },
+  {
+   "path": "validation_data\\fruit\\20\\4.png",
+   "category": "20",
+   "class": "Cherry",
+   "confidence": 0.9996966123580933,
+   "margin": 0.9994906403589994,
+   "second": "Apple Red Delicious",
+   "second_conf": 0.0002059719990938902
+  },
+  {
+   "path": "validation_data\\fruit\\21\\0.png",
+   "category": "21",
+   "class": "Cherry Rainier",
+   "confidence": 0.999811589717865,
+   "margin": 0.9996627872023964,
+   "second": "Pepino",
+   "second_conf": 0.00014880251546856016
+  },
+  {
+   "path": "validation_data\\fruit\\21\\1.png",
+   "category": "21",
+   "class": "Cherry Rainier",
+   "confidence": 0.9997344613075256,
+   "margin": 0.9995094702171627,
+   "second": "Pepino",
+   "second_conf": 0.00022499109036289155
+  },
+  {
+   "path": "validation_data\\fruit\\21\\2.png",
+   "category": "21",
+   "class": "Cherry Rainier",
+   "confidence": 0.9995841383934021,
+   "margin": 0.999240368953906,
+   "second": "Pepino",
+   "second_conf": 0.00034376943949609995
+  },
+  {
+   "path": "validation_data\\fruit\\21\\3.png",
+   "category": "21",
+   "class": "Cherry Rainier",
+   "confidence": 0.9999557733535767,
+   "margin": 0.9999417585631818,
+   "second": "Apple Pink Lady",
+   "second_conf": 1.4014790394867305e-05
+  },
+  {
+   "path": "validation_data\\fruit\\21\\4.png",
+   "category": "21",
+   "class": "Cherry Rainier",
+   "confidence": 0.9999817609786987,
+   "margin": 0.9999783705043228,
+   "second": "Apple Pink Lady",
+   "second_conf": 3.390474375919439e-06
+  },
+  {
+   "path": "validation_data\\fruit\\22\\0.png",
+   "category": "22",
+   "class": "Cherry Wax Black",
+   "confidence": 0.9999908208847046,
+   "margin": 0.999989040038713,
+   "second": "Cherry Wax Red",
+   "second_conf": 1.780845991561364e-06
+  },
+  {
+   "path": "validation_data\\fruit\\22\\1.png",
+   "category": "22",
+   "class": "Cherry Wax Black",
+   "confidence": 0.9999896287918091,
+   "margin": 0.9999881543044467,
+   "second": "Grape Blue",
+   "second_conf": 1.4744873624294996e-06
+  },
+  {
+   "path": "validation_data\\fruit\\22\\2.png",
+   "category": "22",
+   "class": "Cherry Wax Black",
+   "confidence": 0.9999912977218628,
+   "margin": 0.9999894641082392,
+   "second": "Grape Blue",
+   "second_conf": 1.8336136236030143e-06
+  },
+  {
+   "path": "validation_data\\fruit\\22\\3.png",
+   "category": "22",
+   "class": "Cherry Wax Black",
+   "confidence": 0.9999932050704956,
+   "margin": 0.9999922458293895,
+   "second": "Grape Blue",
+   "second_conf": 9.592411061021267e-07
+  },
+  {
+   "path": "validation_data\\fruit\\22\\4.png",
+   "category": "22",
+   "class": "Cherry Wax Black",
+   "confidence": 0.999991774559021,
+   "margin": 0.999990022567772,
+   "second": "Grape Blue",
+   "second_conf": 1.7519912489660783e-06
+  },
+  {
+   "path": "validation_data\\fruit\\23\\0.png",
+   "category": "23",
+   "class": "Cherry Wax Red",
+   "confidence": 0.9999661445617676,
+   "margin": 0.9999598196318402,
+   "second": "Grape Blue",
+   "second_conf": 6.324929927359335e-06
+  },
+  {
+   "path": "validation_data\\fruit\\23\\1.png",
+   "category": "23",
+   "class": "Cherry Wax Red",
+   "confidence": 0.9999657869338989,
+   "margin": 0.9999608236107633,
+   "second": "Grape Blue",
+   "second_conf": 4.96332313559833e-06
+  },
+  {
+   "path": "validation_data\\fruit\\23\\2.png",
+   "category": "23",
+   "class": "Cherry Wax Red",
+   "confidence": 0.9999686479568481,
+   "margin": 0.9999638908539055,
+   "second": "Grape Blue",
+   "second_conf": 4.757102942676283e-06
+  },
+  {
+   "path": "validation_data\\fruit\\23\\3.png",
+   "category": "23",
+   "class": "Cherry Wax Red",
+   "confidence": 0.9999692440032959,
+   "margin": 0.9999641446984242,
+   "second": "Grape Blue",
+   "second_conf": 5.0993048716918565e-06
+  },
+  {
+   "path": "validation_data\\fruit\\23\\4.png",
+   "category": "23",
+   "class": "Cherry Wax Red",
+   "confidence": 0.9999630451202393,
+   "margin": 0.9999554826918029,
+   "second": "Grape Blue",
+   "second_conf": 7.562428436358459e-06
+  },
+  {
+   "path": "validation_data\\fruit\\24\\0.png",
+   "category": "24",
+   "class": "Cherry Wax Yellow",
+   "confidence": 0.9998000264167786,
+   "margin": 0.9996279681945452,
+   "second": "Carambula",
+   "second_conf": 0.0001720582222333178
+  },
+  {
+   "path": "validation_data\\fruit\\24\\1.png",
+   "category": "24",
+   "class": "Cherry Wax Yellow",
+   "confidence": 0.999957799911499,
+   "margin": 0.9999288196795533,
+   "second": "Carambula",
+   "second_conf": 2.8980231945752166e-05
+  },
+  {
+   "path": "validation_data\\fruit\\24\\2.png",
+   "category": "24",
+   "class": "Cherry Wax Yellow",
+   "confidence": 0.9999841451644897,
+   "margin": 0.999978877380272,
+   "second": "Carambula",
+   "second_conf": 5.267784217721783e-06
+  },
+  {
+   "path": "validation_data\\fruit\\24\\3.png",
+   "category": "24",
+   "class": "Cherry Wax Yellow",
+   "confidence": 0.9999837875366211,
+   "margin": 0.9999799503489157,
+   "second": "Carambula",
+   "second_conf": 3.837187705357792e-06
+  },
+  {
+   "path": "validation_data\\fruit\\24\\4.png",
+   "category": "24",
+   "class": "Cherry Wax Yellow",
+   "confidence": 0.9999600648880005,
+   "margin": 0.9999331504586735,
+   "second": "Carambula",
+   "second_conf": 2.6914429327007383e-05
+  },
+  {
+   "path": "validation_data\\fruit\\25\\0.png",
+   "category": "25",
+   "class": "Chestnut",
+   "confidence": 0.9999842643737793,
+   "margin": 0.9999826058731287,
+   "second": "Apple Red Delicious",
+   "second_conf": 1.6585006505920319e-06
+  },
+  {
+   "path": "validation_data\\fruit\\25\\1.png",
+   "category": "25",
+   "class": "Chestnut",
+   "confidence": 0.9999938011169434,
+   "margin": 0.9999918589555818,
+   "second": "Apple Red Delicious",
+   "second_conf": 1.9421613615122624e-06
+  },
+  {
+   "path": "validation_data\\fruit\\25\\2.png",
+   "category": "25",
+   "class": "Chestnut",
+   "confidence": 0.9999915361404419,
+   "margin": 0.9999904909781208,
+   "second": "Apple Red Delicious",
+   "second_conf": 1.0451623211338301e-06
+  },
+  {
+   "path": "validation_data\\fruit\\25\\3.png",
+   "category": "25",
+   "class": "Chestnut",
+   "confidence": 0.9999927282333374,
+   "margin": 0.9999914219458788,
+   "second": "Apple Red Delicious",
+   "second_conf": 1.3062874586466933e-06
+  },
+  {
+   "path": "validation_data\\fruit\\25\\4.png",
+   "category": "25",
+   "class": "Chestnut",
+   "confidence": 0.999997615814209,
+   "margin": 0.999996764821617,
+   "second": "Apple Red Delicious",
+   "second_conf": 8.509925919497618e-07
+  },
+  {
+   "path": "validation_data\\fruit\\26\\0.png",
+   "category": "26",
+   "class": "Clementine",
+   "confidence": 0.9999852180480957,
+   "margin": 0.9999798898602421,
+   "second": "Kaki",
+   "second_conf": 5.328187853592681e-06
+  },
+  {
+   "path": "validation_data\\fruit\\26\\1.png",
+   "category": "26",
+   "class": "Clementine",
+   "confidence": 0.9999922513961792,
+   "margin": 0.999990361759501,
+   "second": "Kaki",
+   "second_conf": 1.8896366782428231e-06
+  },
+  {
+   "path": "validation_data\\fruit\\26\\2.png",
+   "category": "26",
+   "class": "Clementine",
+   "confidence": 0.9999855756759644,
+   "margin": 0.9999826436749117,
+   "second": "Kaki",
+   "second_conf": 2.9320010526134865e-06
+  },
+  {
+   "path": "validation_data\\fruit\\26\\3.png",
+   "category": "26",
+   "class": "Clementine",
+   "confidence": 0.9999858140945435,
+   "margin": 0.9999824962571893,
+   "second": "Kaki",
+   "second_conf": 3.3178373541886685e-06
+  },
+  {
+   "path": "validation_data\\fruit\\26\\4.png",
+   "category": "26",
+   "class": "Clementine",
+   "confidence": 0.9999538660049438,
+   "margin": 0.9999359350531449,
+   "second": "Kaki",
+   "second_conf": 1.7930951798916794e-05
+  },
+  {
+   "path": "validation_data\\fruit\\27\\0.png",
+   "category": "27",
+   "class": "Cocos",
+   "confidence": 0.9999585151672363,
+   "margin": 0.9999534066787419,
+   "second": "Kiwi",
+   "second_conf": 5.108488494443009e-06
+  },
+  {
+   "path": "validation_data\\fruit\\27\\1.png",
+   "category": "27",
+   "class": "Cocos",
+   "confidence": 0.999987006187439,
+   "margin": 0.9999850947799587,
+   "second": "Hazelnut",
+   "second_conf": 1.911407480292837e-06
+  },
+  {
+   "path": "validation_data\\fruit\\27\\2.png",
+   "category": "27",
+   "class": "Cocos",
+   "confidence": 0.9999374151229858,
+   "margin": 0.9999175678658503,
+   "second": "Potato Sweet",
+   "second_conf": 1.9847257135552354e-05
+  },
+  {
+   "path": "validation_data\\fruit\\27\\3.png",
+   "category": "27",
+   "class": "Cocos",
+   "confidence": 0.9999566078186035,
+   "margin": 0.9999504252978113,
+   "second": "Hazelnut",
+   "second_conf": 6.182520792208379e-06
+  },
+  {
+   "path": "validation_data\\fruit\\27\\4.png",
+   "category": "27",
+   "class": "Cocos",
+   "confidence": 0.9999780654907227,
+   "margin": 0.99997524346918,
+   "second": "Walnut",
+   "second_conf": 2.8220215426699724e-06
+  },
+  {
+   "path": "validation_data\\fruit\\28\\0.png",
+   "category": "28",
+   "class": "Corn",
+   "confidence": 0.9828694462776184,
+   "margin": 0.9783580112271011,
+   "second": "Onion White",
+   "second_conf": 0.004511435050517321
+  },
+  {
+   "path": "validation_data\\fruit\\28\\1.png",
+   "category": "28",
+   "class": "Corn",
+   "confidence": 0.9992789626121521,
+   "margin": 0.9991953133721836,
+   "second": "Apple Red Yellow",
+   "second_conf": 8.364923996850848e-05
+  },
+  {
+   "path": "validation_data\\fruit\\28\\2.png",
+   "category": "28",
+   "class": "Corn",
+   "confidence": 0.997372031211853,
+   "margin": 0.9966928251087666,
+   "second": "Carambula",
+   "second_conf": 0.0006792061030864716
+  },
+  {
+   "path": "validation_data\\fruit\\28\\3.png",
+   "category": "28",
+   "class": "Corn",
+   "confidence": 0.999913215637207,
+   "margin": 0.999905948018295,
+   "second": "Cauliflower",
+   "second_conf": 7.267618912010221e-06
+  },
+  {
+   "path": "validation_data\\fruit\\28\\4.png",
+   "category": "28",
+   "class": "Corn",
+   "confidence": 0.9994826316833496,
+   "margin": 0.999420850770548,
+   "second": "Carambula",
+   "second_conf": 6.178091280162334e-05
+  },
+  {
+   "path": "validation_data\\fruit\\29\\0.png",
+   "category": "29",
+   "class": "Pear Williams",
+   "confidence": 0.6920328736305237,
+   "margin": 0.5826066806912422,
+   "second": "Corn Husk",
+   "second_conf": 0.10942619293928146
+  },
+  {
+   "path": "validation_data\\fruit\\29\\1.png",
+   "category": "29",
+   "class": "Corn Husk",
+   "confidence": 0.9999727010726929,
+   "margin": 0.9999706540802435,
+   "second": "Eggplant",
+   "second_conf": 2.0469924493227154e-06
+  },
+  {
+   "path": "validation_data\\fruit\\29\\2.png",
+   "category": "29",
+   "class": "Corn Husk",
+   "confidence": 0.9540424346923828,
+   "margin": 0.932534022256732,
+   "second": "Pear Williams",
+   "second_conf": 0.021508412435650826
+  },
+  {
+   "path": "validation_data\\fruit\\29\\3.png",
+   "category": "29",
+   "class": "Corn Husk",
+   "confidence": 0.9998884201049805,
+   "margin": 0.9998800494922762,
+   "second": "Apple Granny Smith",
+   "second_conf": 8.370612704311498e-06
+  },
+  {
+   "path": "validation_data\\fruit\\29\\4.png",
+   "category": "29",
+   "class": "Corn Husk",
+   "confidence": 0.9999010562896729,
+   "margin": 0.9998921390670148,
+   "second": "Lychee",
+   "second_conf": 8.917222658055834e-06
+  },
+  {
+   "path": "validation_data\\fruit\\3\\0.png",
+   "category": "3",
+   "class": "Apple Granny Smith",
+   "confidence": 0.9857110381126404,
+   "margin": 0.9823999609798193,
+   "second": "Apple Red",
+   "second_conf": 0.003311077132821083
+  },
+  {
+   "path": "validation_data\\fruit\\3\\1.png",
+   "category": "3",
+   "class": "Apple Granny Smith",
+   "confidence": 0.9894290566444397,
+   "margin": 0.9870757854077965,
+   "second": "Apple Red",
+   "second_conf": 0.002353271236643195
+  },
+  {
+   "path": "validation_data\\fruit\\3\\2.png",
+   "category": "3",
+   "class": "Apple Granny Smith",
+   "confidence": 0.9554227590560913,
+   "margin": 0.9366850312799215,
+   "second": "Apple Red",
+   "second_conf": 0.018737727776169777
+  },
+  {
+   "path": "validation_data\\fruit\\3\\3.png",
+   "category": "3",
+   "class": "Apple Granny Smith",
+   "confidence": 0.9719208478927612,
+   "margin": 0.9621285311877728,
+   "second": "Apple Red",
+   "second_conf": 0.00979231670498848
+  },
+  {
+   "path": "validation_data\\fruit\\3\\4.png",
+   "category": "3",
+   "class": "Apple Granny Smith",
+   "confidence": 0.9863086342811584,
+   "margin": 0.9824344415683299,
+   "second": "Apple Red",
+   "second_conf": 0.003874192712828517
+  },
+  {
+   "path": "validation_data\\fruit\\30\\0.png",
+   "category": "30",
+   "class": "Cucumber Ripe",
+   "confidence": 0.9999877214431763,
+   "margin": 0.9999818239384695,
+   "second": "Banana Lady Finger",
+   "second_conf": 5.8975047068088315e-06
+  },
+  {
+   "path": "validation_data\\fruit\\30\\1.png",
+   "category": "30",
+   "class": "Cucumber Ripe",
+   "confidence": 0.9999483823776245,
+   "margin": 0.9999349778408941,
+   "second": "Nut Pecan",
+   "second_conf": 1.3404536730377004e-05
+  },
+  {
+   "path": "validation_data\\fruit\\30\\2.png",
+   "category": "30",
+   "class": "Cucumber Ripe",
+   "confidence": 0.999993085861206,
+   "margin": 0.9999892979949436,
+   "second": "Banana Lady Finger",
+   "second_conf": 3.787866262427997e-06
+  },
+  {
+   "path": "validation_data\\fruit\\30\\3.png",
+   "category": "30",
+   "class": "Cucumber Ripe",
+   "confidence": 0.9999663829803467,
+   "margin": 0.9999463629337697,
+   "second": "Banana Lady Finger",
+   "second_conf": 2.0020046576973982e-05
+  },
+  {
+   "path": "validation_data\\fruit\\30\\4.png",
+   "category": "30",
+   "class": "Cucumber Ripe",
+   "confidence": 0.9999938011169434,
+   "margin": 0.9999912225998742,
+   "second": "Salak",
+   "second_conf": 2.5785170691960957e-06
+  },
+  {
+   "path": "validation_data\\fruit\\31\\0.png",
+   "category": "31",
+   "class": "Dates",
+   "confidence": 0.999993085861206,
+   "margin": 0.9999924118610579,
+   "second": "Pepper Green",
+   "second_conf": 6.740001481375657e-07
+  },
+  {
+   "path": "validation_data\\fruit\\31\\1.png",
+   "category": "31",
+   "class": "Dates",
+   "confidence": 0.9999955892562866,
+   "margin": 0.999995164521664,
+   "second": "Raspberry",
+   "second_conf": 4.247346225838555e-07
+  },
+  {
+   "path": "validation_data\\fruit\\31\\2.png",
+   "category": "31",
+   "class": "Dates",
+   "confidence": 0.9999966621398926,
+   "margin": 0.9999963835115864,
+   "second": "Raspberry",
+   "second_conf": 2.786283062050643e-07
+  },
+  {
+   "path": "validation_data\\fruit\\31\\3.png",
+   "category": "31",
+   "class": "Dates",
+   "confidence": 0.9999697208404541,
+   "margin": 0.9999609823034916,
+   "second": "Raspberry",
+   "second_conf": 8.738536962482613e-06
+  },
+  {
+   "path": "validation_data\\fruit\\31\\4.png",
+   "category": "31",
+   "class": "Dates",
+   "confidence": 0.9999760389328003,
+   "margin": 0.9999722427446613,
+   "second": "Corn Husk",
+   "second_conf": 3.796188138949219e-06
+  },
+  {
+   "path": "validation_data\\fruit\\32\\0.png",
+   "category": "32",
+   "class": "Eggplant",
+   "confidence": 0.9648037552833557,
+   "margin": 0.9558422500267625,
+   "second": "Tomato not Ripened",
+   "second_conf": 0.008961505256593227
+  },
+  {
+   "path": "validation_data\\fruit\\32\\1.png",
+   "category": "32",
+   "class": "Eggplant",
+   "confidence": 0.999909520149231,
+   "margin": 0.9999035239934528,
+   "second": "Pear Kaiser",
+   "second_conf": 5.9961557781207375e-06
+  },
+  {
+   "path": "validation_data\\fruit\\32\\2.png",
+   "category": "32",
+   "class": "Eggplant",
+   "confidence": 0.9999288320541382,
+   "margin": 0.9999166898069234,
+   "second": "Apple Red Delicious",
+   "second_conf": 1.2142247214796953e-05
+  },
+  {
+   "path": "validation_data\\fruit\\32\\3.png",
+   "category": "32",
+   "class": "Eggplant",
+   "confidence": 0.9999446868896484,
+   "margin": 0.999932010124212,
+   "second": "Apple Red Delicious",
+   "second_conf": 1.2676765436481219e-05
+  },
+  {
+   "path": "validation_data\\fruit\\32\\4.png",
+   "category": "32",
+   "class": "Eggplant",
+   "confidence": 0.9998251795768738,
+   "margin": 0.9998089764812903,
+   "second": "Pear Kaiser",
+   "second_conf": 1.620309558347799e-05
+  },
+  {
+   "path": "validation_data\\fruit\\33\\0.png",
+   "category": "33",
+   "class": "Fig",
+   "confidence": 0.99998939037323,
+   "margin": 0.9999870472427119,
+   "second": "Onion Red",
+   "second_conf": 2.3431305180565687e-06
+  },
+  {
+   "path": "validation_data\\fruit\\33\\1.png",
+   "category": "33",
+   "class": "Fig",
+   "confidence": 0.9999955892562866,
+   "margin": 0.999993969868342,
+   "second": "Onion Red",
+   "second_conf": 1.6193879446291248e-06
+  },
+  {
+   "path": "validation_data\\fruit\\33\\2.png",
+   "category": "33",
+   "class": "Fig",
+   "confidence": 0.9999927282333374,
+   "margin": 0.9999896229542173,
+   "second": "Onion Red",
+   "second_conf": 3.105279120063642e-06
+  },
+  {
+   "path": "validation_data\\fruit\\33\\3.png",
+   "category": "33",
+   "class": "Fig",
+   "confidence": 0.999950647354126,
+   "margin": 0.9999401205295726,
+   "second": "Onion Red",
+   "second_conf": 1.052682455338072e-05
+  },
+  {
+   "path": "validation_data\\fruit\\33\\4.png",
+   "category": "33",
+   "class": "Fig",
+   "confidence": 0.9998981952667236,
+   "margin": 0.9998710134168505,
+   "second": "Onion Red",
+   "second_conf": 2.718184987315908e-05
+  },
+  {
+   "path": "validation_data\\fruit\\34\\0.png",
+   "category": "34",
+   "class": "Ginger Root",
+   "confidence": 0.9997925162315369,
+   "margin": 0.9997326769371284,
+   "second": "Cauliflower",
+   "second_conf": 5.983929440844804e-05
+  },
+  {
+   "path": "validation_data\\fruit\\34\\1.png",
+   "category": "34",
+   "class": "Ginger Root",
+   "confidence": 0.9998061060905457,
+   "margin": 0.9997614641360997,
+   "second": "Cauliflower",
+   "second_conf": 4.4641954445978627e-05
+  },
+  {
+   "path": "validation_data\\fruit\\34\\2.png",
+   "category": "34",
+   "class": "Ginger Root",
+   "confidence": 0.9998761415481567,
+   "margin": 0.9998495334020845,
+   "second": "Onion White",
+   "second_conf": 2.6608146072248928e-05
+  },
+  {
+   "path": "validation_data\\fruit\\34\\3.png",
+   "category": "34",
+   "class": "Ginger Root",
+   "confidence": 0.9999227523803711,
+   "margin": 0.9999037215020508,
+   "second": "Cauliflower",
+   "second_conf": 1.9030878320336342e-05
+  },
+  {
+   "path": "validation_data\\fruit\\34\\4.png",
+   "category": "34",
+   "class": "Ginger Root",
+   "confidence": 0.9995368719100952,
+   "margin": 0.9994291076654918,
+   "second": "Cauliflower",
+   "second_conf": 0.00010776424460345879
+  },
+  {
+   "path": "validation_data\\fruit\\35\\0.png",
+   "category": "35",
+   "class": "Granadilla",
+   "confidence": 0.9999828338623047,
+   "margin": 0.9999806472296768,
+   "second": "Cactus fruit",
+   "second_conf": 2.1866326278541237e-06
+  },
+  {
+   "path": "validation_data\\fruit\\35\\1.png",
+   "category": "35",
+   "class": "Granadilla",
+   "confidence": 0.9999805688858032,
+   "margin": 0.9999775622354719,
+   "second": "Pear",
+   "second_conf": 3.0066503313719295e-06
+  },
+  {
+   "path": "validation_data\\fruit\\35\\2.png",
+   "category": "35",
+   "class": "Granadilla",
+   "confidence": 0.9999790191650391,
+   "margin": 0.9999737903376626,
+   "second": "Pear",
+   "second_conf": 5.228827376413392e-06
+  },
+  {
+   "path": "validation_data\\fruit\\35\\3.png",
+   "category": "35",
+   "class": "Granadilla",
+   "confidence": 0.9999816417694092,
+   "margin": 0.9999790623048739,
+   "second": "Pear",
+   "second_conf": 2.5794645353016676e-06
+  },
+  {
+   "path": "validation_data\\fruit\\35\\4.png",
+   "category": "35",
+   "class": "Granadilla",
+   "confidence": 0.9999850988388062,
+   "margin": 0.9999824334813638,
+   "second": "Pear",
+   "second_conf": 2.6653574423107784e-06
+  },
+  {
+   "path": "validation_data\\fruit\\36\\0.png",
+   "category": "36",
+   "class": "Grape Blue",
+   "confidence": 0.9997856020927429,
+   "margin": 0.9997581729403464,
+   "second": "Grape Pink",
+   "second_conf": 2.742915239650756e-05
+  },
+  {
+   "path": "validation_data\\fruit\\36\\1.png",
+   "category": "36",
+   "class": "Grape Blue",
+   "confidence": 0.9996731281280518,
+   "margin": 0.9996213564118079,
+   "second": "Grape Pink",
+   "second_conf": 5.1771716243820265e-05
+  },
+  {
+   "path": "validation_data\\fruit\\36\\2.png",
+   "category": "36",
+   "class": "Grape Blue",
+   "confidence": 0.9998835325241089,
+   "margin": 0.9998715511719638,
+   "second": "Cherry Wax Black",
+   "second_conf": 1.1981352145085111e-05
+  },
+  {
+   "path": "validation_data\\fruit\\36\\3.png",
+   "category": "36",
+   "class": "Grape Blue",
+   "confidence": 0.9998985528945923,
+   "margin": 0.999886938335294,
+   "second": "Grape Pink",
+   "second_conf": 1.1614559298323002e-05
+  },
+  {
+   "path": "validation_data\\fruit\\36\\4.png",
+   "category": "36",
+   "class": "Grape Blue",
+   "confidence": 0.9999300241470337,
+   "margin": 0.9999240189295051,
+   "second": "Grape Pink",
+   "second_conf": 6.005217528581852e-06
+  },
+  {
+   "path": "validation_data\\fruit\\37\\0.png",
+   "category": "37",
+   "class": "Grape Pink",
+   "confidence": 0.9999743700027466,
+   "margin": 0.9999640807154719,
+   "second": "Apple Red",
+   "second_conf": 1.0289287274645176e-05
+  },
+  {
+   "path": "validation_data\\fruit\\37\\1.png",
+   "category": "37",
+   "class": "Grape Pink",
+   "confidence": 0.9997360110282898,
+   "margin": 0.9995073186437367,
+   "second": "Apple Red",
+   "second_conf": 0.0002286923845531419
+  },
+  {
+   "path": "validation_data\\fruit\\37\\2.png",
+   "category": "37",
+   "class": "Grape Pink",
+   "confidence": 0.9999502897262573,
+   "margin": 0.9999215177886072,
+   "second": "Apple Red",
+   "second_conf": 2.8771937650162727e-05
+  },
+  {
+   "path": "validation_data\\fruit\\37\\3.png",
+   "category": "37",
+   "class": "Grape Pink",
+   "confidence": 0.9999852180480957,
+   "margin": 0.9999816703445958,
+   "second": "Pomegranate",
+   "second_conf": 3.5477034998621093e-06
+  },
+  {
+   "path": "validation_data\\fruit\\37\\4.png",
+   "category": "37",
+   "class": "Grape Pink",
+   "confidence": 0.9998119473457336,
+   "margin": 0.9997117596212775,
+   "second": "Pomegranate",
+   "second_conf": 0.00010018772445619106
+  },
+  {
+   "path": "validation_data\\fruit\\38\\0.png",
+   "category": "38",
+   "class": "Grape White",
+   "confidence": 0.999933123588562,
+   "margin": 0.9999088663153088,
+   "second": "Cherry Wax Yellow",
+   "second_conf": 2.4257273253169842e-05
+  },
+  {
+   "path": "validation_data\\fruit\\38\\1.png",
+   "category": "38",
+   "class": "Grape White",
+   "confidence": 0.9999104738235474,
+   "margin": 0.999888485590418,
+   "second": "Apple Red Yellow",
+   "second_conf": 2.1988233129377477e-05
+  },
+  {
+   "path": "validation_data\\fruit\\38\\2.png",
+   "category": "38",
+   "class": "Grape White",
+   "confidence": 0.9999594688415527,
+   "margin": 0.9999475484237337,
+   "second": "Tomato not Ripened",
+   "second_conf": 1.1920417819055729e-05
+  },
+  {
+   "path": "validation_data\\fruit\\38\\3.png",
+   "category": "38",
+   "class": "Grape White",
+   "confidence": 0.9999146461486816,
+   "margin": 0.9998873549920972,
+   "second": "Cherry Wax Yellow",
+   "second_conf": 2.729115658439696e-05
+  },
+  {
+   "path": "validation_data\\fruit\\38\\4.png",
+   "category": "38",
+   "class": "Grape White",
+   "confidence": 0.9999605417251587,
+   "margin": 0.9999456544537679,
+   "second": "Tomato not Ripened",
+   "second_conf": 1.488727139076218e-05
+  },
+  {
+   "path": "validation_data\\fruit\\39\\0.png",
+   "category": "39",
+   "class": "Grapefruit Pink",
+   "confidence": 0.999977707862854,
+   "margin": 0.9999683262303733,
+   "second": "Granadilla",
+   "second_conf": 9.381632480653934e-06
+  },
+  {
+   "path": "validation_data\\fruit\\39\\1.png",
+   "category": "39",
+   "class": "Grapefruit Pink",
+   "confidence": 0.9999707937240601,
+   "margin": 0.999961987304232,
+   "second": "Granadilla",
+   "second_conf": 8.80641982803354e-06
+  },
+  {
+   "path": "validation_data\\fruit\\39\\2.png",
+   "category": "39",
+   "class": "Grapefruit Pink",
+   "confidence": 0.9999604225158691,
+   "margin": 0.9999446519141202,
+   "second": "Granadilla",
+   "second_conf": 1.5770601748954505e-05
+  },
+  {
+   "path": "validation_data\\fruit\\39\\3.png",
+   "category": "39",
+   "class": "Grapefruit Pink",
+   "confidence": 0.9999473094940186,
+   "margin": 0.9999270755997713,
+   "second": "Granadilla",
+   "second_conf": 2.0233894247212447e-05
+  },
+  {
+   "path": "validation_data\\fruit\\39\\4.png",
+   "category": "39",
+   "class": "Grapefruit Pink",
+   "confidence": 0.999933123588562,
+   "margin": 0.9999093230562721,
+   "second": "Granadilla",
+   "second_conf": 2.380053228989709e-05
+  },
+  {
+   "path": "validation_data\\fruit\\4\\0.png",
+   "category": "4",
+   "class": "Apple Pink Lady",
+   "confidence": 0.9999861717224121,
+   "margin": 0.9999819504432708,
+   "second": "Apple Red",
+   "second_conf": 4.2212791413476225e-06
+  },
+  {
+   "path": "validation_data\\fruit\\4\\1.png",
+   "category": "4",
+   "class": "Apple Pink Lady",
+   "confidence": 0.9999675750732422,
+   "margin": 0.9999591725245409,
+   "second": "Apple Red",
+   "second_conf": 8.402548701269552e-06
+  },
+  {
+   "path": "validation_data\\fruit\\4\\2.png",
+   "category": "4",
+   "class": "Apple Pink Lady",
+   "confidence": 0.99998939037323,
+   "margin": 0.999985068571732,
+   "second": "Apple Red",
+   "second_conf": 4.321801498008426e-06
+  },
+  {
+   "path": "validation_data\\fruit\\4\\3.png",
+   "category": "4",
+   "class": "Apple Pink Lady",
+   "confidence": 0.9993044137954712,
+   "margin": 0.9986580802942626,
+   "second": "Apple Red",
+   "second_conf": 0.0006463335012085736
+  },
+  {
+   "path": "validation_data\\fruit\\4\\4.png",
+   "category": "4",
+   "class": "Apple Pink Lady",
+   "confidence": 0.9999585151672363,
+   "margin": 0.9999481728309547,
+   "second": "Apple Red",
+   "second_conf": 1.0342336281610187e-05
+  },
+  {
+   "path": "validation_data\\fruit\\40\\0.png",
+   "category": "40",
+   "class": "Grapefruit White",
+   "confidence": 0.925805389881134,
+   "margin": 0.8530470803380013,
+   "second": "Lemon",
+   "second_conf": 0.07275830954313278
+  },
+  {
+   "path": "validation_data\\fruit\\40\\1.png",
+   "category": "40",
+   "class": "Grapefruit White",
+   "confidence": 0.9294368624687195,
+   "margin": 0.8597899004817009,
+   "second": "Lemon",
+   "second_conf": 0.06964696198701859
+  },
+  {
+   "path": "validation_data\\fruit\\40\\2.png",
+   "category": "40",
+   "class": "Grapefruit White",
+   "confidence": 0.8972588777542114,
+   "margin": 0.7964578941464424,
+   "second": "Lemon",
+   "second_conf": 0.10080098360776901
+  },
+  {
+   "path": "validation_data\\fruit\\40\\3.png",
+   "category": "40",
+   "class": "Grapefruit White",
+   "confidence": 0.999043881893158,
+   "margin": 0.9981396388611756,
+   "second": "Lemon",
+   "second_conf": 0.0009042430319823325
+  },
+  {
+   "path": "validation_data\\fruit\\40\\4.png",
+   "category": "40",
+   "class": "Grapefruit White",
+   "confidence": 0.9756667613983154,
+   "margin": 0.9520615134388208,
+   "second": "Lemon",
+   "second_conf": 0.02360524795949459
+  },
+  {
+   "path": "validation_data\\fruit\\41\\0.png",
+   "category": "41",
+   "class": "Guava",
+   "confidence": 0.999985933303833,
+   "margin": 0.9999844576135501,
+   "second": "Lemon",
+   "second_conf": 1.475690282859432e-06
+  },
+  {
+   "path": "validation_data\\fruit\\41\\1.png",
+   "category": "41",
+   "class": "Guava",
+   "confidence": 0.99997878074646,
+   "margin": 0.9999750620750092,
+   "second": "Lemon",
+   "second_conf": 3.7186714507697616e-06
+  },
+  {
+   "path": "validation_data\\fruit\\41\\2.png",
+   "category": "41",
+   "class": "Guava",
+   "confidence": 0.9999788999557495,
+   "margin": 0.9999762403426757,
+   "second": "Corn",
+   "second_conf": 2.6596130737743806e-06
+  },
+  {
+   "path": "validation_data\\fruit\\41\\3.png",
+   "category": "41",
+   "class": "Guava",
+   "confidence": 0.99997878074646,
+   "margin": 0.9999749796502329,
+   "second": "Lemon",
+   "second_conf": 3.8010962271073367e-06
+  },
+  {
+   "path": "validation_data\\fruit\\41\\4.png",
+   "category": "41",
+   "class": "Guava",
+   "confidence": 0.9999958276748657,
+   "margin": 0.9999951643975464,
+   "second": "Melon Piel de Sapo",
+   "second_conf": 6.632773192905006e-07
+  },
+  {
+   "path": "validation_data\\fruit\\42\\0.png",
+   "category": "42",
+   "class": "Hazelnut",
+   "confidence": 0.9999390840530396,
+   "margin": 0.999903207164607,
+   "second": "Walnut",
+   "second_conf": 3.587688843254e-05
+  },
+  {
+   "path": "validation_data\\fruit\\42\\1.png",
+   "category": "42",
+   "class": "Hazelnut",
+   "confidence": 0.9998680353164673,
+   "margin": 0.9997630964498967,
+   "second": "Walnut",
+   "second_conf": 0.00010493886657059193
+  },
+  {
+   "path": "validation_data\\fruit\\42\\2.png",
+   "category": "42",
+   "class": "Hazelnut",
+   "confidence": 0.9999775886535645,
+   "margin": 0.999971465823819,
+   "second": "Walnut",
+   "second_conf": 6.12282974543632e-06
+  },
+  {
+   "path": "validation_data\\fruit\\42\\3.png",
+   "category": "42",
+   "class": "Hazelnut",
+   "confidence": 0.999934196472168,
+   "margin": 0.9998968222935218,
+   "second": "Walnut",
+   "second_conf": 3.737417864613235e-05
+  },
+  {
+   "path": "validation_data\\fruit\\42\\4.png",
+   "category": "42",
+   "class": "Hazelnut",
+   "confidence": 0.9999313354492188,
+   "margin": 0.9998771671052964,
+   "second": "Walnut",
+   "second_conf": 5.4168343922356144e-05
+  },
+  {
+   "path": "validation_data\\fruit\\43\\0.png",
+   "category": "43",
+   "class": "Huckleberry",
+   "confidence": 0.9999737739562988,
+   "margin": 0.9999699826753385,
+   "second": "Apple Red Yellow",
+   "second_conf": 3.7912809602858033e-06
+  },
+  {
+   "path": "validation_data\\fruit\\43\\1.png",
+   "category": "43",
+   "class": "Huckleberry",
+   "confidence": 0.9999805688858032,
+   "margin": 0.9999782908726047,
+   "second": "Apple Red Yellow",
+   "second_conf": 2.278013198520057e-06
+  },
+  {
+   "path": "validation_data\\fruit\\43\\2.png",
+   "category": "43",
+   "class": "Huckleberry",
+   "confidence": 0.9999419450759888,
+   "margin": 0.9999202660092124,
+   "second": "Apple Red Yellow",
+   "second_conf": 2.1679066776414402e-05
+  },
+  {
+   "path": "validation_data\\fruit\\43\\3.png",
+   "category": "43",
+   "class": "Huckleberry",
+   "confidence": 0.9999675750732422,
+   "margin": 0.9999638229649008,
+   "second": "Carambula",
+   "second_conf": 3.752108341359417e-06
+  },
+  {
+   "path": "validation_data\\fruit\\43\\4.png",
+   "category": "43",
+   "class": "Huckleberry",
+   "confidence": 0.9999703168869019,
+   "margin": 0.9999679853874568,
+   "second": "Apple Red Yellow",
+   "second_conf": 2.3314994450629456e-06
+  },
+  {
+   "path": "validation_data\\fruit\\44\\0.png",
+   "category": "44",
+   "class": "Kaki",
+   "confidence": 0.9993174076080322,
+   "margin": 0.9989897134655621,
+   "second": "Banana Red",
+   "second_conf": 0.0003276941424701363
+  },
+  {
+   "path": "validation_data\\fruit\\44\\1.png",
+   "category": "44",
+   "class": "Kaki",
+   "confidence": 0.9999825954437256,
+   "margin": 0.9999776598669996,
+   "second": "Apple Red Delicious",
+   "second_conf": 4.935576725983992e-06
+  },
+  {
+   "path": "validation_data\\fruit\\44\\2.png",
+   "category": "44",
+   "class": "Kaki",
+   "confidence": 0.9965689182281494,
+   "margin": 0.9934037146158516,
+   "second": "Banana Red",
+   "second_conf": 0.0031652036122977734
+  },
+  {
+   "path": "validation_data\\fruit\\44\\3.png",
+   "category": "44",
+   "class": "Kaki",
+   "confidence": 0.9999866485595703,
+   "margin": 0.9999836459855942,
+   "second": "Apple Red Delicious",
+   "second_conf": 3.0025739761185832e-06
+  },
+  {
+   "path": "validation_data\\fruit\\44\\4.png",
+   "category": "44",
+   "class": "Kaki",
+   "confidence": 0.9982953667640686,
+   "margin": 0.9968012525932863,
+   "second": "Banana Red",
+   "second_conf": 0.001494114170782268
+  },
+  {
+   "path": "validation_data\\fruit\\45\\0.png",
+   "category": "45",
+   "class": "Kiwi",
+   "confidence": 0.9995648264884949,
+   "margin": 0.9993729474954307,
+   "second": "Cocos",
+   "second_conf": 0.00019187899306416512
+  },
+  {
+   "path": "validation_data\\fruit\\45\\1.png",
+   "category": "45",
+   "class": "Kiwi",
+   "confidence": 0.9998372793197632,
+   "margin": 0.9997959294596512,
+   "second": "Peach",
+   "second_conf": 4.1349860111949965e-05
+  },
+  {
+   "path": "validation_data\\fruit\\45\\2.png",
+   "category": "45",
+   "class": "Kiwi",
+   "confidence": 0.999670147895813,
+   "margin": 0.9995677182669169,
+   "second": "Cocos",
+   "second_conf": 0.00010242962889606133
+  },
+  {
+   "path": "validation_data\\fruit\\45\\3.png",
+   "category": "45",
+   "class": "Kiwi",
+   "confidence": 0.9997125267982483,
+   "margin": 0.9996295805103728,
+   "second": "Peach",
+   "second_conf": 8.294628787552938e-05
+  },
+  {
+   "path": "validation_data\\fruit\\45\\4.png",
+   "category": "45",
+   "class": "Kiwi",
+   "confidence": 0.9996351003646851,
+   "margin": 0.9993898109532893,
+   "second": "Cocos",
+   "second_conf": 0.0002452894113957882
+  },
+  {
+   "path": "validation_data\\fruit\\46\\0.png",
+   "category": "46",
+   "class": "Kohlrabi",
+   "confidence": 0.9995673298835754,
+   "margin": 0.9994832846932695,
+   "second": "Cauliflower",
+   "second_conf": 8.404519030591473e-05
+  },
+  {
+   "path": "validation_data\\fruit\\46\\1.png",
+   "category": "46",
+   "class": "Kohlrabi",
+   "confidence": 0.9997908473014832,
+   "margin": 0.999711322307121,
+   "second": "Cauliflower",
+   "second_conf": 7.952499436214566e-05
+  },
+  {
+   "path": "validation_data\\fruit\\46\\2.png",
+   "category": "46",
+   "class": "Kohlrabi",
+   "confidence": 0.9999203681945801,
+   "margin": 0.9999066547334223,
+   "second": "Cauliflower",
+   "second_conf": 1.3713461157749407e-05
+  },
+  {
+   "path": "validation_data\\fruit\\46\\3.png",
+   "category": "46",
+   "class": "Kohlrabi",
+   "confidence": 0.9998242259025574,
+   "margin": 0.9997791167006653,
+   "second": "Cauliflower",
+   "second_conf": 4.510920189204626e-05
+  },
+  {
+   "path": "validation_data\\fruit\\46\\4.png",
+   "category": "46",
+   "class": "Kohlrabi",
+   "confidence": 0.9999061822891235,
+   "margin": 0.9998867835420242,
+   "second": "Cauliflower",
+   "second_conf": 1.939874709933065e-05
+  },
+  {
+   "path": "validation_data\\fruit\\47\\0.png",
+   "category": "47",
+   "class": "Kumquats",
+   "confidence": 0.999854564666748,
+   "margin": 0.9997956966653874,
+   "second": "Walnut",
+   "second_conf": 5.8868001360679045e-05
+  },
+  {
+   "path": "validation_data\\fruit\\47\\1.png",
+   "category": "47",
+   "class": "Kumquats",
+   "confidence": 0.9999579191207886,
+   "margin": 0.9999489055426238,
+   "second": "Granadilla",
+   "second_conf": 9.013578164740466e-06
+  },
+  {
+   "path": "validation_data\\fruit\\47\\2.png",
+   "category": "47",
+   "class": "Kumquats",
+   "confidence": 0.9998014569282532,
+   "margin": 0.9996327038388699,
+   "second": "Granadilla",
+   "second_conf": 0.00016875308938324451
+  },
+  {
+   "path": "validation_data\\fruit\\47\\3.png",
+   "category": "47",
+   "class": "Kumquats",
+   "confidence": 0.9999557733535767,
+   "margin": 0.9999436500329466,
+   "second": "Granadilla",
+   "second_conf": 1.2123320630053058e-05
+  },
+  {
+   "path": "validation_data\\fruit\\47\\4.png",
+   "category": "47",
+   "class": "Kumquats",
+   "confidence": 0.9999738931655884,
+   "margin": 0.9999690843574172,
+   "second": "Lemon",
+   "second_conf": 4.808808171219425e-06
+  },
+  {
+   "path": "validation_data\\fruit\\48\\0.png",
+   "category": "48",
+   "class": "Lemon",
+   "confidence": 0.9998515844345093,
+   "margin": 0.9998269462539611,
+   "second": "Pear Monster",
+   "second_conf": 2.4638180548208766e-05
+  },
+  {
+   "path": "validation_data\\fruit\\48\\1.png",
+   "category": "48",
+   "class": "Lemon",
+   "confidence": 0.9999598264694214,
+   "margin": 0.999954924395297,
+   "second": "Onion Red Peeled",
+   "second_conf": 4.902074124402134e-06
+  },
+  {
+   "path": "validation_data\\fruit\\48\\2.png",
+   "category": "48",
+   "class": "Lemon",
+   "confidence": 0.9997321963310242,
+   "margin": 0.9996521305365604,
+   "second": "Guava",
+   "second_conf": 8.006579446373507e-05
+  },
+  {
+   "path": "validation_data\\fruit\\48\\3.png",
+   "category": "48",
+   "class": "Lemon",
+   "confidence": 0.9995054006576538,
+   "margin": 0.9993484190636082,
+   "second": "Guava",
+   "second_conf": 0.0001569815940456465
+  },
+  {
+   "path": "validation_data\\fruit\\48\\4.png",
+   "category": "48",
+   "class": "Lemon",
+   "confidence": 0.9997894167900085,
+   "margin": 0.9997201158403186,
+   "second": "Guava",
+   "second_conf": 6.930094968993217e-05
+  },
+  {
+   "path": "validation_data\\fruit\\49\\0.png",
+   "category": "49",
+   "class": "Lemon Meyer",
+   "confidence": 0.999994158744812,
+   "margin": 0.9999915612074801,
+   "second": "Clementine",
+   "second_conf": 2.597537331894273e-06
+  },
+  {
+   "path": "validation_data\\fruit\\49\\1.png",
+   "category": "49",
+   "class": "Lemon Meyer",
+   "confidence": 0.9999978542327881,
+   "margin": 0.9999974219367118,
+   "second": "Grapefruit White",
+   "second_conf": 4.3229607626926736e-07
+  },
+  {
+   "path": "validation_data\\fruit\\49\\2.png",
+   "category": "49",
+   "class": "Lemon Meyer",
+   "confidence": 0.999997615814209,
+   "margin": 0.9999971054700723,
+   "second": "Grapefruit White",
+   "second_conf": 5.103441367282358e-07
+  },
+  {
+   "path": "validation_data\\fruit\\49\\3.png",
+   "category": "49",
+   "class": "Lemon Meyer",
+   "confidence": 0.9999946355819702,
+   "margin": 0.9999928369853706,
+   "second": "Clementine",
+   "second_conf": 1.7985965996558662e-06
+  },
+  {
+   "path": "validation_data\\fruit\\49\\4.png",
+   "category": "49",
+   "class": "Lemon Meyer",
+   "confidence": 0.9999912977218628,
+   "margin": 0.9999904296161048,
+   "second": "Mandarine",
+   "second_conf": 8.68105757945159e-07
+  },
+  {
+   "path": "validation_data\\fruit\\5\\0.png",
+   "category": "5",
+   "class": "Apple Red",
+   "confidence": 0.9999918937683105,
+   "margin": 0.9999901099270119,
+   "second": "Nectarine",
+   "second_conf": 1.7838412986748153e-06
+  },
+  {
+   "path": "validation_data\\fruit\\5\\1.png",
+   "category": "5",
+   "class": "Apple Red",
+   "confidence": 0.999976396560669,
+   "margin": 0.9999711097025283,
+   "second": "Onion Red",
+   "second_conf": 5.2868581406073645e-06
+  },
+  {
+   "path": "validation_data\\fruit\\5\\2.png",
+   "category": "5",
+   "class": "Apple Red",
+   "confidence": 0.9999911785125732,
+   "margin": 0.9999894397037679,
+   "second": "Peach",
+   "second_conf": 1.738808805384906e-06
+  },
+  {
+   "path": "validation_data\\fruit\\5\\3.png",
+   "category": "5",
+   "class": "Apple Red",
+   "confidence": 0.9997367262840271,
+   "margin": 0.9996328718043515,
+   "second": "Onion Red",
+   "second_conf": 0.00010385447967564687
+  },
+  {
+   "path": "validation_data\\fruit\\5\\4.png",
+   "category": "5",
+   "class": "Apple Red",
+   "confidence": 0.9999786615371704,
+   "margin": 0.9999750491288069,
+   "second": "Onion Red",
+   "second_conf": 3.612408363551367e-06
+  },
+  {
+   "path": "validation_data\\fruit\\50\\0.png",
+   "category": "50",
+   "class": "Limes",
+   "confidence": 0.9999502897262573,
+   "margin": 0.9999350318703364,
+   "second": "Pear Williams",
+   "second_conf": 1.5257855920935981e-05
+  },
+  {
+   "path": "validation_data\\fruit\\50\\1.png",
+   "category": "50",
+   "class": "Limes",
+   "confidence": 0.9998914003372192,
+   "margin": 0.9998447806574404,
+   "second": "Guava",
+   "second_conf": 4.6619679778814316e-05
+  },
+  {
+   "path": "validation_data\\fruit\\50\\2.png",
+   "category": "50",
+   "class": "Limes",
+   "confidence": 0.9999475479125977,
+   "margin": 0.9999222875521809,
+   "second": "Pear Williams",
+   "second_conf": 2.5260360416723415e-05
+  },
+  {
+   "path": "validation_data\\fruit\\50\\3.png",
+   "category": "50",
+   "class": "Limes",
+   "confidence": 0.9999610185623169,
+   "margin": 0.9999394127662526,
+   "second": "Pear Williams",
+   "second_conf": 2.160579606425017e-05
+  },
+  {
+   "path": "validation_data\\fruit\\50\\4.png",
+   "category": "50",
+   "class": "Limes",
+   "confidence": 0.999916672706604,
+   "margin": 0.9998839680411038,
+   "second": "Guava",
+   "second_conf": 3.270466550020501e-05
+  },
+  {
+   "path": "validation_data\\fruit\\51\\0.png",
+   "category": "51",
+   "class": "Lychee",
+   "confidence": 0.9999648332595825,
+   "margin": 0.9999599143111482,
+   "second": "Strawberry",
+   "second_conf": 4.918948434351478e-06
+  },
+  {
+   "path": "validation_data\\fruit\\51\\1.png",
+   "category": "51",
+   "class": "Lychee",
+   "confidence": 0.9999474287033081,
+   "margin": 0.9999420101466967,
+   "second": "Strawberry",
+   "second_conf": 5.4185566114028916e-06
+  },
+  {
+   "path": "validation_data\\fruit\\51\\2.png",
+   "category": "51",
+   "class": "Lychee",
+   "confidence": 0.9999657869338989,
+   "margin": 0.9999633765166891,
+   "second": "Strawberry",
+   "second_conf": 2.4104172098304844e-06
+  },
+  {
+   "path": "validation_data\\fruit\\51\\3.png",
+   "category": "51",
+   "class": "Lychee",
+   "confidence": 0.9999666213989258,
+   "margin": 0.999963941409078,
+   "second": "Strawberry",
+   "second_conf": 2.679989847820252e-06
+  },
+  {
+   "path": "validation_data\\fruit\\51\\4.png",
+   "category": "51",
+   "class": "Lychee",
+   "confidence": 0.9999524354934692,
+   "margin": 0.9999472815911759,
+   "second": "Strawberry",
+   "second_conf": 5.153902293386636e-06
+  },
+  {
+   "path": "validation_data\\fruit\\52\\0.png",
+   "category": "52",
+   "class": "Mandarine",
+   "confidence": 0.9999963045120239,
+   "margin": 0.9999958105019005,
+   "second": "Carambula",
+   "second_conf": 4.940101234751637e-07
+  },
+  {
+   "path": "validation_data\\fruit\\52\\1.png",
+   "category": "52",
+   "class": "Mandarine",
+   "confidence": 0.9999655485153198,
+   "margin": 0.9999562104503639,
+   "second": "Carambula",
+   "second_conf": 9.338064955954906e-06
+  },
+  {
+   "path": "validation_data\\fruit\\52\\2.png",
+   "category": "52",
+   "class": "Mandarine",
+   "confidence": 0.9999793767929077,
+   "margin": 0.9999751602058495,
+   "second": "Guava",
+   "second_conf": 4.216587058181176e-06
+  },
+  {
+   "path": "validation_data\\fruit\\52\\3.png",
+   "category": "52",
+   "class": "Mandarine",
+   "confidence": 0.999951958656311,
+   "margin": 0.9999353808489104,
+   "second": "Carambula",
+   "second_conf": 1.6577807400608435e-05
+  },
+  {
+   "path": "validation_data\\fruit\\52\\4.png",
+   "category": "52",
+   "class": "Mandarine",
+   "confidence": 0.9999938011169434,
+   "margin": 0.9999927207628616,
+   "second": "Pineapple Mini",
+   "second_conf": 1.0803540817505564e-06
+  },
+  {
+   "path": "validation_data\\fruit\\53\\0.png",
+   "category": "53",
+   "class": "Mango",
+   "confidence": 0.9999698400497437,
+   "margin": 0.9999655220071872,
+   "second": "Apple Granny Smith",
+   "second_conf": 4.318042556405999e-06
+  },
+  {
+   "path": "validation_data\\fruit\\53\\1.png",
+   "category": "53",
+   "class": "Mango",
+   "confidence": 0.9999432563781738,
+   "margin": 0.9999308640708477,
+   "second": "Apple Granny Smith",
+   "second_conf": 1.2392307326081209e-05
+  },
+  {
+   "path": "validation_data\\fruit\\53\\2.png",
+   "category": "53",
+   "class": "Mango",
+   "confidence": 0.9999897480010986,
+   "margin": 0.9999874037187055,
+   "second": "Tomato not Ripened",
+   "second_conf": 2.344282393096364e-06
+  },
+  {
+   "path": "validation_data\\fruit\\53\\3.png",
+   "category": "53",
+   "class": "Mango",
+   "confidence": 0.9999902248382568,
+   "margin": 0.9999886201516119,
+   "second": "Tomato not Ripened",
+   "second_conf": 1.6046866448959918e-06
+  },
+  {
+   "path": "validation_data\\fruit\\53\\4.png",
+   "category": "53",
+   "class": "Mango",
+   "confidence": 0.999980092048645,
+   "margin": 0.9999756060151412,
+   "second": "Apple Granny Smith",
+   "second_conf": 4.486033503781073e-06
+  },
+  {
+   "path": "validation_data\\fruit\\54\\0.png",
+   "category": "54",
+   "class": "Mango Red",
+   "confidence": 0.9999886751174927,
+   "margin": 0.9999866399680286,
+   "second": "Pomelo Sweetie",
+   "second_conf": 2.0351494640635792e-06
+  },
+  {
+   "path": "validation_data\\fruit\\54\\1.png",
+   "category": "54",
+   "class": "Mango Red",
+   "confidence": 0.9994578957557678,
+   "margin": 0.9992105705314316,
+   "second": "Pomegranate",
+   "second_conf": 0.0002473252243362367
+  },
+  {
+   "path": "validation_data\\fruit\\54\\2.png",
+   "category": "54",
+   "class": "Mango Red",
+   "confidence": 0.9999974966049194,
+   "margin": 0.9999968767804148,
+   "second": "Pomelo Sweetie",
+   "second_conf": 6.198245046107331e-07
+  },
+  {
+   "path": "validation_data\\fruit\\54\\3.png",
+   "category": "54",
+   "class": "Mango Red",
+   "confidence": 0.999030590057373,
+   "margin": 0.9984651863924228,
+   "second": "Pomegranate",
+   "second_conf": 0.0005654036649502814
+  },
+  {
+   "path": "validation_data\\fruit\\54\\4.png",
+   "category": "54",
+   "class": "Mango Red",
+   "confidence": 0.9999961853027344,
+   "margin": 0.9999952441752953,
+   "second": "Pomelo Sweetie",
+   "second_conf": 9.411274390913604e-07
+  },
+  {
+   "path": "validation_data\\fruit\\55\\0.png",
+   "category": "55",
+   "class": "Mangostan",
+   "confidence": 0.9997790455818176,
+   "margin": 0.9997508689903043,
+   "second": "Pear Abate",
+   "second_conf": 2.8176591513329186e-05
+  },
+  {
+   "path": "validation_data\\fruit\\55\\1.png",
+   "category": "55",
+   "class": "Mangostan",
+   "confidence": 0.9998558759689331,
+   "margin": 0.9998377798729052,
+   "second": "Onion Red",
+   "second_conf": 1.809609602787532e-05
+  },
+  {
+   "path": "validation_data\\fruit\\55\\2.png",
+   "category": "55",
+   "class": "Mangostan",
+   "confidence": 0.9996405839920044,
+   "margin": 0.9996141662886657,
+   "second": "Onion White",
+   "second_conf": 2.6417703338665888e-05
+  },
+  {
+   "path": "validation_data\\fruit\\55\\3.png",
+   "category": "55",
+   "class": "Mangostan",
+   "confidence": 0.9999140501022339,
+   "margin": 0.9999022294596216,
+   "second": "Onion White",
+   "second_conf": 1.1820642612292431e-05
+  },
+  {
+   "path": "validation_data\\fruit\\55\\4.png",
+   "category": "55",
+   "class": "Mangostan",
+   "confidence": 0.999804675579071,
+   "margin": 0.9997755653712375,
+   "second": "Onion Red",
+   "second_conf": 2.9110207833582535e-05
+  },
+  {
+   "path": "validation_data\\fruit\\56\\0.png",
+   "category": "56",
+   "class": "Maracuja",
+   "confidence": 0.9999929666519165,
+   "margin": 0.9999921087050438,
+   "second": "Banana Lady Finger",
+   "second_conf": 8.57946872656612e-07
+  },
+  {
+   "path": "validation_data\\fruit\\56\\1.png",
+   "category": "56",
+   "class": "Maracuja",
+   "confidence": 0.9999814033508301,
+   "margin": 0.9999752030989839,
+   "second": "Pear Williams",
+   "second_conf": 6.200251846166793e-06
+  },
+  {
+   "path": "validation_data\\fruit\\56\\2.png",
+   "category": "56",
+   "class": "Maracuja",
+   "confidence": 0.9999898672103882,
+   "margin": 0.999987335719652,
+   "second": "Pear Williams",
+   "second_conf": 2.5314907361462247e-06
+  },
+  {
+   "path": "validation_data\\fruit\\56\\3.png",
+   "category": "56",
+   "class": "Maracuja",
+   "confidence": 0.9999970197677612,
+   "margin": 0.999996325753898,
+   "second": "Pear Williams",
+   "second_conf": 6.940138632671733e-07
+  },
+  {
+   "path": "validation_data\\fruit\\56\\4.png",
+   "category": "56",
+   "class": "Maracuja",
+   "confidence": 0.9999758005142212,
+   "margin": 0.9999598665035592,
+   "second": "Pear Williams",
+   "second_conf": 1.5934010662022047e-05
+  },
+  {
+   "path": "validation_data\\fruit\\57\\0.png",
+   "category": "57",
+   "class": "Melon Piel de Sapo",
+   "confidence": 0.9999791383743286,
+   "margin": 0.9999750368497189,
+   "second": "Nut Pecan",
+   "second_conf": 4.101524609723128e-06
+  },
+  {
+   "path": "validation_data\\fruit\\57\\1.png",
+   "category": "57",
+   "class": "Melon Piel de Sapo",
+   "confidence": 0.9999542236328125,
+   "margin": 0.9999470858965651,
+   "second": "Nut Pecan",
+   "second_conf": 7.137736247386783e-06
+  },
+  {
+   "path": "validation_data\\fruit\\57\\2.png",
+   "category": "57",
+   "class": "Melon Piel de Sapo",
+   "confidence": 0.9999688863754272,
+   "margin": 0.9999633518159499,
+   "second": "Papaya",
+   "second_conf": 5.534559477382572e-06
+  },
+  {
+   "path": "validation_data\\fruit\\57\\3.png",
+   "category": "57",
+   "class": "Melon Piel de Sapo",
+   "confidence": 0.9999349117279053,
+   "margin": 0.99991780205346,
+   "second": "Papaya",
+   "second_conf": 1.7109674445237033e-05
+  },
+  {
+   "path": "validation_data\\fruit\\57\\4.png",
+   "category": "57",
+   "class": "Melon Piel de Sapo",
+   "confidence": 0.9999326467514038,
+   "margin": 0.9999206032471193,
+   "second": "Papaya",
+   "second_conf": 1.2043504284520168e-05
+  },
+  {
+   "path": "validation_data\\fruit\\58\\0.png",
+   "category": "58",
+   "class": "Mulberry",
+   "confidence": 0.9999817609786987,
+   "margin": 0.9999789398589201,
+   "second": "Pepper Green",
+   "second_conf": 2.8211197786731645e-06
+  },
+  {
+   "path": "validation_data\\fruit\\58\\1.png",
+   "category": "58",
+   "class": "Mulberry",
+   "confidence": 0.9999730587005615,
+   "margin": 0.9999678723911529,
+   "second": "Pepper Green",
+   "second_conf": 5.186309408600209e-06
+  },
+  {
+   "path": "validation_data\\fruit\\58\\2.png",
+   "category": "58",
+   "class": "Mulberry",
+   "confidence": 0.9999831914901733,
+   "margin": 0.9999801718258823,
+   "second": "Pepper Green",
+   "second_conf": 3.0196642910595983e-06
+  },
+  {
+   "path": "validation_data\\fruit\\58\\3.png",
+   "category": "58",
+   "class": "Mulberry",
+   "confidence": 0.9999749660491943,
+   "margin": 0.999970705290707,
+   "second": "Pepper Green",
+   "second_conf": 4.260758487362182e-06
+  },
+  {
+   "path": "validation_data\\fruit\\58\\4.png",
+   "category": "58",
+   "class": "Mulberry",
+   "confidence": 0.9999668598175049,
+   "margin": 0.9999635012181898,
+   "second": "Pepper Green",
+   "second_conf": 3.358599315106403e-06
+  },
+  {
+   "path": "validation_data\\fruit\\59\\0.png",
+   "category": "59",
+   "class": "Nectarine",
+   "confidence": 0.9999842643737793,
+   "margin": 0.9999760540149509,
+   "second": "Strawberry",
+   "second_conf": 8.210358828364406e-06
+  },
+  {
+   "path": "validation_data\\fruit\\59\\1.png",
+   "category": "59",
+   "class": "Nectarine",
+   "confidence": 0.9999872446060181,
+   "margin": 0.9999823233420102,
+   "second": "Strawberry",
+   "second_conf": 4.921264007862192e-06
+  },
+  {
+   "path": "validation_data\\fruit\\59\\2.png",
+   "category": "59",
+   "class": "Nectarine",
+   "confidence": 0.9999808073043823,
+   "margin": 0.999972191571942,
+   "second": "Strawberry",
+   "second_conf": 8.615732440375723e-06
+  },
+  {
+   "path": "validation_data\\fruit\\59\\3.png",
+   "category": "59",
+   "class": "Nectarine",
+   "confidence": 0.9996377229690552,
+   "margin": 0.9994505577778909,
+   "second": "Apple Red",
+   "second_conf": 0.00018716519116424024
+  },
+  {
+   "path": "validation_data\\fruit\\59\\4.png",
+   "category": "59",
+   "class": "Nectarine",
+   "confidence": 0.999817430973053,
+   "margin": 0.9996862625266658,
+   "second": "Peach",
+   "second_conf": 0.0001311684463871643
+  },
+  {
+   "path": "validation_data\\fruit\\6\\0.png",
+   "category": "6",
+   "class": "Apple Red Delicious",
+   "confidence": 0.9999829530715942,
+   "margin": 0.9999762069041935,
+   "second": "Salak",
+   "second_conf": 6.746167400706327e-06
+  },
+  {
+   "path": "validation_data\\fruit\\6\\1.png",
+   "category": "6",
+   "class": "Apple Red Delicious",
+   "confidence": 0.9999113082885742,
+   "margin": 0.999869682436838,
+   "second": "Banana Red",
+   "second_conf": 4.162585173617117e-05
+  },
+  {
+   "path": "validation_data\\fruit\\6\\2.png",
+   "category": "6",
+   "class": "Apple Red Delicious",
+   "confidence": 0.9999610185623169,
+   "margin": 0.9999441206455231,
+   "second": "Salak",
+   "second_conf": 1.6897916793823242e-05
+  },
+  {
+   "path": "validation_data\\fruit\\6\\3.png",
+   "category": "6",
+   "class": "Apple Red Delicious",
+   "confidence": 0.9999852180480957,
+   "margin": 0.9999821258984412,
+   "second": "Salak",
+   "second_conf": 3.092149654548848e-06
+  },
+  {
+   "path": "validation_data\\fruit\\6\\4.png",
+   "category": "6",
+   "class": "Apple Red Delicious",
+   "confidence": 0.9999719858169556,
+   "margin": 0.9999606711144224,
+   "second": "Salak",
+   "second_conf": 1.1314702533127274e-05
+  },
+  {
+   "path": "validation_data\\fruit\\60\\0.png",
+   "category": "60",
+   "class": "Nectarine Flat",
+   "confidence": 0.9865545034408569,
+   "margin": 0.9748663436621428,
+   "second": "Pear Red",
+   "second_conf": 0.01168815977871418
+  },
+  {
+   "path": "validation_data\\fruit\\60\\1.png",
+   "category": "60",
+   "class": "Nectarine Flat",
+   "confidence": 0.9753056764602661,
+   "margin": 0.9562791585922241,
+   "second": "Peach",
+   "second_conf": 0.019026517868041992
+  },
+  {
+   "path": "validation_data\\fruit\\60\\2.png",
+   "category": "60",
+   "class": "Nectarine Flat",
+   "confidence": 0.9793875217437744,
+   "margin": 0.9685607934370637,
+   "second": "Pear Red",
+   "second_conf": 0.01082672830671072
+  },
+  {
+   "path": "validation_data\\fruit\\60\\3.png",
+   "category": "60",
+   "class": "Nectarine Flat",
+   "confidence": 0.9387995600700378,
+   "margin": 0.882717989385128,
+   "second": "Peach",
+   "second_conf": 0.05608157068490982
+  },
+  {
+   "path": "validation_data\\fruit\\60\\4.png",
+   "category": "60",
+   "class": "Nectarine Flat",
+   "confidence": 0.9705214500427246,
+   "margin": 0.9434992261230946,
+   "second": "Pear Red",
+   "second_conf": 0.02702222391963005
+  },
+  {
+   "path": "validation_data\\fruit\\61\\0.png",
+   "category": "61",
+   "class": "Nut Forest",
+   "confidence": 0.9999136924743652,
+   "margin": 0.9998888961727062,
+   "second": "Onion White",
+   "second_conf": 2.47963016590802e-05
+  },
+  {
+   "path": "validation_data\\fruit\\61\\1.png",
+   "category": "61",
+   "class": "Nut Forest",
+   "confidence": 0.9986563920974731,
+   "margin": 0.9977015677141026,
+   "second": "Onion White",
+   "second_conf": 0.0009548243833705783
+  },
+  {
+   "path": "validation_data\\fruit\\61\\2.png",
+   "category": "61",
+   "class": "Nut Forest",
+   "confidence": 0.999984622001648,
+   "margin": 0.9999757558043711,
+   "second": "Onion White",
+   "second_conf": 8.866197276802268e-06
+  },
+  {
+   "path": "validation_data\\fruit\\61\\3.png",
+   "category": "61",
+   "class": "Nut Forest",
+   "confidence": 0.999990701675415,
+   "margin": 0.9999889835168005,
+   "second": "Papaya",
+   "second_conf": 1.718158614494314e-06
+  },
+  {
+   "path": "validation_data\\fruit\\61\\4.png",
+   "category": "61",
+   "class": "Nut Forest",
+   "confidence": 0.9999878406524658,
+   "margin": 0.9999858235787542,
+   "second": "Papaya",
+   "second_conf": 2.017073711613193e-06
+  },
+  {
+   "path": "validation_data\\fruit\\62\\0.png",
+   "category": "62",
+   "class": "Nut Pecan",
+   "confidence": 0.9999592304229736,
+   "margin": 0.9999369625784311,
+   "second": "Hazelnut",
+   "second_conf": 2.226784454251174e-05
+  },
+  {
+   "path": "validation_data\\fruit\\62\\1.png",
+   "category": "62",
+   "class": "Nut Pecan",
+   "confidence": 0.9999721050262451,
+   "margin": 0.9999603032074447,
+   "second": "Cucumber Ripe",
+   "second_conf": 1.1801818800449837e-05
+  },
+  {
+   "path": "validation_data\\fruit\\62\\2.png",
+   "category": "62",
+   "class": "Nut Pecan",
+   "confidence": 0.9999171495437622,
+   "margin": 0.9998714431203553,
+   "second": "Hazelnut",
+   "second_conf": 4.5706423406954855e-05
+  },
+  {
+   "path": "validation_data\\fruit\\62\\3.png",
+   "category": "62",
+   "class": "Nut Pecan",
+   "confidence": 0.9999141693115234,
+   "margin": 0.9998592667107005,
+   "second": "Hazelnut",
+   "second_conf": 5.490260082297027e-05
+  },
+  {
+   "path": "validation_data\\fruit\\62\\4.png",
+   "category": "62",
+   "class": "Nut Pecan",
+   "confidence": 0.9999803304672241,
+   "margin": 0.99997000633266,
+   "second": "Cucumber Ripe",
+   "second_conf": 1.0324134564143606e-05
+  },
+  {
+   "path": "validation_data\\fruit\\63\\0.png",
+   "category": "63",
+   "class": "Onion Red",
+   "confidence": 0.9999827146530151,
+   "margin": 0.9999749515372969,
+   "second": "Onion Red Peeled",
+   "second_conf": 7.76311571826227e-06
+  },
+  {
+   "path": "validation_data\\fruit\\63\\1.png",
+   "category": "63",
+   "class": "Onion Red",
+   "confidence": 0.9999451637268066,
+   "margin": 0.999935514126264,
+   "second": "Onion White",
+   "second_conf": 9.649600542616099e-06
+  },
+  {
+   "path": "validation_data\\fruit\\63\\2.png",
+   "category": "63",
+   "class": "Onion Red",
+   "confidence": 0.9999731779098511,
+   "margin": 0.9999635813583154,
+   "second": "Onion Red Peeled",
+   "second_conf": 9.596551535651088e-06
+  },
+  {
+   "path": "validation_data\\fruit\\63\\3.png",
+   "category": "63",
+   "class": "Onion Red",
+   "confidence": 0.9999767541885376,
+   "margin": 0.9999679860138713,
+   "second": "Onion Red Peeled",
+   "second_conf": 8.768174666329287e-06
+  },
+  {
+   "path": "validation_data\\fruit\\63\\4.png",
+   "category": "63",
+   "class": "Onion Red",
+   "confidence": 0.9999923706054688,
+   "margin": 0.9999904021735802,
+   "second": "Onion Red Peeled",
+   "second_conf": 1.968431888599298e-06
+  },
+  {
+   "path": "validation_data\\fruit\\64\\0.png",
+   "category": "64",
+   "class": "Onion Red Peeled",
+   "confidence": 0.9999774694442749,
+   "margin": 0.9999629171752531,
+   "second": "Onion Red",
+   "second_conf": 1.4552269021805841e-05
+  },
+  {
+   "path": "validation_data\\fruit\\64\\1.png",
+   "category": "64",
+   "class": "Onion Red Peeled",
+   "confidence": 0.9999831914901733,
+   "margin": 0.9999754534574095,
+   "second": "Onion Red",
+   "second_conf": 7.738032763882075e-06
+  },
+  {
+   "path": "validation_data\\fruit\\64\\2.png",
+   "category": "64",
+   "class": "Onion Red Peeled",
+   "confidence": 0.9999872446060181,
+   "margin": 0.9999836971760487,
+   "second": "Onion Red",
+   "second_conf": 3.547429969330551e-06
+  },
+  {
+   "path": "validation_data\\fruit\\64\\3.png",
+   "category": "64",
+   "class": "Onion Red Peeled",
+   "confidence": 0.9999675750732422,
+   "margin": 0.9999441527379531,
+   "second": "Onion Red",
+   "second_conf": 2.342233528906945e-05
+  },
+  {
+   "path": "validation_data\\fruit\\64\\4.png",
+   "category": "64",
+   "class": "Onion Red Peeled",
+   "confidence": 0.9999861717224121,
+   "margin": 0.9999812720011505,
+   "second": "Onion Red",
+   "second_conf": 4.899721261608647e-06
+  },
+  {
+   "path": "validation_data\\fruit\\65\\0.png",
+   "category": "65",
+   "class": "Onion White",
+   "confidence": 0.9999614953994751,
+   "margin": 0.9999420598578581,
+   "second": "Onion Red",
+   "second_conf": 1.9435541616985574e-05
+  },
+  {
+   "path": "validation_data\\fruit\\65\\1.png",
+   "category": "65",
+   "class": "Onion White",
+   "confidence": 0.999981164932251,
+   "margin": 0.999978226340545,
+   "second": "Onion Red",
+   "second_conf": 2.938591705969884e-06
+  },
+  {
+   "path": "validation_data\\fruit\\65\\2.png",
+   "category": "65",
+   "class": "Onion White",
+   "confidence": 0.9999396800994873,
+   "margin": 0.9999056541964819,
+   "second": "Onion Red",
+   "second_conf": 3.402590300538577e-05
+  },
+  {
+   "path": "validation_data\\fruit\\65\\3.png",
+   "category": "65",
+   "class": "Onion White",
+   "confidence": 0.9998922348022461,
+   "margin": 0.9998153666019789,
+   "second": "Onion Red",
+   "second_conf": 7.686820026719943e-05
+  },
+  {
+   "path": "validation_data\\fruit\\65\\4.png",
+   "category": "65",
+   "class": "Onion White",
+   "confidence": 0.9999653100967407,
+   "margin": 0.9999466231820406,
+   "second": "Onion Red",
+   "second_conf": 1.8686914700083435e-05
+  },
+  {
+   "path": "validation_data\\fruit\\66\\0.png",
+   "category": "66",
+   "class": "Orange",
+   "confidence": 0.9999626874923706,
+   "margin": 0.9999444970253535,
+   "second": "Mandarine",
+   "second_conf": 1.8190467017120682e-05
+  },
+  {
+   "path": "validation_data\\fruit\\66\\1.png",
+   "category": "66",
+   "class": "Orange",
+   "confidence": 0.9999254941940308,
+   "margin": 0.9998800307948841,
+   "second": "Mandarine",
+   "second_conf": 4.5463399146683514e-05
+  },
+  {
+   "path": "validation_data\\fruit\\66\\2.png",
+   "category": "66",
+   "class": "Orange",
+   "confidence": 0.9998424053192139,
+   "margin": 0.9997264885969344,
+   "second": "Mandarine",
+   "second_conf": 0.00011591672227950767
+  },
+  {
+   "path": "validation_data\\fruit\\66\\3.png",
+   "category": "66",
+   "class": "Orange",
+   "confidence": 0.9999792575836182,
+   "margin": 0.9999748291720607,
+   "second": "Mandarine",
+   "second_conf": 4.428411557455547e-06
+  },
+  {
+   "path": "validation_data\\fruit\\66\\4.png",
+   "category": "66",
+   "class": "Orange",
+   "confidence": 0.9999713897705078,
+   "margin": 0.9999599205220875,
+   "second": "Mandarine",
+   "second_conf": 1.146924842032604e-05
+  },
+  {
+   "path": "validation_data\\fruit\\67\\0.png",
+   "category": "67",
+   "class": "Papaya",
+   "confidence": 0.9999641180038452,
+   "margin": 0.9999596181341985,
+   "second": "Apple Red",
+   "second_conf": 4.499869646679144e-06
+  },
+  {
+   "path": "validation_data\\fruit\\67\\1.png",
+   "category": "67",
+   "class": "Papaya",
+   "confidence": 0.9999347925186157,
+   "margin": 0.9999245004592012,
+   "second": "Apple Red",
+   "second_conf": 1.029205941449618e-05
+  },
+  {
+   "path": "validation_data\\fruit\\67\\2.png",
+   "category": "67",
+   "class": "Papaya",
+   "confidence": 0.9999791383743286,
+   "margin": 0.9999764494136798,
+   "second": "Apple Red",
+   "second_conf": 2.6889606488111895e-06
+  },
+  {
+   "path": "validation_data\\fruit\\67\\3.png",
+   "category": "67",
+   "class": "Papaya",
+   "confidence": 0.9999650716781616,
+   "margin": 0.9999612234073538,
+   "second": "Pear Kaiser",
+   "second_conf": 3.848270807793597e-06
+  },
+  {
+   "path": "validation_data\\fruit\\67\\4.png",
+   "category": "67",
+   "class": "Papaya",
+   "confidence": 0.999976634979248,
+   "margin": 0.9999732469464107,
+   "second": "Mandarine",
+   "second_conf": 3.3880328373925295e-06
+  },
+  {
+   "path": "validation_data\\fruit\\68\\0.png",
+   "category": "68",
+   "class": "Passion Fruit",
+   "confidence": 0.999951958656311,
+   "margin": 0.999938366268907,
+   "second": "Walnut",
+   "second_conf": 1.3592387404059991e-05
+  },
+  {
+   "path": "validation_data\\fruit\\68\\1.png",
+   "category": "68",
+   "class": "Passion Fruit",
+   "confidence": 0.9999698400497437,
+   "margin": 0.9999653686531929,
+   "second": "Walnut",
+   "second_conf": 4.47139655079809e-06
+  },
+  {
+   "path": "validation_data\\fruit\\68\\2.png",
+   "category": "68",
+   "class": "Passion Fruit",
+   "confidence": 0.999942421913147,
+   "margin": 0.9999294325943993,
+   "second": "Grape Blue",
+   "second_conf": 1.2989318747713696e-05
+  },
+  {
+   "path": "validation_data\\fruit\\68\\3.png",
+   "category": "68",
+   "class": "Passion Fruit",
+   "confidence": 0.9999650716781616,
+   "margin": 0.9999596437419314,
+   "second": "Walnut",
+   "second_conf": 5.427936230262276e-06
+  },
+  {
+   "path": "validation_data\\fruit\\68\\4.png",
+   "category": "68",
+   "class": "Passion Fruit",
+   "confidence": 0.9999839067459106,
+   "margin": 0.9999791406426084,
+   "second": "Walnut",
+   "second_conf": 4.766103302245028e-06
+  },
+  {
+   "path": "validation_data\\fruit\\69\\0.png",
+   "category": "69",
+   "class": "Peach",
+   "confidence": 0.99992835521698,
+   "margin": 0.9999051003251225,
+   "second": "Apple Red Yellow",
+   "second_conf": 2.3254891857504845e-05
+  },
+  {
+   "path": "validation_data\\fruit\\69\\1.png",
+   "category": "69",
+   "class": "Peach",
+   "confidence": 0.9998998641967773,
+   "margin": 0.9998103443940636,
+   "second": "Mandarine",
+   "second_conf": 8.95198027137667e-05
+  },
+  {
+   "path": "validation_data\\fruit\\69\\2.png",
+   "category": "69",
+   "class": "Peach",
+   "confidence": 0.9999884366989136,
+   "margin": 0.9999834355508028,
+   "second": "Mandarine",
+   "second_conf": 5.001148110750364e-06
+  },
+  {
+   "path": "validation_data\\fruit\\69\\3.png",
+   "category": "69",
+   "class": "Peach",
+   "confidence": 0.9998409748077393,
+   "margin": 0.9997478396471706,
+   "second": "Carambula",
+   "second_conf": 9.313516056863591e-05
+  },
+  {
+   "path": "validation_data\\fruit\\69\\4.png",
+   "category": "69",
+   "class": "Peach",
+   "confidence": 0.9998347759246826,
+   "margin": 0.9997971303164377,
+   "second": "Apple Pink Lady",
+   "second_conf": 3.764560824492946e-05
+  },
+  {
+   "path": "validation_data\\fruit\\7\\0.png",
+   "category": "7",
+   "class": "Apple Red Yellow",
+   "confidence": 0.9995163679122925,
+   "margin": 0.9994282532352372,
+   "second": "Apple Pink Lady",
+   "second_conf": 8.81146770552732e-05
+  },
+  {
+   "path": "validation_data\\fruit\\7\\1.png",
+   "category": "7",
+   "class": "Apple Red Yellow",
+   "confidence": 0.9999436140060425,
+   "margin": 0.9999347909379139,
+   "second": "Papaya",
+   "second_conf": 8.823068128549494e-06
+  },
+  {
+   "path": "validation_data\\fruit\\7\\2.png",
+   "category": "7",
+   "class": "Apple Red Yellow",
+   "confidence": 0.9999592304229736,
+   "margin": 0.9999341723250836,
+   "second": "Carambula",
+   "second_conf": 2.5058097889996134e-05
+  },
+  {
+   "path": "validation_data\\fruit\\7\\3.png",
+   "category": "7",
+   "class": "Apple Red Yellow",
+   "confidence": 0.9994569420814514,
+   "margin": 0.9990431403275579,
+   "second": "Carambula",
+   "second_conf": 0.0004138017538934946
+  },
+  {
+   "path": "validation_data\\fruit\\7\\4.png",
+   "category": "7",
+   "class": "Apple Red Yellow",
+   "confidence": 0.9998331069946289,
+   "margin": 0.9997104419308016,
+   "second": "Carambula",
+   "second_conf": 0.00012266506382729858
+  },
+  {
+   "path": "validation_data\\fruit\\70\\0.png",
+   "category": "70",
+   "class": "Peach Flat",
+   "confidence": 0.9999672174453735,
+   "margin": 0.9999564032905255,
+   "second": "Apple Red",
+   "second_conf": 1.0814154848048929e-05
+  },
+  {
+   "path": "validation_data\\fruit\\70\\1.png",
+   "category": "70",
+   "class": "Peach Flat",
+   "confidence": 0.9923381209373474,
+   "margin": 0.9877875838428736,
+   "second": "Apple Pink Lady",
+   "second_conf": 0.004550537094473839
+  },
+  {
+   "path": "validation_data\\fruit\\70\\2.png",
+   "category": "70",
+   "class": "Peach Flat",
+   "confidence": 0.9993665814399719,
+   "margin": 0.9991486055514542,
+   "second": "Apple Red",
+   "second_conf": 0.00021797588851768523
+  },
+  {
+   "path": "validation_data\\fruit\\70\\3.png",
+   "category": "70",
+   "class": "Peach Flat",
+   "confidence": 0.9997039437294006,
+   "margin": 0.9994676959322533,
+   "second": "Apple Pink Lady",
+   "second_conf": 0.00023624779714737087
+  },
+  {
+   "path": "validation_data\\fruit\\70\\4.png",
+   "category": "70",
+   "class": "Peach Flat",
+   "confidence": 0.9950422048568726,
+   "margin": 0.9901912952773273,
+   "second": "Apple Red",
+   "second_conf": 0.0048509095795452595
+  },
+  {
+   "path": "validation_data\\fruit\\71\\0.png",
+   "category": "71",
+   "class": "Pear",
+   "confidence": 0.9999380111694336,
+   "margin": 0.9999236849816953,
+   "second": "Pear Williams",
+   "second_conf": 1.4326187738333829e-05
+  },
+  {
+   "path": "validation_data\\fruit\\71\\1.png",
+   "category": "71",
+   "class": "Pear",
+   "confidence": 0.9997220635414124,
+   "margin": 0.9996625505700649,
+   "second": "Apple Granny Smith",
+   "second_conf": 5.951297134743072e-05
+  },
+  {
+   "path": "validation_data\\fruit\\71\\2.png",
+   "category": "71",
+   "class": "Pear",
+   "confidence": 0.9999551773071289,
+   "margin": 0.9999376197756646,
+   "second": "Pear Monster",
+   "second_conf": 1.7557531464262865e-05
+  },
+  {
+   "path": "validation_data\\fruit\\71\\3.png",
+   "category": "71",
+   "class": "Pear",
+   "confidence": 0.9999914169311523,
+   "margin": 0.9999899751587691,
+   "second": "Pear Williams",
+   "second_conf": 1.4417723832593765e-06
+  },
+  {
+   "path": "validation_data\\fruit\\71\\4.png",
+   "category": "71",
+   "class": "Pear",
+   "confidence": 0.9999582767486572,
+   "margin": 0.9999504438437725,
+   "second": "Pear Williams",
+   "second_conf": 7.832904884708114e-06
+  },
+  {
+   "path": "validation_data\\fruit\\72\\0.png",
+   "category": "72",
+   "class": "Pear Abate",
+   "confidence": 0.9999806880950928,
+   "margin": 0.9999790794811361,
+   "second": "Pear Red",
+   "second_conf": 1.608613956705085e-06
+  },
+  {
+   "path": "validation_data\\fruit\\72\\1.png",
+   "category": "72",
+   "class": "Pear Abate",
+   "confidence": 0.9999880790710449,
+   "margin": 0.9999870315544968,
+   "second": "Pear",
+   "second_conf": 1.0475165481693693e-06
+  },
+  {
+   "path": "validation_data\\fruit\\72\\2.png",
+   "category": "72",
+   "class": "Pear Abate",
+   "confidence": 0.9999912977218628,
+   "margin": 0.9999900781261886,
+   "second": "Cactus fruit",
+   "second_conf": 1.2195956742289127e-06
+  },
+  {
+   "path": "validation_data\\fruit\\72\\3.png",
+   "category": "72",
+   "class": "Pear Abate",
+   "confidence": 0.9999769926071167,
+   "margin": 0.9999745082454865,
+   "second": "Pear Red",
+   "second_conf": 2.4843616301950533e-06
+  },
+  {
+   "path": "validation_data\\fruit\\72\\4.png",
+   "category": "72",
+   "class": "Pear Abate",
+   "confidence": 0.9999841451644897,
+   "margin": 0.9999821889557552,
+   "second": "Pear Red",
+   "second_conf": 1.9562087345548207e-06
+  },
+  {
+   "path": "validation_data\\fruit\\73\\0.png",
+   "category": "73",
+   "class": "Pear Forelle",
+   "confidence": 0.992946207523346,
+   "margin": 0.9859947501681745,
+   "second": "Pear",
+   "second_conf": 0.006951457355171442
+  },
+  {
+   "path": "validation_data\\fruit\\73\\1.png",
+   "category": "73",
+   "class": "Pear Forelle",
+   "confidence": 0.9985236525535583,
+   "margin": 0.9971375218592584,
+   "second": "Pear",
+   "second_conf": 0.0013861306942999363
+  },
+  {
+   "path": "validation_data\\fruit\\73\\2.png",
+   "category": "73",
+   "class": "Pear Forelle",
+   "confidence": 0.8383215665817261,
+   "margin": 0.6861228793859482,
+   "second": "Pear",
+   "second_conf": 0.1521986871957779
+  },
+  {
+   "path": "validation_data\\fruit\\73\\3.png",
+   "category": "73",
+   "class": "Pear Forelle",
+   "confidence": 0.9992431402206421,
+   "margin": 0.9986428432748653,
+   "second": "Pear",
+   "second_conf": 0.0006002969457767904
+  },
+  {
+   "path": "validation_data\\fruit\\73\\4.png",
+   "category": "73",
+   "class": "Pear Forelle",
+   "confidence": 0.9998427629470825,
+   "margin": 0.9997196569893276,
+   "second": "Pear",
+   "second_conf": 0.00012310595775488764
+  },
+  {
+   "path": "validation_data\\fruit\\74\\0.png",
+   "category": "74",
+   "class": "Pear Kaiser",
+   "confidence": 0.9999774694442749,
+   "margin": 0.9999747275710433,
+   "second": "Nut Pecan",
+   "second_conf": 2.741873231570935e-06
+  },
+  {
+   "path": "validation_data\\fruit\\74\\1.png",
+   "category": "74",
+   "class": "Pear Kaiser",
+   "confidence": 0.9999333620071411,
+   "margin": 0.9999236981257127,
+   "second": "Nut Pecan",
+   "second_conf": 9.663881428423338e-06
+  },
+  {
+   "path": "validation_data\\fruit\\74\\2.png",
+   "category": "74",
+   "class": "Pear Kaiser",
+   "confidence": 0.999786913394928,
+   "margin": 0.999702901681303,
+   "second": "Chestnut",
+   "second_conf": 8.401171362493187e-05
+  },
+  {
+   "path": "validation_data\\fruit\\74\\3.png",
+   "category": "74",
+   "class": "Pear Kaiser",
+   "confidence": 0.9999101161956787,
+   "margin": 0.9998896888428135,
+   "second": "Nut Pecan",
+   "second_conf": 2.0427352865226567e-05
+  },
+  {
+   "path": "validation_data\\fruit\\74\\4.png",
+   "category": "74",
+   "class": "Pear Kaiser",
+   "confidence": 0.9998338222503662,
+   "margin": 0.9997771036796621,
+   "second": "Chestnut",
+   "second_conf": 5.671857070410624e-05
+  },
+  {
+   "path": "validation_data\\fruit\\75\\0.png",
+   "category": "75",
+   "class": "Pear Monster",
+   "confidence": 0.9999891519546509,
+   "margin": 0.9999849444807296,
+   "second": "Pear",
+   "second_conf": 4.207473921269411e-06
+  },
+  {
+   "path": "validation_data\\fruit\\75\\1.png",
+   "category": "75",
+   "class": "Pear Monster",
+   "confidence": 0.9999929666519165,
+   "margin": 0.9999919233882792,
+   "second": "Pear",
+   "second_conf": 1.0432636372570414e-06
+  },
+  {
+   "path": "validation_data\\fruit\\75\\2.png",
+   "category": "75",
+   "class": "Pear Monster",
+   "confidence": 0.9999829530715942,
+   "margin": 0.9999787819879202,
+   "second": "Pear",
+   "second_conf": 4.171083674009424e-06
+  },
+  {
+   "path": "validation_data\\fruit\\75\\3.png",
+   "category": "75",
+   "class": "Pear Monster",
+   "confidence": 0.9999740123748779,
+   "margin": 0.9999655684659956,
+   "second": "Pear",
+   "second_conf": 8.443908882327378e-06
+  },
+  {
+   "path": "validation_data\\fruit\\75\\4.png",
+   "category": "75",
+   "class": "Pear Monster",
+   "confidence": 0.9999706745147705,
+   "margin": 0.999954746768708,
+   "second": "Pear",
+   "second_conf": 1.5927746062516235e-05
+  },
+  {
+   "path": "validation_data\\fruit\\76\\0.png",
+   "category": "76",
+   "class": "Pear Red",
+   "confidence": 0.9999071359634399,
+   "margin": 0.9998429198749363,
+   "second": "Clementine",
+   "second_conf": 6.421608850359917e-05
+  },
+  {
+   "path": "validation_data\\fruit\\76\\1.png",
+   "category": "76",
+   "class": "Pear Red",
+   "confidence": 0.9999769926071167,
+   "margin": 0.9999709970416006,
+   "second": "Apple Pink Lady",
+   "second_conf": 5.995565516059287e-06
+  },
+  {
+   "path": "validation_data\\fruit\\76\\2.png",
+   "category": "76",
+   "class": "Pear Red",
+   "confidence": 0.99998939037323,
+   "margin": 0.9999875872347275,
+   "second": "Clementine",
+   "second_conf": 1.8031385025096824e-06
+  },
+  {
+   "path": "validation_data\\fruit\\76\\3.png",
+   "category": "76",
+   "class": "Pear Red",
+   "confidence": 0.9999816417694092,
+   "margin": 0.9999774996681481,
+   "second": "Pear Monster",
+   "second_conf": 4.142101261095377e-06
+  },
+  {
+   "path": "validation_data\\fruit\\76\\4.png",
+   "category": "76",
+   "class": "Pear Red",
+   "confidence": 0.9999874830245972,
+   "margin": 0.9999859583759871,
+   "second": "Pear",
+   "second_conf": 1.5246486100295442e-06
+  },
+  {
+   "path": "validation_data\\fruit\\77\\0.png",
+   "category": "77",
+   "class": "Pear Stone",
+   "confidence": 0.9995326995849609,
+   "margin": 0.9993910491612041,
+   "second": "Watermelon",
+   "second_conf": 0.0001416504237568006
+  },
+  {
+   "path": "validation_data\\fruit\\77\\1.png",
+   "category": "77",
+   "class": "Pear Stone",
+   "confidence": 0.9998264908790588,
+   "margin": 0.9998093705926294,
+   "second": "Watermelon",
+   "second_conf": 1.712028642941732e-05
+  },
+  {
+   "path": "validation_data\\fruit\\77\\2.png",
+   "category": "77",
+   "class": "Pear Stone",
+   "confidence": 0.9999223947525024,
+   "margin": 0.9999128018007468,
+   "second": "Pear Abate",
+   "second_conf": 9.59295175562147e-06
+  },
+  {
+   "path": "validation_data\\fruit\\77\\3.png",
+   "category": "77",
+   "class": "Pear Stone",
+   "confidence": 0.9997664093971252,
+   "margin": 0.9997483754559653,
+   "second": "Cherry Rainier",
+   "second_conf": 1.8033941159956157e-05
+  },
+  {
+   "path": "validation_data\\fruit\\77\\4.png",
+   "category": "77",
+   "class": "Pear Stone",
+   "confidence": 0.99993896484375,
+   "margin": 0.9999306080781025,
+   "second": "Pear Abate",
+   "second_conf": 8.356765647477005e-06
+  },
+  {
+   "path": "validation_data\\fruit\\78\\0.png",
+   "category": "78",
+   "class": "Pear Williams",
+   "confidence": 0.9999282360076904,
+   "margin": 0.9999009317507443,
+   "second": "Pear",
+   "second_conf": 2.7304256946081296e-05
+  },
+  {
+   "path": "validation_data\\fruit\\78\\1.png",
+   "category": "78",
+   "class": "Pear Williams",
+   "confidence": 0.9999767541885376,
+   "margin": 0.9999623598732796,
+   "second": "Mango",
+   "second_conf": 1.4394315257959533e-05
+  },
+  {
+   "path": "validation_data\\fruit\\78\\2.png",
+   "category": "78",
+   "class": "Pear Williams",
+   "confidence": 0.9999905824661255,
+   "margin": 0.9999890105576696,
+   "second": "Mango",
+   "second_conf": 1.5719084558440954e-06
+  },
+  {
+   "path": "validation_data\\fruit\\78\\3.png",
+   "category": "78",
+   "class": "Pear Williams",
+   "confidence": 0.9999730587005615,
+   "margin": 0.9999584916949971,
+   "second": "Mango",
+   "second_conf": 1.4567005564458668e-05
+  },
+  {
+   "path": "validation_data\\fruit\\78\\4.png",
+   "category": "78",
+   "class": "Pear Williams",
+   "confidence": 0.9999867677688599,
+   "margin": 0.9999839204222098,
+   "second": "Limes",
+   "second_conf": 2.847346650014515e-06
+  },
+  {
+   "path": "validation_data\\fruit\\79\\0.png",
+   "category": "79",
+   "class": "Pepino",
+   "confidence": 0.999970555305481,
+   "margin": 0.9999668628397558,
+   "second": "Cherry Rainier",
+   "second_conf": 3.6924657251802273e-06
+  },
+  {
+   "path": "validation_data\\fruit\\79\\1.png",
+   "category": "79",
+   "class": "Pepino",
+   "confidence": 0.9999434947967529,
+   "margin": 0.9999308183960238,
+   "second": "Pear",
+   "second_conf": 1.2676400729105808e-05
+  },
+  {
+   "path": "validation_data\\fruit\\79\\2.png",
+   "category": "79",
+   "class": "Pepino",
+   "confidence": 0.9999877214431763,
+   "margin": 0.9999853863159842,
+   "second": "Cherry Rainier",
+   "second_conf": 2.3351271920546424e-06
+  },
+  {
+   "path": "validation_data\\fruit\\79\\3.png",
+   "category": "79",
+   "class": "Pepino",
+   "confidence": 0.9999449253082275,
+   "margin": 0.9999348167129938,
+   "second": "Pear",
+   "second_conf": 1.0108595233759843e-05
+  },
+  {
+   "path": "validation_data\\fruit\\79\\4.png",
+   "category": "79",
+   "class": "Pepino",
+   "confidence": 0.9999774694442749,
+   "margin": 0.9999716031038588,
+   "second": "Cherry Rainier",
+   "second_conf": 5.866340416105231e-06
+  },
+  {
+   "path": "validation_data\\fruit\\8\\0.png",
+   "category": "8",
+   "class": "Apricot",
+   "confidence": 0.9965215921401978,
+   "margin": 0.9931435596663505,
+   "second": "Peach",
+   "second_conf": 0.00337803247384727
+  },
+  {
+   "path": "validation_data\\fruit\\8\\1.png",
+   "category": "8",
+   "class": "Apricot",
+   "confidence": 0.9993207454681396,
+   "margin": 0.9989683320454787,
+   "second": "Peach",
+   "second_conf": 0.00035241342266090214
+  },
+  {
+   "path": "validation_data\\fruit\\8\\2.png",
+   "category": "8",
+   "class": "Apricot",
+   "confidence": 0.9999308586120605,
+   "margin": 0.9998961097917345,
+   "second": "Peach",
+   "second_conf": 3.4748820326058194e-05
+  },
+  {
+   "path": "validation_data\\fruit\\8\\3.png",
+   "category": "8",
+   "class": "Apricot",
+   "confidence": 0.9997460246086121,
+   "margin": 0.9995311921957182,
+   "second": "Peach",
+   "second_conf": 0.00021483241289388388
+  },
+  {
+   "path": "validation_data\\fruit\\8\\4.png",
+   "category": "8",
+   "class": "Apricot",
+   "confidence": 0.999394416809082,
+   "margin": 0.99882903782418,
+   "second": "Peach",
+   "second_conf": 0.0005653789849020541
+  },
+  {
+   "path": "validation_data\\fruit\\80\\0.png",
+   "category": "80",
+   "class": "Pepper Green",
+   "confidence": 0.9997885823249817,
+   "margin": 0.9995917272462975,
+   "second": "Pepper Red",
+   "second_conf": 0.00019685507868416607
+  },
+  {
+   "path": "validation_data\\fruit\\80\\1.png",
+   "category": "80",
+   "class": "Pepper Green",
+   "confidence": 0.999832272529602,
+   "margin": 0.9996738888439722,
+   "second": "Pepper Red",
+   "second_conf": 0.00015838368562981486
+  },
+  {
+   "path": "validation_data\\fruit\\80\\2.png",
+   "category": "80",
+   "class": "Pepper Green",
+   "confidence": 0.9998501539230347,
+   "margin": 0.9997140479681548,
+   "second": "Pepper Red",
+   "second_conf": 0.00013610595487989485
+  },
+  {
+   "path": "validation_data\\fruit\\80\\3.png",
+   "category": "80",
+   "class": "Pepper Green",
+   "confidence": 0.9999316930770874,
+   "margin": 0.9998736087145517,
+   "second": "Pepper Red",
+   "second_conf": 5.8084362535737455e-05
+  },
+  {
+   "path": "validation_data\\fruit\\80\\4.png",
+   "category": "80",
+   "class": "Pepper Green",
+   "confidence": 0.9996017813682556,
+   "margin": 0.9992193148937076,
+   "second": "Pepper Red",
+   "second_conf": 0.0003824664745479822
+  },
+  {
+   "path": "validation_data\\fruit\\81\\0.png",
+   "category": "81",
+   "class": "Pepper Orange",
+   "confidence": 0.9997207522392273,
+   "margin": 0.9996026392473141,
+   "second": "Pepper Yellow",
+   "second_conf": 0.00011811299191322178
+  },
+  {
+   "path": "validation_data\\fruit\\81\\1.png",
+   "category": "81",
+   "class": "Pepper Orange",
+   "confidence": 0.9998334646224976,
+   "margin": 0.9997745717555517,
+   "second": "Pepper Yellow",
+   "second_conf": 5.889286694582552e-05
+  },
+  {
+   "path": "validation_data\\fruit\\81\\2.png",
+   "category": "81",
+   "class": "Pepper Orange",
+   "confidence": 0.9985815286636353,
+   "margin": 0.9978510188520886,
+   "second": "Pepper Yellow",
+   "second_conf": 0.0007305098115466535
+  },
+  {
+   "path": "validation_data\\fruit\\81\\3.png",
+   "category": "81",
+   "class": "Pepper Orange",
+   "confidence": 0.7926821708679199,
+   "margin": 0.5889225602149963,
+   "second": "Pepper Yellow",
+   "second_conf": 0.20375961065292358
+  },
+  {
+   "path": "validation_data\\fruit\\81\\4.png",
+   "category": "81",
+   "class": "Pepper Orange",
+   "confidence": 0.9335482716560364,
+   "margin": 0.8687123134732246,
+   "second": "Pepper Yellow",
+   "second_conf": 0.06483595818281174
+  },
+  {
+   "path": "validation_data\\fruit\\82\\0.png",
+   "category": "82",
+   "class": "Pepper Red",
+   "confidence": 0.9999411106109619,
+   "margin": 0.9999056702909002,
+   "second": "Pepper Green",
+   "second_conf": 3.544032006175257e-05
+  },
+  {
+   "path": "validation_data\\fruit\\82\\1.png",
+   "category": "82",
+   "class": "Pepper Red",
+   "confidence": 0.9999464750289917,
+   "margin": 0.9999121421678865,
+   "second": "Pepper Green",
+   "second_conf": 3.433286110521294e-05
+  },
+  {
+   "path": "validation_data\\fruit\\82\\2.png",
+   "category": "82",
+   "class": "Pepper Red",
+   "confidence": 0.999983549118042,
+   "margin": 0.9999728415350546,
+   "second": "Pepper Green",
+   "second_conf": 1.0707582987379283e-05
+  },
+  {
+   "path": "validation_data\\fruit\\82\\3.png",
+   "category": "82",
+   "class": "Pepper Red",
+   "confidence": 0.9999847412109375,
+   "margin": 0.9999755112503408,
+   "second": "Pepper Green",
+   "second_conf": 9.229960596712772e-06
+  },
+  {
+   "path": "validation_data\\fruit\\82\\4.png",
+   "category": "82",
+   "class": "Pepper Red",
+   "confidence": 0.9999873638153076,
+   "margin": 0.999980794005296,
+   "second": "Pepper Green",
+   "second_conf": 6.569810011569643e-06
+  },
+  {
+   "path": "validation_data\\fruit\\83\\0.png",
+   "category": "83",
+   "class": "Pepper Yellow",
+   "confidence": 0.9983524084091187,
+   "margin": 0.9977672728709877,
+   "second": "Pepper Red",
+   "second_conf": 0.0005851355381309986
+  },
+  {
+   "path": "validation_data\\fruit\\83\\1.png",
+   "category": "83",
+   "class": "Pepper Yellow",
+   "confidence": 0.9996458292007446,
+   "margin": 0.9993077327380888,
+   "second": "Carambula",
+   "second_conf": 0.0003380964626558125
+  },
+  {
+   "path": "validation_data\\fruit\\83\\2.png",
+   "category": "83",
+   "class": "Pepper Yellow",
+   "confidence": 0.9986249208450317,
+   "margin": 0.9980918387300335,
+   "second": "Pepper Red",
+   "second_conf": 0.0005330821149982512
+  },
+  {
+   "path": "validation_data\\fruit\\83\\3.png",
+   "category": "83",
+   "class": "Pepper Yellow",
+   "confidence": 0.999683141708374,
+   "margin": 0.999410520773381,
+   "second": "Carambula",
+   "second_conf": 0.00027262093499302864
+  },
+  {
+   "path": "validation_data\\fruit\\83\\4.png",
+   "category": "83",
+   "class": "Pepper Yellow",
+   "confidence": 0.9999637603759766,
+   "margin": 0.9999416904029204,
+   "second": "Carambula",
+   "second_conf": 2.2069973056204617e-05
+  },
+  {
+   "path": "validation_data\\fruit\\84\\0.png",
+   "category": "84",
+   "class": "Physalis",
+   "confidence": 0.99992835521698,
+   "margin": 0.9999212693182926,
+   "second": "Cherry Wax Yellow",
+   "second_conf": 7.0858986873645335e-06
+  },
+  {
+   "path": "validation_data\\fruit\\84\\1.png",
+   "category": "84",
+   "class": "Physalis",
+   "confidence": 0.9999184608459473,
+   "margin": 0.9999058017847346,
+   "second": "Carambula",
+   "second_conf": 1.2659061212616507e-05
+  },
+  {
+   "path": "validation_data\\fruit\\84\\2.png",
+   "category": "84",
+   "class": "Physalis",
+   "confidence": 0.9999756813049316,
+   "margin": 0.9999722786362781,
+   "second": "Cherry Wax Yellow",
+   "second_conf": 3.402668653507135e-06
+  },
+  {
+   "path": "validation_data\\fruit\\84\\3.png",
+   "category": "84",
+   "class": "Physalis",
+   "confidence": 0.9999454021453857,
+   "margin": 0.9999330927230403,
+   "second": "Cherry Wax Yellow",
+   "second_conf": 1.2309422345424537e-05
+  },
+  {
+   "path": "validation_data\\fruit\\84\\4.png",
+   "category": "84",
+   "class": "Physalis",
+   "confidence": 0.9999700784683228,
+   "margin": 0.9999645974266969,
+   "second": "Cherry Wax Yellow",
+   "second_conf": 5.481041625898797e-06
+  },
+  {
+   "path": "validation_data\\fruit\\85\\0.png",
+   "category": "85",
+   "class": "Physalis with Husk",
+   "confidence": 0.9999363422393799,
+   "margin": 0.9999164537530305,
+   "second": "Carambula",
+   "second_conf": 1.9888486349373125e-05
+  },
+  {
+   "path": "validation_data\\fruit\\85\\1.png",
+   "category": "85",
+   "class": "Physalis with Husk",
+   "confidence": 0.9999221563339233,
+   "margin": 0.9998972128396417,
+   "second": "Carambula",
+   "second_conf": 2.494349428161513e-05
+  },
+  {
+   "path": "validation_data\\fruit\\85\\2.png",
+   "category": "85",
+   "class": "Physalis with Husk",
+   "confidence": 0.9999266862869263,
+   "margin": 0.9999151583588173,
+   "second": "Grape White",
+   "second_conf": 1.1527928108989727e-05
+  },
+  {
+   "path": "validation_data\\fruit\\85\\3.png",
+   "category": "85",
+   "class": "Physalis with Husk",
+   "confidence": 0.9998977184295654,
+   "margin": 0.9998470875761996,
+   "second": "Carambula",
+   "second_conf": 5.063085336587392e-05
+  },
+  {
+   "path": "validation_data\\fruit\\85\\4.png",
+   "category": "85",
+   "class": "Physalis with Husk",
+   "confidence": 0.9999256134033203,
+   "margin": 0.999898866220974,
+   "second": "Grape White",
+   "second_conf": 2.674718234629836e-05
+  },
+  {
+   "path": "validation_data\\fruit\\86\\0.png",
+   "category": "86",
+   "class": "Pineapple",
+   "confidence": 0.9998310804367065,
+   "margin": 0.999794514504174,
+   "second": "Pitahaya Red",
+   "second_conf": 3.656593253253959e-05
+  },
+  {
+   "path": "validation_data\\fruit\\86\\1.png",
+   "category": "86",
+   "class": "Pineapple",
+   "confidence": 0.9999589920043945,
+   "margin": 0.9999515704776059,
+   "second": "Pitahaya Red",
+   "second_conf": 7.421526788675692e-06
+  },
+  {
+   "path": "validation_data\\fruit\\86\\2.png",
+   "category": "86",
+   "class": "Pineapple",
+   "confidence": 0.9998779296875,
+   "margin": 0.9998548598796333,
+   "second": "Pitahaya Red",
+   "second_conf": 2.306980786670465e-05
+  },
+  {
+   "path": "validation_data\\fruit\\86\\3.png",
+   "category": "86",
+   "class": "Pineapple",
+   "confidence": 0.9999723434448242,
+   "margin": 0.9999654434132026,
+   "second": "Pitahaya Red",
+   "second_conf": 6.900031621626113e-06
+  },
+  {
+   "path": "validation_data\\fruit\\86\\4.png",
+   "category": "86",
+   "class": "Pineapple",
+   "confidence": 0.9999575614929199,
+   "margin": 0.9999504466827602,
+   "second": "Pitahaya Red",
+   "second_conf": 7.114810159691842e-06
+  },
+  {
+   "path": "validation_data\\fruit\\87\\0.png",
+   "category": "87",
+   "class": "Pineapple Mini",
+   "confidence": 0.9999595880508423,
+   "margin": 0.9999539580489909,
+   "second": "Pear Abate",
+   "second_conf": 5.6300018513866235e-06
+  },
+  {
+   "path": "validation_data\\fruit\\87\\1.png",
+   "category": "87",
+   "class": "Pineapple Mini",
+   "confidence": 0.9999724626541138,
+   "margin": 0.999961885767334,
+   "second": "Onion White",
+   "second_conf": 1.057688677974511e-05
+  },
+  {
+   "path": "validation_data\\fruit\\87\\2.png",
+   "category": "87",
+   "class": "Pineapple Mini",
+   "confidence": 0.9998131394386292,
+   "margin": 0.9997561884374591,
+   "second": "Onion White",
+   "second_conf": 5.695100117009133e-05
+  },
+  {
+   "path": "validation_data\\fruit\\87\\3.png",
+   "category": "87",
+   "class": "Pineapple Mini",
+   "confidence": 0.9999645948410034,
+   "margin": 0.9999545976234003,
+   "second": "Onion White",
+   "second_conf": 9.997217603086028e-06
+  },
+  {
+   "path": "validation_data\\fruit\\87\\4.png",
+   "category": "87",
+   "class": "Pineapple Mini",
+   "confidence": 0.9999792575836182,
+   "margin": 0.9999739010904705,
+   "second": "Onion White",
+   "second_conf": 5.356493147701258e-06
+  },
+  {
+   "path": "validation_data\\fruit\\88\\0.png",
+   "category": "88",
+   "class": "Pitahaya Red",
+   "confidence": 0.9999814033508301,
+   "margin": 0.999979056233542,
+   "second": "Pear",
+   "second_conf": 2.3471172880817903e-06
+  },
+  {
+   "path": "validation_data\\fruit\\88\\1.png",
+   "category": "88",
+   "class": "Pitahaya Red",
+   "confidence": 0.9999790191650391,
+   "margin": 0.9999770133806578,
+   "second": "Cauliflower",
+   "second_conf": 2.0057843812537612e-06
+  },
+  {
+   "path": "validation_data\\fruit\\88\\2.png",
+   "category": "88",
+   "class": "Pitahaya Red",
+   "confidence": 0.9999892711639404,
+   "margin": 0.9999882734866787,
+   "second": "Cauliflower",
+   "second_conf": 9.976772616937524e-07
+  },
+  {
+   "path": "validation_data\\fruit\\88\\3.png",
+   "category": "88",
+   "class": "Pitahaya Red",
+   "confidence": 0.9999885559082031,
+   "margin": 0.9999871924907211,
+   "second": "Onion Red Peeled",
+   "second_conf": 1.3634174820253975e-06
+  },
+  {
+   "path": "validation_data\\fruit\\88\\4.png",
+   "category": "88",
+   "class": "Pitahaya Red",
+   "confidence": 0.9999895095825195,
+   "margin": 0.9999883628561292,
+   "second": "Pear",
+   "second_conf": 1.146726390288677e-06
+  },
+  {
+   "path": "validation_data\\fruit\\89\\0.png",
+   "category": "89",
+   "class": "Plum",
+   "confidence": 0.9999896287918091,
+   "margin": 0.9999860699308556,
+   "second": "Grape Blue",
+   "second_conf": 3.558860953489784e-06
+  },
+  {
+   "path": "validation_data\\fruit\\89\\1.png",
+   "category": "89",
+   "class": "Plum",
+   "confidence": 0.9999978542327881,
+   "margin": 0.9999972893795643,
+   "second": "Blueberry",
+   "second_conf": 5.648532237501058e-07
+  },
+  {
+   "path": "validation_data\\fruit\\89\\2.png",
+   "category": "89",
+   "class": "Plum",
+   "confidence": 0.9999977350234985,
+   "margin": 0.9999974362588091,
+   "second": "Fig",
+   "second_conf": 2.987646894325735e-07
+  },
+  {
+   "path": "validation_data\\fruit\\89\\3.png",
+   "category": "89",
+   "class": "Plum",
+   "confidence": 0.9999970197677612,
+   "margin": 0.9999964748512866,
+   "second": "Grape Blue",
+   "second_conf": 5.449164746096358e-07
+  },
+  {
+   "path": "validation_data\\fruit\\89\\4.png",
+   "category": "89",
+   "class": "Plum",
+   "confidence": 0.9999986886978149,
+   "margin": 0.9999980334460474,
+   "second": "Blueberry",
+   "second_conf": 6.552517675117997e-07
+  },
+  {
+   "path": "validation_data\\fruit\\9\\0.png",
+   "category": "9",
+   "class": "Avocado",
+   "confidence": 0.9999128580093384,
+   "margin": 0.9998986101172704,
+   "second": "Mango",
+   "second_conf": 1.4247892067942303e-05
+  },
+  {
+   "path": "validation_data\\fruit\\9\\1.png",
+   "category": "9",
+   "class": "Avocado",
+   "confidence": 0.999782145023346,
+   "margin": 0.9997377527142817,
+   "second": "Guava",
+   "second_conf": 4.439230906427838e-05
+  },
+  {
+   "path": "validation_data\\fruit\\9\\2.png",
+   "category": "9",
+   "class": "Avocado",
+   "confidence": 0.9999309778213501,
+   "margin": 0.9999127529772522,
+   "second": "Mango",
+   "second_conf": 1.8224844097858295e-05
+  },
+  {
+   "path": "validation_data\\fruit\\9\\3.png",
+   "category": "9",
+   "class": "Avocado",
+   "confidence": 0.9999232292175293,
+   "margin": 0.9999028334423201,
+   "second": "Melon Piel de Sapo",
+   "second_conf": 2.039577520918101e-05
+  },
+  {
+   "path": "validation_data\\fruit\\9\\4.png",
+   "category": "9",
+   "class": "Avocado",
+   "confidence": 0.9999074935913086,
+   "margin": 0.9998930103729435,
+   "second": "Mango",
+   "second_conf": 1.4483218365057837e-05
+  },
+  {
+   "path": "validation_data\\fruit\\90\\0.png",
+   "category": "90",
+   "class": "Pomegranate",
+   "confidence": 0.9928699135780334,
+   "margin": 0.987024565692991,
+   "second": "Apple Red",
+   "second_conf": 0.005845347885042429
+  },
+  {
+   "path": "validation_data\\fruit\\90\\1.png",
+   "category": "90",
+   "class": "Pomegranate",
+   "confidence": 0.9965360164642334,
+   "margin": 0.993929935619235,
+   "second": "Apple Red",
+   "second_conf": 0.0026060808449983597
+  },
+  {
+   "path": "validation_data\\fruit\\90\\2.png",
+   "category": "90",
+   "class": "Pomegranate",
+   "confidence": 0.9996622800827026,
+   "margin": 0.9995466658583609,
+   "second": "Apple Red Delicious",
+   "second_conf": 0.00011561422434169799
+  },
+  {
+   "path": "validation_data\\fruit\\90\\3.png",
+   "category": "90",
+   "class": "Pomegranate",
+   "confidence": 0.999494194984436,
+   "margin": 0.9993646172370063,
+   "second": "Apple Red Delicious",
+   "second_conf": 0.00012957774742972106
+  },
+  {
+   "path": "validation_data\\fruit\\90\\4.png",
+   "category": "90",
+   "class": "Pomegranate",
+   "confidence": 0.9999167919158936,
+   "margin": 0.9998998461069277,
+   "second": "Apple Red Delicious",
+   "second_conf": 1.69458089658292e-05
+  },
+  {
+   "path": "validation_data\\fruit\\91\\0.png",
+   "category": "91",
+   "class": "Pomelo Sweetie",
+   "confidence": 0.9999898672103882,
+   "margin": 0.9999850417639209,
+   "second": "Limes",
+   "second_conf": 4.825446467293659e-06
+  },
+  {
+   "path": "validation_data\\fruit\\91\\1.png",
+   "category": "91",
+   "class": "Pomelo Sweetie",
+   "confidence": 0.999997615814209,
+   "margin": 0.9999970925842945,
+   "second": "Pear Monster",
+   "second_conf": 5.232299145063735e-07
+  },
+  {
+   "path": "validation_data\\fruit\\91\\2.png",
+   "category": "91",
+   "class": "Pomelo Sweetie",
+   "confidence": 0.9999961853027344,
+   "margin": 0.9999957168969047,
+   "second": "Guava",
+   "second_conf": 4.684058296788862e-07
+  },
+  {
+   "path": "validation_data\\fruit\\91\\3.png",
+   "category": "91",
+   "class": "Pomelo Sweetie",
+   "confidence": 0.9999935626983643,
+   "margin": 0.9999928487091552,
+   "second": "Guava",
+   "second_conf": 7.139892090890498e-07
+  },
+  {
+   "path": "validation_data\\fruit\\91\\4.png",
+   "category": "91",
+   "class": "Pomelo Sweetie",
+   "confidence": 0.99998939037323,
+   "margin": 0.9999859397375985,
+   "second": "Guava",
+   "second_conf": 3.4506356314523146e-06
+  },
+  {
+   "path": "validation_data\\fruit\\92\\0.png",
+   "category": "92",
+   "class": "Potato Red",
+   "confidence": 0.9998825788497925,
+   "margin": 0.9998091057350393,
+   "second": "Potato Sweet",
+   "second_conf": 7.3473114753142e-05
+  },
+  {
+   "path": "validation_data\\fruit\\92\\1.png",
+   "category": "92",
+   "class": "Potato Red",
+   "confidence": 0.9998248219490051,
+   "margin": 0.9996974924724782,
+   "second": "Onion Red",
+   "second_conf": 0.00012732947652693838
+  },
+  {
+   "path": "validation_data\\fruit\\92\\2.png",
+   "category": "92",
+   "class": "Potato Red",
+   "confidence": 0.986615777015686,
+   "margin": 0.9753089938312769,
+   "second": "Apple Pink Lady",
+   "second_conf": 0.011306783184409142
+  },
+  {
+   "path": "validation_data\\fruit\\92\\3.png",
+   "category": "92",
+   "class": "Potato Red",
+   "confidence": 0.9997798800468445,
+   "margin": 0.9995892199949594,
+   "second": "Potato Sweet",
+   "second_conf": 0.00019066005188506097
+  },
+  {
+   "path": "validation_data\\fruit\\92\\4.png",
+   "category": "92",
+   "class": "Potato Red",
+   "confidence": 0.9999096393585205,
+   "margin": 0.9998469699276029,
+   "second": "Potato Sweet",
+   "second_conf": 6.266943091759458e-05
+  },
+  {
+   "path": "validation_data\\fruit\\93\\0.png",
+   "category": "93",
+   "class": "Potato Red Washed",
+   "confidence": 0.9998865127563477,
+   "margin": 0.9998560837429977,
+   "second": "Apple Pink Lady",
+   "second_conf": 3.0429013349930756e-05
+  },
+  {
+   "path": "validation_data\\fruit\\93\\1.png",
+   "category": "93",
+   "class": "Potato Red Washed",
+   "confidence": 0.9993721842765808,
+   "margin": 0.9991211821325123,
+   "second": "Apple Pink Lady",
+   "second_conf": 0.00025100214406847954
+  },
+  {
+   "path": "validation_data\\fruit\\93\\2.png",
+   "category": "93",
+   "class": "Potato Red Washed",
+   "confidence": 0.9997361302375793,
+   "margin": 0.9996391264503472,
+   "second": "Onion Red",
+   "second_conf": 9.700378723209724e-05
+  },
+  {
+   "path": "validation_data\\fruit\\93\\3.png",
+   "category": "93",
+   "class": "Potato Red Washed",
+   "confidence": 0.9604443907737732,
+   "margin": 0.9310659468173981,
+   "second": "Onion Red",
+   "second_conf": 0.029378443956375122
+  },
+  {
+   "path": "validation_data\\fruit\\93\\4.png",
+   "category": "93",
+   "class": "Potato Red Washed",
+   "confidence": 0.9999816417694092,
+   "margin": 0.999977159406626,
+   "second": "Pomegranate",
+   "second_conf": 4.482362783164717e-06
+  },
+  {
+   "path": "validation_data\\fruit\\94\\0.png",
+   "category": "94",
+   "class": "Potato Sweet",
+   "confidence": 0.9999711513519287,
+   "margin": 0.9999561931199423,
+   "second": "Onion White",
+   "second_conf": 1.4958231986383907e-05
+  },
+  {
+   "path": "validation_data\\fruit\\94\\1.png",
+   "category": "94",
+   "class": "Potato Sweet",
+   "confidence": 0.999774158000946,
+   "margin": 0.9996976323236595,
+   "second": "Onion White",
+   "second_conf": 7.652567728655413e-05
+  },
+  {
+   "path": "validation_data\\fruit\\94\\2.png",
+   "category": "94",
+   "class": "Potato Sweet",
+   "confidence": 0.9999704360961914,
+   "margin": 0.9999632622721037,
+   "second": "Peach",
+   "second_conf": 7.173824087658431e-06
+  },
+  {
+   "path": "validation_data\\fruit\\94\\3.png",
+   "category": "94",
+   "class": "Potato Sweet",
+   "confidence": 0.9966296553611755,
+   "margin": 0.9945574719458818,
+   "second": "Ginger Root",
+   "second_conf": 0.0020721834152936935
+  },
+  {
+   "path": "validation_data\\fruit\\94\\4.png",
+   "category": "94",
+   "class": "Potato Sweet",
+   "confidence": 0.9999632835388184,
+   "margin": 0.999954854491989,
+   "second": "Peach",
+   "second_conf": 8.429046829405706e-06
+  },
+  {
+   "path": "validation_data\\fruit\\95\\0.png",
+   "category": "95",
+   "class": "Potato White",
+   "confidence": 0.999427318572998,
+   "margin": 0.9992134151980281,
+   "second": "Onion White",
+   "second_conf": 0.00021390337496995926
+  },
+  {
+   "path": "validation_data\\fruit\\95\\1.png",
+   "category": "95",
+   "class": "Potato White",
+   "confidence": 0.9999673366546631,
+   "margin": 0.9999615653910041,
+   "second": "Onion White",
+   "second_conf": 5.771263658971293e-06
+  },
+  {
+   "path": "validation_data\\fruit\\95\\2.png",
+   "category": "95",
+   "class": "Potato White",
+   "confidence": 0.9977854490280151,
+   "margin": 0.9967665221774951,
+   "second": "Onion White",
+   "second_conf": 0.0010189268505200744
+  },
+  {
+   "path": "validation_data\\fruit\\95\\3.png",
+   "category": "95",
+   "class": "Potato White",
+   "confidence": 0.9980966448783875,
+   "margin": 0.9974300950416364,
+   "second": "Onion White",
+   "second_conf": 0.0006665498367510736
+  },
+  {
+   "path": "validation_data\\fruit\\95\\4.png",
+   "category": "95",
+   "class": "Potato White",
+   "confidence": 0.9987185001373291,
+   "margin": 0.9976414056727663,
+   "second": "Onion White",
+   "second_conf": 0.0010770944645628333
+  },
+  {
+   "path": "validation_data\\fruit\\96\\0.png",
+   "category": "96",
+   "class": "Quince",
+   "confidence": 0.9991182684898376,
+   "margin": 0.9982687077717856,
+   "second": "Carambula",
+   "second_conf": 0.0008495607180520892
+  },
+  {
+   "path": "validation_data\\fruit\\96\\1.png",
+   "category": "96",
+   "class": "Quince",
+   "confidence": 0.9997230172157288,
+   "margin": 0.9994833850068972,
+   "second": "Carambula",
+   "second_conf": 0.0002396322088316083
+  },
+  {
+   "path": "validation_data\\fruit\\96\\2.png",
+   "category": "96",
+   "class": "Quince",
+   "confidence": 0.9999380111694336,
+   "margin": 0.9999109853997652,
+   "second": "Carambula",
+   "second_conf": 2.7025769668398425e-05
+  },
+  {
+   "path": "validation_data\\fruit\\96\\3.png",
+   "category": "96",
+   "class": "Quince",
+   "confidence": 0.9999381303787231,
+   "margin": 0.9999110307908268,
+   "second": "Carambula",
+   "second_conf": 2.7099587896373123e-05
+  },
+  {
+   "path": "validation_data\\fruit\\96\\4.png",
+   "category": "96",
+   "class": "Quince",
+   "confidence": 0.9998631477355957,
+   "margin": 0.9998034525233379,
+   "second": "Pear Monster",
+   "second_conf": 5.969521225779317e-05
+  },
+  {
+   "path": "validation_data\\fruit\\97\\0.png",
+   "category": "97",
+   "class": "Rambutan",
+   "confidence": 0.9999281167984009,
+   "margin": 0.9999166652823988,
+   "second": "Apple Red Delicious",
+   "second_conf": 1.1451516002125572e-05
+  },
+  {
+   "path": "validation_data\\fruit\\97\\1.png",
+   "category": "97",
+   "class": "Rambutan",
+   "confidence": 0.9996949434280396,
+   "margin": 0.9996503315924201,
+   "second": "Apple Red Delicious",
+   "second_conf": 4.4611835619434714e-05
+  },
+  {
+   "path": "validation_data\\fruit\\97\\2.png",
+   "category": "97",
+   "class": "Rambutan",
+   "confidence": 0.9998528957366943,
+   "margin": 0.9998310308437794,
+   "second": "Apple Red Delicious",
+   "second_conf": 2.1864892914891243e-05
+  },
+  {
+   "path": "validation_data\\fruit\\97\\3.png",
+   "category": "97",
+   "class": "Rambutan",
+   "confidence": 0.9997374415397644,
+   "margin": 0.9996941441459057,
+   "second": "Apple Red Delicious",
+   "second_conf": 4.32973938586656e-05
+  },
+  {
+   "path": "validation_data\\fruit\\97\\4.png",
+   "category": "97",
+   "class": "Rambutan",
+   "confidence": 0.9999555349349976,
+   "margin": 0.9999472468516615,
+   "second": "Apple Red Delicious",
+   "second_conf": 8.288083336083218e-06
+  },
+  {
+   "path": "validation_data\\fruit\\98\\0.png",
+   "category": "98",
+   "class": "Raspberry",
+   "confidence": 0.9998663663864136,
+   "margin": 0.9998477540229942,
+   "second": "Mulberry",
+   "second_conf": 1.8612363419379108e-05
+  },
+  {
+   "path": "validation_data\\fruit\\98\\1.png",
+   "category": "98",
+   "class": "Raspberry",
+   "confidence": 0.999924898147583,
+   "margin": 0.9999118885143616,
+   "second": "Onion Red Peeled",
+   "second_conf": 1.3009633221372496e-05
+  },
+  {
+   "path": "validation_data\\fruit\\98\\2.png",
+   "category": "98",
+   "class": "Raspberry",
+   "confidence": 0.9998886585235596,
+   "margin": 0.999874465155699,
+   "second": "Mulberry",
+   "second_conf": 1.4193367860571016e-05
+  },
+  {
+   "path": "validation_data\\fruit\\98\\3.png",
+   "category": "98",
+   "class": "Raspberry",
+   "confidence": 0.9999232292175293,
+   "margin": 0.9999143209943213,
+   "second": "Onion Red Peeled",
+   "second_conf": 8.908223207981791e-06
+  },
+  {
+   "path": "validation_data\\fruit\\98\\4.png",
+   "category": "98",
+   "class": "Raspberry",
+   "confidence": 0.9998611211776733,
+   "margin": 0.9998415564496099,
+   "second": "Onion Red Peeled",
+   "second_conf": 1.9564728063414805e-05
+  },
+  {
+   "path": "validation_data\\fruit\\99\\0.png",
+   "category": "99",
+   "class": "Redcurrant",
+   "confidence": 0.9998998641967773,
+   "margin": 0.9998786042360734,
+   "second": "Tomato Cherry Red",
+   "second_conf": 2.1259960703901015e-05
+  },
+  {
+   "path": "validation_data\\fruit\\99\\1.png",
+   "category": "99",
+   "class": "Redcurrant",
+   "confidence": 0.9997033476829529,
+   "margin": 0.9996512094185164,
+   "second": "Pitahaya Red",
+   "second_conf": 5.21382644365076e-05
+  },
+  {
+   "path": "validation_data\\fruit\\99\\2.png",
+   "category": "99",
+   "class": "Redcurrant",
+   "confidence": 0.9998094439506531,
+   "margin": 0.999770472128148,
+   "second": "Tomato Cherry Red",
+   "second_conf": 3.8971822505118325e-05
+  },
+  {
+   "path": "validation_data\\fruit\\99\\3.png",
+   "category": "99",
+   "class": "Redcurrant",
+   "confidence": 0.9998522996902466,
+   "margin": 0.9998233226269804,
+   "second": "Cherry Rainier",
+   "second_conf": 2.897706326621119e-05
+  },
+  {
+   "path": "validation_data\\fruit\\99\\4.png",
+   "category": "99",
+   "class": "Redcurrant",
+   "confidence": 0.9998180270195007,
+   "margin": 0.9997707388938579,
+   "second": "Onion Red Peeled",
+   "second_conf": 4.7288125642808154e-05
+  }
+ ],
+ "nonfruit": [
+  {
+   "path": "validation_data\\nonfruit\\airplane\\0.png",
+   "category": "airplane",
+   "class": "Corn Husk",
+   "confidence": 0.046497978270053864,
+   "margin": 0.018491096794605255,
+   "second": "Mangostan",
+   "second_conf": 0.02800688147544861
+  },
+  {
+   "path": "validation_data\\nonfruit\\airplane\\1.png",
+   "category": "airplane",
+   "class": "Granadilla",
+   "confidence": 0.08599836379289627,
+   "margin": 0.03814119100570679,
+   "second": "Clementine",
+   "second_conf": 0.047857172787189484
+  },
+  {
+   "path": "validation_data\\nonfruit\\airplane\\2.png",
+   "category": "airplane",
+   "class": "Corn Husk",
+   "confidence": 0.02707495540380478,
+   "margin": 0.004013696685433388,
+   "second": "Pear Abate",
+   "second_conf": 0.02306125871837139
+  },
+  {
+   "path": "validation_data\\nonfruit\\airplane\\3.png",
+   "category": "airplane",
+   "class": "Lemon Meyer",
+   "confidence": 0.03794291615486145,
+   "margin": 0.013948330655694008,
+   "second": "Potato Red",
+   "second_conf": 0.023994585499167442
+  },
+  {
+   "path": "validation_data\\nonfruit\\airplane\\4.png",
+   "category": "airplane",
+   "class": "Corn Husk",
+   "confidence": 0.053951822221279144,
+   "margin": 0.026205262169241905,
+   "second": "Pear Monster",
+   "second_conf": 0.02774656005203724
+  },
+  {
+   "path": "validation_data\\nonfruit\\airplane\\5.png",
+   "category": "airplane",
+   "class": "Pear Abate",
+   "confidence": 0.04093732684850693,
+   "margin": 0.014419600367546082,
+   "second": "Pear",
+   "second_conf": 0.026517726480960846
+  },
+  {
+   "path": "validation_data\\nonfruit\\airplane\\6.png",
+   "category": "airplane",
+   "class": "Corn Husk",
+   "confidence": 0.04150942713022232,
+   "margin": 0.01721588708460331,
+   "second": "Avocado",
+   "second_conf": 0.02429354004561901
+  },
+  {
+   "path": "validation_data\\nonfruit\\airplane\\7.png",
+   "category": "airplane",
+   "class": "Grape Blue",
+   "confidence": 0.031282052397727966,
+   "margin": 0.0032255221158266068,
+   "second": "Corn Husk",
+   "second_conf": 0.02805653028190136
+  },
+  {
+   "path": "validation_data\\nonfruit\\airplane\\8.png",
+   "category": "airplane",
+   "class": "Pitahaya Red",
+   "confidence": 0.0651676282286644,
+   "margin": 0.0282457135617733,
+   "second": "Avocado",
+   "second_conf": 0.0369219146668911
+  },
+  {
+   "path": "validation_data\\nonfruit\\airplane\\9.png",
+   "category": "airplane",
+   "class": "Pear",
+   "confidence": 0.036785878241062164,
+   "margin": 0.004325494170188904,
+   "second": "Lemon",
+   "second_conf": 0.03246038407087326
+  },
+  {
+   "path": "validation_data\\nonfruit\\bicycle\\0.png",
+   "category": "bicycle",
+   "class": "Tomato Yellow",
+   "confidence": 0.02703411504626274,
+   "margin": 0.0014995839446783066,
+   "second": "Lychee",
+   "second_conf": 0.025534531101584435
+  },
+  {
+   "path": "validation_data\\nonfruit\\bicycle\\1.png",
+   "category": "bicycle",
+   "class": "Lychee",
+   "confidence": 0.02787611447274685,
+   "margin": 0.006352948024868965,
+   "second": "Apple Red",
+   "second_conf": 0.021523166447877884
+  },
+  {
+   "path": "validation_data\\nonfruit\\bicycle\\2.png",
+   "category": "bicycle",
+   "class": "Lychee",
+   "confidence": 0.028733698651194572,
+   "margin": 0.006433036178350449,
+   "second": "Passion Fruit",
+   "second_conf": 0.022300662472844124
+  },
+  {
+   "path": "validation_data\\nonfruit\\bicycle\\3.png",
+   "category": "bicycle",
+   "class": "Melon Piel de Sapo",
+   "confidence": 0.1630905419588089,
+   "margin": 0.11741236597299576,
+   "second": "Onion Red",
+   "second_conf": 0.04567817598581314
+  },
+  {
+   "path": "validation_data\\nonfruit\\bicycle\\4.png",
+   "category": "bicycle",
+   "class": "Apricot",
+   "confidence": 0.03782944008708,
+   "margin": 0.0025324448943138123,
+   "second": "Apple Braeburn",
+   "second_conf": 0.03529699519276619
+  },
+  {
+   "path": "validation_data\\nonfruit\\bicycle\\5.png",
+   "category": "bicycle",
+   "class": "Pepper Red",
+   "confidence": 0.036702483892440796,
+   "margin": 0.004505284130573273,
+   "second": "Lychee",
+   "second_conf": 0.03219719976186752
+  },
+  {
+   "path": "validation_data\\nonfruit\\bicycle\\6.png",
+   "category": "bicycle",
+   "class": "Beetroot",
+   "confidence": 0.0352095328271389,
+   "margin": 0.00024181604385375977,
+   "second": "Melon Piel de Sapo",
+   "second_conf": 0.03496771678328514
+  },
+  {
+   "path": "validation_data\\nonfruit\\bicycle\\7.png",
+   "category": "bicycle",
+   "class": "Nut Pecan",
+   "confidence": 0.05287296324968338,
+   "margin": 0.013039860874414444,
+   "second": "Passion Fruit",
+   "second_conf": 0.039833102375268936
+  },
+  {
+   "path": "validation_data\\nonfruit\\bicycle\\8.png",
+   "category": "bicycle",
+   "class": "Limes",
+   "confidence": 0.04665326699614525,
+   "margin": 0.007806550711393356,
+   "second": "Strawberry",
+   "second_conf": 0.03884671628475189
+  },
+  {
+   "path": "validation_data\\nonfruit\\bicycle\\9.png",
+   "category": "bicycle",
+   "class": "Watermelon",
+   "confidence": 0.0607440322637558,
+   "margin": 0.023242734372615814,
+   "second": "Apple Red",
+   "second_conf": 0.037501297891139984
+  },
+  {
+   "path": "validation_data\\nonfruit\\building\\0.png",
+   "category": "building",
+   "class": "Corn Husk",
+   "confidence": 0.042391277849674225,
+   "margin": 0.009895026683807373,
+   "second": "Nectarine Flat",
+   "second_conf": 0.03249625116586685
+  },
+  {
+   "path": "validation_data\\nonfruit\\building\\1.png",
+   "category": "building",
+   "class": "Kaki",
+   "confidence": 0.06553466618061066,
+   "margin": 0.008612524718046188,
+   "second": "Apple Red Yellow",
+   "second_conf": 0.05692214146256447
+  },
+  {
+   "path": "validation_data\\nonfruit\\building\\2.png",
+   "category": "building",
+   "class": "Apple Red Yellow",
+   "confidence": 0.07606203109025955,
+   "margin": 0.03556710109114647,
+   "second": "Watermelon",
+   "second_conf": 0.04049492999911308
+  },
+  {
+   "path": "validation_data\\nonfruit\\building\\3.png",
+   "category": "building",
+   "class": "Pomelo Sweetie",
+   "confidence": 0.07497106492519379,
+   "margin": 0.034650109708309174,
+   "second": "Papaya",
+   "second_conf": 0.04032095521688461
+  },
+  {
+   "path": "validation_data\\nonfruit\\building\\4.png",
+   "category": "building",
+   "class": "Pineapple Mini",
+   "confidence": 0.04174717888236046,
+   "margin": 0.007914125919342041,
+   "second": "Cantaloupe",
+   "second_conf": 0.03383305296301842
+  },
+  {
+   "path": "validation_data\\nonfruit\\building\\5.png",
+   "category": "building",
+   "class": "Apple Red",
+   "confidence": 0.030843239277601242,
+   "margin": 0.005858175456523895,
+   "second": "Apple Red Yellow",
+   "second_conf": 0.024985063821077347
+  },
+  {
+   "path": "validation_data\\nonfruit\\building\\6.png",
+   "category": "building",
+   "class": "Limes",
+   "confidence": 0.03551148623228073,
+   "margin": 0.0038718022406101227,
+   "second": "Pear Monster",
+   "second_conf": 0.03163968399167061
+  },
+  {
+   "path": "validation_data\\nonfruit\\building\\7.png",
+   "category": "building",
+   "class": "Watermelon",
+   "confidence": 0.05258318409323692,
+   "margin": 0.017834670841693878,
+   "second": "Pepper Red",
+   "second_conf": 0.034748513251543045
+  },
+  {
+   "path": "validation_data\\nonfruit\\building\\8.png",
+   "category": "building",
+   "class": "Mandarine",
+   "confidence": 0.21124298870563507,
+   "margin": 0.15999087318778038,
+   "second": "Cantaloupe",
+   "second_conf": 0.05125211551785469
+  },
+  {
+   "path": "validation_data\\nonfruit\\building\\9.png",
+   "category": "building",
+   "class": "Pear Williams",
+   "confidence": 0.02755751833319664,
+   "margin": 0.0028414204716682434,
+   "second": "Tomato",
+   "second_conf": 0.024716097861528397
+  },
+  {
+   "path": "validation_data\\nonfruit\\car\\0.png",
+   "category": "car",
+   "class": "Plum",
+   "confidence": 0.0228841844946146,
+   "margin": 0.004853883758187294,
+   "second": "Pepper Red",
+   "second_conf": 0.018030300736427307
+  },
+  {
+   "path": "validation_data\\nonfruit\\car\\1.png",
+   "category": "car",
+   "class": "Pear Red",
+   "confidence": 0.0838049128651619,
+   "margin": 0.03925254940986633,
+   "second": "Cocos",
+   "second_conf": 0.04455236345529556
+  },
+  {
+   "path": "validation_data\\nonfruit\\car\\2.png",
+   "category": "car",
+   "class": "Carambula",
+   "confidence": 0.04772146791219711,
+   "margin": 0.008965477347373962,
+   "second": "Mulberry",
+   "second_conf": 0.03875599056482315
+  },
+  {
+   "path": "validation_data\\nonfruit\\car\\3.png",
+   "category": "car",
+   "class": "Pitahaya Red",
+   "confidence": 0.049437377601861954,
+   "margin": 0.0018186457455158234,
+   "second": "Raspberry",
+   "second_conf": 0.04761873185634613
+  },
+  {
+   "path": "validation_data\\nonfruit\\car\\4.png",
+   "category": "car",
+   "class": "Watermelon",
+   "confidence": 0.03733642026782036,
+   "margin": 0.003951773047447205,
+   "second": "Ginger Root",
+   "second_conf": 0.033384647220373154
+  },
+  {
+   "path": "validation_data\\nonfruit\\car\\5.png",
+   "category": "car",
+   "class": "Melon Piel de Sapo",
+   "confidence": 0.24034462869167328,
+   "margin": 0.18939939886331558,
+   "second": "Pepper Red",
+   "second_conf": 0.0509452298283577
+  },
+  {
+   "path": "validation_data\\nonfruit\\car\\6.png",
+   "category": "car",
+   "class": "Carambula",
+   "confidence": 0.061414193361997604,
+   "margin": 0.026678547263145447,
+   "second": "Peach",
+   "second_conf": 0.03473564609885216
+  },
+  {
+   "path": "validation_data\\nonfruit\\car\\7.png",
+   "category": "car",
+   "class": "Onion White",
+   "confidence": 0.1481969654560089,
+   "margin": 0.06537434458732605,
+   "second": "Carambula",
+   "second_conf": 0.08282262086868286
+  },
+  {
+   "path": "validation_data\\nonfruit\\car\\8.png",
+   "category": "car",
+   "class": "Watermelon",
+   "confidence": 0.02820466458797455,
+   "margin": 0.007758850231766701,
+   "second": "Pitahaya Red",
+   "second_conf": 0.020445814356207848
+  },
+  {
+   "path": "validation_data\\nonfruit\\car\\9.png",
+   "category": "car",
+   "class": "Pepino",
+   "confidence": 0.02779250033199787,
+   "margin": 0.00021862611174583435,
+   "second": "Pear Monster",
+   "second_conf": 0.027573874220252037
+  },
+  {
+   "path": "validation_data\\nonfruit\\cat\\0.png",
+   "category": "cat",
+   "class": "Pear Abate",
+   "confidence": 0.0331382155418396,
+   "margin": 0.0021671634167432785,
+   "second": "Papaya",
+   "second_conf": 0.03097105212509632
+  },
+  {
+   "path": "validation_data\\nonfruit\\cat\\1.png",
+   "category": "cat",
+   "class": "Pomelo Sweetie",
+   "confidence": 0.0704636350274086,
+   "margin": 0.024883948266506195,
+   "second": "Pitahaya Red",
+   "second_conf": 0.045579686760902405
+  },
+  {
+   "path": "validation_data\\nonfruit\\cat\\2.png",
+   "category": "cat",
+   "class": "Cherry Wax Red",
+   "confidence": 0.06057799234986305,
+   "margin": 0.0034526661038398743,
+   "second": "Onion Red",
+   "second_conf": 0.05712532624602318
+  },
+  {
+   "path": "validation_data\\nonfruit\\cat\\3.png",
+   "category": "cat",
+   "class": "Pomelo Sweetie",
+   "confidence": 0.047236062586307526,
+   "margin": 0.0076627470552921295,
+   "second": "Papaya",
+   "second_conf": 0.039573315531015396
+  },
+  {
+   "path": "validation_data\\nonfruit\\cat\\4.png",
+   "category": "cat",
+   "class": "Pear Abate",
+   "confidence": 0.04840376600623131,
+   "margin": 0.010684698820114136,
+   "second": "Tomato",
+   "second_conf": 0.03771906718611717
+  },
+  {
+   "path": "validation_data\\nonfruit\\cat\\5.png",
+   "category": "cat",
+   "class": "Pear Abate",
+   "confidence": 0.03048023022711277,
+   "margin": 0.0012032464146614075,
+   "second": "Pear",
+   "second_conf": 0.029276983812451363
+  },
+  {
+   "path": "validation_data\\nonfruit\\cat\\6.png",
+   "category": "cat",
+   "class": "Limes",
+   "confidence": 0.037720803171396255,
+   "margin": 0.0016619637608528137,
+   "second": "Apple Red",
+   "second_conf": 0.03605883941054344
+  },
+  {
+   "path": "validation_data\\nonfruit\\cat\\7.png",
+   "category": "cat",
+   "class": "Ginger Root",
+   "confidence": 0.043803583830595016,
+   "margin": 0.007356610149145126,
+   "second": "Pomelo Sweetie",
+   "second_conf": 0.03644697368144989
+  },
+  {
+   "path": "validation_data\\nonfruit\\cat\\8.png",
+   "category": "cat",
+   "class": "Papaya",
+   "confidence": 0.09101226180791855,
+   "margin": 0.049359459429979324,
+   "second": "Mangostan",
+   "second_conf": 0.041652802377939224
+  },
+  {
+   "path": "validation_data\\nonfruit\\cat\\9.png",
+   "category": "cat",
+   "class": "Pomelo Sweetie",
+   "confidence": 0.03352515026926994,
+   "margin": 0.0021795593202114105,
+   "second": "Kohlrabi",
+   "second_conf": 0.03134559094905853
+  },
+  {
+   "path": "validation_data\\nonfruit\\chair\\0.png",
+   "category": "chair",
+   "class": "Quince",
+   "confidence": 0.04092945158481598,
+   "margin": 0.017645997926592827,
+   "second": "Potato Red Washed",
+   "second_conf": 0.023283453658223152
+  },
+  {
+   "path": "validation_data\\nonfruit\\chair\\1.png",
+   "category": "chair",
+   "class": "Rambutan",
+   "confidence": 0.0386197492480278,
+   "margin": 0.00309540331363678,
+   "second": "Pear Abate",
+   "second_conf": 0.03552434593439102
+  },
+  {
+   "path": "validation_data\\nonfruit\\chair\\2.png",
+   "category": "chair",
+   "class": "Pitahaya Red",
+   "confidence": 0.035434819757938385,
+   "margin": 0.001199144870042801,
+   "second": "Pear Monster",
+   "second_conf": 0.034235674887895584
+  },
+  {
+   "path": "validation_data\\nonfruit\\chair\\3.png",
+   "category": "chair",
+   "class": "Carambula",
+   "confidence": 0.05532805621623993,
+   "margin": 0.018817778676748276,
+   "second": "Tomato Heart",
+   "second_conf": 0.03651027753949165
+  },
+  {
+   "path": "validation_data\\nonfruit\\chair\\4.png",
+   "category": "chair",
+   "class": "Potato Red",
+   "confidence": 0.03678213432431221,
+   "margin": 0.0018154792487621307,
+   "second": "Tomato Heart",
+   "second_conf": 0.03496665507555008
+  },
+  {
+   "path": "validation_data\\nonfruit\\chair\\5.png",
+   "category": "chair",
+   "class": "Walnut",
+   "confidence": 0.12100929021835327,
+   "margin": 0.08281078934669495,
+   "second": "Carambula",
+   "second_conf": 0.038198500871658325
+  },
+  {
+   "path": "validation_data\\nonfruit\\chair\\6.png",
+   "category": "chair",
+   "class": "Rambutan",
+   "confidence": 0.02447913959622383,
+   "margin": 0.0016937591135501862,
+   "second": "Walnut",
+   "second_conf": 0.022785380482673645
+  },
+  {
+   "path": "validation_data\\nonfruit\\chair\\7.png",
+   "category": "chair",
+   "class": "Tomato Heart",
+   "confidence": 0.043525561690330505,
+   "margin": 0.01084163784980774,
+   "second": "Tangelo",
+   "second_conf": 0.032683923840522766
+  },
+  {
+   "path": "validation_data\\nonfruit\\chair\\8.png",
+   "category": "chair",
+   "class": "Carambula",
+   "confidence": 0.0775543749332428,
+   "margin": 0.009758360683918,
+   "second": "Tomato Heart",
+   "second_conf": 0.0677960142493248
+  },
+  {
+   "path": "validation_data\\nonfruit\\chair\\9.png",
+   "category": "chair",
+   "class": "Mango",
+   "confidence": 0.04072842374444008,
+   "margin": 0.005714818835258484,
+   "second": "Nectarine Flat",
+   "second_conf": 0.035013604909181595
+  },
+  {
+   "path": "validation_data\\nonfruit\\dog\\0.png",
+   "category": "dog",
+   "class": "Mulberry",
+   "confidence": 0.042308177798986435,
+   "margin": 0.0020381659269332886,
+   "second": "Dates",
+   "second_conf": 0.040270011872053146
+  },
+  {
+   "path": "validation_data\\nonfruit\\dog\\1.png",
+   "category": "dog",
+   "class": "Pitahaya Red",
+   "confidence": 0.05689370259642601,
+   "margin": 0.00978444516658783,
+   "second": "Carambula",
+   "second_conf": 0.04710925742983818
+  },
+  {
+   "path": "validation_data\\nonfruit\\dog\\2.png",
+   "category": "dog",
+   "class": "Pitahaya Red",
+   "confidence": 0.08024396002292633,
+   "margin": 0.016852043569087982,
+   "second": "Onion Red",
+   "second_conf": 0.06339191645383835
+  },
+  {
+   "path": "validation_data\\nonfruit\\dog\\3.png",
+   "category": "dog",
+   "class": "Pear Williams",
+   "confidence": 0.07343937456607819,
+   "margin": 0.014808766543865204,
+   "second": "Apple Red Yellow",
+   "second_conf": 0.05863060802221298
+  },
+  {
+   "path": "validation_data\\nonfruit\\dog\\4.png",
+   "category": "dog",
+   "class": "Pomelo Sweetie",
+   "confidence": 0.09008605033159256,
+   "margin": 0.044716279953718185,
+   "second": "Chestnut",
+   "second_conf": 0.045369770377874374
+  },
+  {
+   "path": "validation_data\\nonfruit\\dog\\5.png",
+   "category": "dog",
+   "class": "Pineapple Mini",
+   "confidence": 0.024382172152400017,
+   "margin": 0.003082647919654846,
+   "second": "Apple Braeburn",
+   "second_conf": 0.02129952423274517
+  },
+  {
+   "path": "validation_data\\nonfruit\\dog\\6.png",
+   "category": "dog",
+   "class": "Cantaloupe",
+   "confidence": 0.03431234508752823,
+   "margin": 0.0067749470472335815,
+   "second": "Orange",
+   "second_conf": 0.027537398040294647
+  },
+  {
+   "path": "validation_data\\nonfruit\\dog\\7.png",
+   "category": "dog",
+   "class": "Mangostan",
+   "confidence": 0.0364602729678154,
+   "margin": 0.0024805590510368347,
+   "second": "Kaki",
+   "second_conf": 0.033979713916778564
+  },
+  {
+   "path": "validation_data\\nonfruit\\dog\\8.png",
+   "category": "dog",
+   "class": "Lemon Meyer",
+   "confidence": 0.03790503740310669,
+   "margin": 0.003639858216047287,
+   "second": "Mango Red",
+   "second_conf": 0.0342651791870594
+  },
+  {
+   "path": "validation_data\\nonfruit\\dog\\9.png",
+   "category": "dog",
+   "class": "Onion Red Peeled",
+   "confidence": 0.06173153221607208,
+   "margin": 0.019720353186130524,
+   "second": "Mulberry",
+   "second_conf": 0.04201117902994156
+  },
+  {
+   "path": "validation_data\\nonfruit\\horse\\0.png",
+   "category": "horse",
+   "class": "Kiwi",
+   "confidence": 0.025566015392541885,
+   "margin": 0.0012603141367435455,
+   "second": "Tomato Maroon",
+   "second_conf": 0.02430570125579834
+  },
+  {
+   "path": "validation_data\\nonfruit\\horse\\1.png",
+   "category": "horse",
+   "class": "Pineapple Mini",
+   "confidence": 0.04198304936289787,
+   "margin": 0.016483349725604057,
+   "second": "Pepino",
+   "second_conf": 0.025499699637293816
+  },
+  {
+   "path": "validation_data\\nonfruit\\horse\\2.png",
+   "category": "horse",
+   "class": "Pear Monster",
+   "confidence": 0.02681637369096279,
+   "margin": 0.002886531874537468,
+   "second": "Melon Piel de Sapo",
+   "second_conf": 0.023929841816425323
+  },
+  {
+   "path": "validation_data\\nonfruit\\horse\\3.png",
+   "category": "horse",
+   "class": "Grapefruit White",
+   "confidence": 0.026441801339387894,
+   "margin": 0.000992797315120697,
+   "second": "Pineapple",
+   "second_conf": 0.025449004024267197
+  },
+  {
+   "path": "validation_data\\nonfruit\\horse\\4.png",
+   "category": "horse",
+   "class": "Maracuja",
+   "confidence": 0.057152438908815384,
+   "margin": 0.025063570588827133,
+   "second": "Tomato",
+   "second_conf": 0.03208886831998825
+  },
+  {
+   "path": "validation_data\\nonfruit\\horse\\5.png",
+   "category": "horse",
+   "class": "Mangostan",
+   "confidence": 0.08338195830583572,
+   "margin": 0.0229894258081913,
+   "second": "Apple Red Yellow",
+   "second_conf": 0.060392532497644424
+  },
+  {
+   "path": "validation_data\\nonfruit\\horse\\6.png",
+   "category": "horse",
+   "class": "Pear Monster",
+   "confidence": 0.04870381951332092,
+   "margin": 0.006833925843238831,
+   "second": "Hazelnut",
+   "second_conf": 0.04186989367008209
+  },
+  {
+   "path": "validation_data\\nonfruit\\horse\\7.png",
+   "category": "horse",
+   "class": "Chestnut",
+   "confidence": 0.049561452120542526,
+   "margin": 0.012554828077554703,
+   "second": "Cucumber Ripe",
+   "second_conf": 0.037006624042987823
+  },
+  {
+   "path": "validation_data\\nonfruit\\horse\\8.png",
+   "category": "horse",
+   "class": "Chestnut",
+   "confidence": 0.03206047788262367,
+   "margin": 0.0054421089589595795,
+   "second": "Cherry Wax Red",
+   "second_conf": 0.026618368923664093
+  },
+  {
+   "path": "validation_data\\nonfruit\\horse\\9.png",
+   "category": "horse",
+   "class": "Apple Red",
+   "confidence": 0.07768315821886063,
+   "margin": 0.02014654502272606,
+   "second": "Onion Red",
+   "second_conf": 0.05753661319613457
+  },
+  {
+   "path": "validation_data\\nonfruit\\mobile_phone\\0.png",
+   "category": "mobile_phone",
+   "class": "Apple Red",
+   "confidence": 0.07406105101108551,
+   "margin": 0.011587560176849365,
+   "second": "Nectarine Flat",
+   "second_conf": 0.062473490834236145
+  },
+  {
+   "path": "validation_data\\nonfruit\\mobile_phone\\1.png",
+   "category": "mobile_phone",
+   "class": "Grape Blue",
+   "confidence": 0.05217359960079193,
+   "margin": 0.0095747672021389,
+   "second": "Apple Red Delicious",
+   "second_conf": 0.04259883239865303
+  },
+  {
+   "path": "validation_data\\nonfruit\\mobile_phone\\2.png",
+   "category": "mobile_phone",
+   "class": "Pepper Orange",
+   "confidence": 0.0498448871076107,
+   "margin": 0.0023033134639263153,
+   "second": "Dates",
+   "second_conf": 0.04754157364368439
+  },
+  {
+   "path": "validation_data\\nonfruit\\mobile_phone\\3.png",
+   "category": "mobile_phone",
+   "class": "Pepper Orange",
+   "confidence": 0.28459858894348145,
+   "margin": 0.217605821788311,
+   "second": "Carambula",
+   "second_conf": 0.06699276715517044
+  },
+  {
+   "path": "validation_data\\nonfruit\\mobile_phone\\4.png",
+   "category": "mobile_phone",
+   "class": "Hazelnut",
+   "confidence": 0.04558144882321358,
+   "margin": 0.016840200871229172,
+   "second": "Physalis",
+   "second_conf": 0.028741247951984406
+  },
+  {
+   "path": "validation_data\\nonfruit\\mobile_phone\\5.png",
+   "category": "mobile_phone",
+   "class": "Cherry",
+   "confidence": 0.18000368773937225,
+   "margin": 0.05689062923192978,
+   "second": "Cherry Wax Black",
+   "second_conf": 0.12311305850744247
+  },
+  {
+   "path": "validation_data\\nonfruit\\mobile_phone\\6.png",
+   "category": "mobile_phone",
+   "class": "Nectarine Flat",
+   "confidence": 0.05272730067372322,
+   "margin": 0.0242440328001976,
+   "second": "Grapefruit Pink",
+   "second_conf": 0.02848326787352562
+  },
+  {
+   "path": "validation_data\\nonfruit\\mobile_phone\\7.png",
+   "category": "mobile_phone",
+   "class": "Huckleberry",
+   "confidence": 0.0644073560833931,
+   "margin": 0.033523278310894966,
+   "second": "Apple Red Delicious",
+   "second_conf": 0.03088407777249813
+  },
+  {
+   "path": "validation_data\\nonfruit\\mobile_phone\\8.png",
+   "category": "mobile_phone",
+   "class": "Grape Blue",
+   "confidence": 0.13811299204826355,
+   "margin": 0.07774017378687859,
+   "second": "Cherry",
+   "second_conf": 0.060372818261384964
+  },
+  {
+   "path": "validation_data\\nonfruit\\mobile_phone\\9.png",
+   "category": "mobile_phone",
+   "class": "Carambula",
+   "confidence": 0.04638572782278061,
+   "margin": 0.012022335082292557,
+   "second": "Quince",
+   "second_conf": 0.03436339274048805
+  },
+  {
+   "path": "validation_data\\nonfruit\\person\\0.png",
+   "category": "person",
+   "class": "Kaki",
+   "confidence": 0.08476412296295166,
+   "margin": 0.03210381045937538,
+   "second": "Beetroot",
+   "second_conf": 0.05266031250357628
+  },
+  {
+   "path": "validation_data\\nonfruit\\person\\1.png",
+   "category": "person",
+   "class": "Redcurrant",
+   "confidence": 0.07913410663604736,
+   "margin": 0.030628852546215057,
+   "second": "Cherry Rainier",
+   "second_conf": 0.048505254089832306
+  },
+  {
+   "path": "validation_data\\nonfruit\\person\\2.png",
+   "category": "person",
+   "class": "Cherry",
+   "confidence": 0.05887753143906593,
+   "margin": 0.006668005138635635,
+   "second": "Walnut",
+   "second_conf": 0.0522095263004303
+  },
+  {
+   "path": "validation_data\\nonfruit\\person\\3.png",
+   "category": "person",
+   "class": "Lemon",
+   "confidence": 0.04481840133666992,
+   "margin": 0.011665914207696915,
+   "second": "Peach",
+   "second_conf": 0.03315248712897301
+  },
+  {
+   "path": "validation_data\\nonfruit\\person\\4.png",
+   "category": "person",
+   "class": "Peach Flat",
+   "confidence": 0.06747525930404663,
+   "margin": 0.008847791701555252,
+   "second": "Lemon",
+   "second_conf": 0.05862746760249138
+  },
+  {
+   "path": "validation_data\\nonfruit\\person\\5.png",
+   "category": "person",
+   "class": "Mangostan",
+   "confidence": 0.1363060027360916,
+   "margin": 0.03357814997434616,
+   "second": "Pear Kaiser",
+   "second_conf": 0.10272785276174545
+  },
+  {
+   "path": "validation_data\\nonfruit\\person\\6.png",
+   "category": "person",
+   "class": "Kiwi",
+   "confidence": 0.19957660138607025,
+   "margin": 0.15449007228016853,
+   "second": "Peach",
+   "second_conf": 0.04508652910590172
+  },
+  {
+   "path": "validation_data\\nonfruit\\person\\7.png",
+   "category": "person",
+   "class": "Onion Red",
+   "confidence": 0.06531401723623276,
+   "margin": 0.0038577280938625336,
+   "second": "Potato Sweet",
+   "second_conf": 0.061456289142370224
+  },
+  {
+   "path": "validation_data\\nonfruit\\person\\8.png",
+   "category": "person",
+   "class": "Pomegranate",
+   "confidence": 0.15848276019096375,
+   "margin": 0.11353855952620506,
+   "second": "Nectarine",
+   "second_conf": 0.04494420066475868
+  },
+  {
+   "path": "validation_data\\nonfruit\\person\\9.png",
+   "category": "person",
+   "class": "Carambula",
+   "confidence": 0.06036588177084923,
+   "margin": 0.010949257761240005,
+   "second": "Pitahaya Red",
+   "second_conf": 0.04941662400960922
+  }
+ ]
+}

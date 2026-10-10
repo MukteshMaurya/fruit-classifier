@@ -11,6 +11,11 @@ router = APIRouter()
 
 ALLOWED_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp", ".bmp", ".gif"}
 
+NON_FRUIT_MESSAGE = (
+    "Non-fruit image detected. Please upload an image of a "
+    "supported fruit."
+)
+
 
 def _validate_image(file: UploadFile, data: bytes) -> Image.Image:
     if not file.filename:
@@ -64,7 +69,7 @@ async def predict(request: Request, image: UploadFile = File(...)):
     pil_image = _validate_image(image, data)
 
     try:
-        results = classifier.predict(pil_image, top_k=settings.top_k)
+        detail = classifier.predict_detailed(pil_image, top_k=settings.top_k)
     except ModelNotLoadedError:
         raise HTTPException(status_code=503, detail="Model is not available")
     except HTTPException:
@@ -72,12 +77,34 @@ async def predict(request: Request, image: UploadFile = File(...)):
     except Exception:
         raise HTTPException(status_code=500, detail="Prediction failed")
 
-    if not results:
+    if not detail["top_predictions"]:
         raise HTTPException(status_code=500, detail="Prediction failed")
 
-    top = results[0]
+    # Closed-set models force every input into one of the fruit
+    # classes, so a low confidence alone is not a reliable
+    # signal. Reject when the confidence OR the prediction
+    # margin falls below thresholds derived from a validation
+    # set of supported fruit images and non-fruit images
+    # (see OPENCODE_PROGRESS.md). This keeps valid fruit
+    # images (even low-confidence ones, e.g. poor lighting)
+    # accepted while rejecting non-fruit images.
+    is_non_fruit = (
+        detail["confidence"] < settings.rejection_confidence
+        or detail["margin"] < settings.rejection_margin
+    )
+    if is_non_fruit:
+        return {
+            "predicted_class": None,
+            "confidence": None,
+            "rejected": True,
+            "reason": "non_fruit",
+            "message": NON_FRUIT_MESSAGE,
+            "top_predictions": [],
+        }
+
+    top = detail["top_predictions"][0]
     return {
         "predicted_class": top["class"],
         "confidence": top["confidence"],
-        "top_predictions": results,
+        "top_predictions": detail["top_predictions"],
     }

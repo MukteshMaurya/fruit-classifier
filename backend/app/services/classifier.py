@@ -58,19 +58,41 @@ class FruitClassifier:
         return np.ascontiguousarray(arr[np.newaxis, :], dtype=np.float32)
 
     def predict(self, image: Image.Image, top_k: int = 5) -> list[dict]:
+        """Top-k predictions, highest confidence first (existing API)."""
+        return self.predict_detailed(image, top_k=top_k)["top_predictions"]
+
+    def predict_detailed(self, image: Image.Image, top_k: int = 5) -> dict:
+        """Prediction result plus the signals used for non-fruit rejection.
+
+        Returns a dict with:
+          top_class, confidence            — top-1 class and its probability
+          second_class, second_confidence  — runner-up class and probability
+          margin                           — confidence gap (top1 - top2)
+          top_predictions                  — top-k list, same as predict()
+        """
         if self.session is None:
             raise ModelNotLoadedError("Model is not loaded")
         x = self.preprocess(image)
         logits = self.session.run(None, {self.input_name: x})[0][0]
         probs = self._softmax(logits)
-        top_idx = np.argsort(-probs)[:top_k]
-        return [
+        order = np.argsort(-probs)
+        top_i = int(order[0])
+        second_i = int(order[1])
+        top_predictions = [
             {
                 "class": self.labels.get(int(i), "unknown"),
                 "confidence": float(probs[i]),
             }
-            for i in top_idx
+            for i in order[:top_k]
         ]
+        return {
+            "top_class": self.labels.get(top_i, "unknown"),
+            "confidence": float(probs[top_i]),
+            "second_class": self.labels.get(second_i, "unknown"),
+            "second_confidence": float(probs[second_i]),
+            "margin": float(probs[top_i] - probs[second_i]),
+            "top_predictions": top_predictions,
+        }
 
     @staticmethod
     def _softmax(logits: np.ndarray) -> np.ndarray:

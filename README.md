@@ -36,6 +36,8 @@ Prediction + confidence
 ```text
 .
 ├── FRUIT_CLASSIFICATION_PROGRESS.md   # full build log
+├── OPENCODE_PROGRESS.md               # fix-session log (rejection, confidence, security)
+├── .env.example                       # env var documentation (no secrets)
 ├── backend/
 │   ├── app/
 │   │   ├── main.py                    # FastAPI app, CORS, lifespan
@@ -44,7 +46,7 @@ Prediction + confidence
 │   │   ├── services/classifier.py     # ONNX inference + preprocessing
 │   │   ├── models/schemas.py          # response schemas
 │   │   └── model_assets/              # model_int8.onnx + labels.json
-│   ├── tests/                         # pytest suite (13 tests)
+│   ├── tests/                         # pytest suite (32 tests)
 │   ├── requirements.txt
 │   ├── render.yaml                    # Render service definition
 │   └── README.md
@@ -122,7 +124,9 @@ download step is required at deploy time.
 
 ### `POST /api/predict`
 
-Multipart form field `image` (jpg/png/webp/bmp/gif, ≤ 10 MB):
+Multipart form field `image` (jpg/png/webp/bmp/gif, ≤ 10 MB).
+
+Supported fruit image:
 
 ```json
 {
@@ -134,6 +138,67 @@ Multipart form field `image` (jpg/png/webp/bmp/gif, ≤ 10 MB):
   ]
 }
 ```
+
+Non-fruit image (confidence and margin below the rejection
+thresholds — no misleading fruit prediction is returned):
+
+```json
+{
+  "predicted_class": null,
+  "confidence": null,
+  "rejected": true,
+  "reason": "non_fruit",
+  "message": "Non-fruit image detected. Please upload an image of a supported fruit.",
+  "top_predictions": []
+}
+```
+
+`confidence` is the model's predicted-class probability
+(softmax over the 113 fruit classes), shown by the frontend
+as a percentage. It is not a calibrated probability that the
+prediction is correct.
+
+## Non-fruit rejection
+
+The model is a closed-set classifier: without a rejection
+mechanism it assigns *every* image to one of the 113 fruit
+classes. The backend therefore rejects an image when the
+top-class confidence **or** the top1−top2 margin falls below
+`REJECTION_CONFIDENCE` (default 0.45) / `REJECTION_MARGIN`
+(default 0.30). The defaults were derived from a validation
+set of 565 Fruits-360 test images (fruit min confidence
+0.573, min margin 0.358) and 100 non-fruit photos of people,
+cars, phones, animals, furniture and buildings (non-fruit max
+confidence 0.332, max margin 0.264) — see
+`OPENCODE_PROGRESS.md`. Limitation: unsupported fruit varieties
+that visually resemble a supported class may still be
+classified (and accepted) as that class.
+
+## Environment variables
+
+Backend (Render) — see `backend/README.md` and `.env.example`:
+`CORS_ORIGINS`, `MAX_UPLOAD_MB`, `TOP_K`, `MODEL_PATH`,
+`LABELS_PATH`, `REJECTION_CONFIDENCE`, `REJECTION_MARGIN`.
+
+Frontend (Vercel): `VITE_API_URL` — the public Render backend
+URL baked into the static bundle at build time. A backend URL
+is **not** a secret (the prediction API is unauthenticated),
+but never put private keys or tokens in a `VITE_` variable:
+they would ship to every browser. No credentials are required
+by the frontend; the deploy helper scripts read Vercel/GitHub
+tokens from the local Vercel CLI / git credential manager at
+runtime and none are committed to the repository.
+
+## Security notes
+
+- No API keys, tokens, or passwords are present in the
+  frontend source, the generated `dist/` build output, or the
+  git history (scanned for common credential formats).
+- The only value exposed to the browser is the public backend
+  URL (`window.FRUIT_API_URL`), which is a frontend
+  configuration value, not a secret.
+- No credential rotation is required: no secret was ever
+  published.
 
 ## License
 

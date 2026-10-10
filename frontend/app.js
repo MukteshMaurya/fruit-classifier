@@ -106,6 +106,13 @@
   }
 
   function renderResult(data) {
+    if (data.rejected) {
+      showError(
+        data.message ||
+          "Non-fruit image detected. Please upload an image of a supported fruit."
+      );
+      return;
+    }
     fruitName.textContent = data.predicted_class;
     confidence.textContent = (data.confidence * 100).toFixed(1) + "%";
     confidenceBar.style.width =

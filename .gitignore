@@ -24,6 +24,11 @@ onnx_model/
 node_modules/
 frontend/dist/
 
+# Local validation artifacts (regression fixtures are committed
+# under backend/tests/samples/nonfruit; the full validation
+# image sets stay local)
+validation_data/
+
 # OS / editor
 .DS_Store
 Thumbs.db
